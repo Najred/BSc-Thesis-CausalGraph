@@ -1,0 +1,21 @@
+strict digraph G {
+	"greenhouse gas emissions" -> "europe is experiencing extreme heat waves"
+	"climate change policies" -> "europe is experiencing extreme heat waves"
+	"urbanization and land use changes" -> "europe is experiencing extreme heat waves"
+	"europe is experiencing extreme heat waves" -> "increased risk of wildfires"
+	"europe is experiencing extreme heat waves" -> "droughts in surrounding regions"
+	"europe is experiencing extreme heat waves" -> "reduced crop yields"
+	"climate change mitigation failure" -> "the u.k. broke its national record for the highest temperature ever registered"
+	"global warming trend" -> "the u.k. broke its national record for the highest temperature ever registered"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "increased risk of heat-related illnesses"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "increased risk of wildfires in dry areas"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "higher demand for air conditioning and cooling services"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "reduced crop yields due to extreme weather conditions"
+	"higher demand for air conditioning and cooling services" -> "urbanization and land use changes" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "greenhouse gas emissions" [color=purple penwidth=3]
+	"droughts in surrounding regions" -> "the u.k. broke its national record for the highest temperature ever registered" [color=purple penwidth=3]
+	"europe is experiencing extreme heat waves" -> "droughts in surrounding regions" [color=red penwidth=5]
+	"droughts in surrounding regions" -> "the u.k. broke its national record for the highest temperature ever registered" [color=red penwidth=5]
+	"europe is experiencing extreme heat waves" [fillcolor=aqua style=filled]
+	"the u.k. broke its national record for the highest temperature ever registered" [fillcolor=indianred1 style=filled]
+}

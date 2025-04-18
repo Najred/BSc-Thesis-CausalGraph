@@ -1,0 +1,20 @@
+strict digraph G {
+	"lifestyle changes" -> "person sleeps lot"
+	"person sleeps lot" -> "productivity increase"
+	"person sleeps lot" -> "improved concentration"
+	"person sleeps lot" -> "reduced stress"
+	"person sleeps lot" -> "mood improvement"
+	"person sleeps lot" -> "physical health"
+	"person sleeps lot" -> "cognitive function"
+	"parental support" -> "good grades"
+	"study habits" -> "good grades"
+	"student motivation" -> "good grades"
+	"teacher quality" -> "good grades"
+	"good grades" -> "scholarship opportunities"
+	"study habits" -> "lifestyle changes" [color=purple penwidth=3]
+	"improved concentration" -> "good grades" [color=purple penwidth=3]
+	"person sleeps lot" -> "improved concentration" [color=red penwidth=5]
+	"improved concentration" -> "good grades" [color=red penwidth=5]
+	"person sleeps lot" [fillcolor=aqua style=filled]
+	"good grades" [fillcolor=indianred1 style=filled]
+}

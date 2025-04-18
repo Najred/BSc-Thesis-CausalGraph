@@ -1,0 +1,50 @@
+strict digraph G {
+	"fuel combustion" -> "volatile organic compounds (vocs)"
+	"vehicle emissions" -> "volatile organic compounds (vocs)"
+	"volatile organic compounds (vocs)" -> "ozone concentration (16-dim.)"
+	"uv radiation" -> "ozone concentration (16-dim.)"
+	"atmospheric ozone" -> "uv radiation"
+	"industrial processes" -> "volatile organic compounds (vocs)"
+	"paint and coatings" -> "volatile organic compounds (vocs)"
+	"ozone concentration (16-dim.)" -> "plant damage"
+	"plant damage" -> "reduced growth"
+	"ozone concentration (16-dim.)" -> "air quality"
+	"air quality" -> "neurodegenerative diseases"
+	"air quality" -> "asthma attacks"
+	"cosmic rays" -> "radiation (16-dim.)"
+	"supernovae explosions" -> "cosmic rays"
+	"particle accelerator" -> "radiation (16-dim.)"
+	"radioactive waste" -> "radiation (16-dim.)"
+	"solar flares" -> "cosmic rays"
+	"radioisotope production" -> "radioactive waste"
+	"cosmic dust clouds" -> "cosmic rays"
+	"nuclear power" -> "radioactive waste"
+	"birth defects" -> "long-term disability or chronic illness"
+	"dna damage" -> "cancer development"
+	"radiation (16-dim.)" -> "birth defects"
+	"radiation (16-dim.)" -> "cell death"
+	"cell death" -> "systemic infection risk increase"
+	"radiation burns" -> nausea
+	"cell death" -> inflammation
+	"cell death" -> "immune response activation"
+	"cell death" -> "apoptosis cascade initiation"
+	"birth defects" -> "increased medical costs"
+	"radiation (16-dim.)" -> "dna damage"
+	"birth defects" -> "reduced quality of life"
+	"birth defects" -> "pain and suffering"
+	"dna damage" -> "genetic mutations"
+	"radiation burns" -> "skin discoloration"
+	"cell death" -> "tissue damage"
+	"dna damage" -> "aging acceleration"
+	"radiation (16-dim.)" -> "radiation burns"
+	"radiation burns" -> "severe pain"
+	"radiation burns" -> "increased risk of infection"
+	"dna damage" -> "cell death"
+	"radiation (16-dim.)" -> "atmospheric ozone" [color=purple penwidth=3]
+	"skin discoloration" -> "paint and coatings" [color=purple penwidth=3]
+	"atmospheric ozone" -> "uv radiation" [color=red penwidth=5]
+	"uv radiation" -> "ozone concentration (16-dim.)" [color=red penwidth=5]
+	"radiation (16-dim.)" -> "atmospheric ozone" [color=red penwidth=5]
+	"ozone concentration (16-dim.)" [fillcolor=aqua style=filled]
+	"radiation (16-dim.)" [fillcolor=indianred1 style=filled]
+}

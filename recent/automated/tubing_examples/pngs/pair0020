@@ -1,0 +1,23 @@
+strict digraph G {
+	"axial tilt" -> latitude
+	"geological activity" -> latitude
+	"earth's rotation" -> latitude
+	"climate zones" -> latitude
+	latitude -> "crop yield"
+	latitude -> "climate zone"
+	latitude -> "sunlight hours"
+	latitude -> "weather patterns"
+	latitude -> temperature
+	"solar radiation" -> temperature
+	"seasonal patterns" -> temperature
+	"atmospheric pressure" -> temperature
+	"geographic latitude" -> temperature
+	"humidity levels" -> temperature
+	temperature -> "plant growth"
+	temperature -> evaporation
+	temperature -> "weather patterns"
+	temperature -> "cloud formation"
+	temperature -> humidity
+	latitude [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

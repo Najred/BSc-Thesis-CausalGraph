@@ -1,0 +1,52 @@
+strict digraph G {
+	"lack of training" -> "poor maintenance practices"
+	"poor maintenance practices" -> "notre dame cathedral in paris suffered a devastating fire"
+	"inadequate resources" -> "poor maintenance practices"
+	"distractions or multitasking" -> "human error (negligence)"
+	"poor communication among staff" -> "poor maintenance practices"
+	"electrical malfunction" -> "notre dame cathedral in paris suffered a devastating fire"
+	"previous renovation work" -> "notre dame cathedral in paris suffered a devastating fire"
+	"building age" -> "previous renovation work"
+	"fatigue or sleep deprivation" -> "human error (negligence)"
+	"inadequate safety protocols" -> "human error (negligence)"
+	"lack of training" -> "human error (negligence)"
+	"insufficient budget allocation" -> "poor maintenance practices"
+	"human error (negligence)" -> "notre dame cathedral in paris suffered a devastating fire"
+	"loss of historical architecture" -> "increased urban blight"
+	"loss of historical architecture" -> "decreased tourism revenue"
+	"loss of historical architecture" -> "loss of cultural identity"
+	"loss of historical architecture" -> "loss of historical context for education"
+	"notre dame cathedral in paris suffered a devastating fire" -> "loss of historical architecture"
+	"cultural and social conservatism" -> "societal prejudices against muslims"
+	"media portrayal of muslims" -> "societal prejudices against muslims"
+	"government policies and rhetoric" -> "societal prejudices against muslims"
+	"societal prejudices against muslims" -> "jackson's article published innuendo suggesting a 'muslim attack' was responsible"
+	"historical islamophobia" -> "societal prejudices against muslims"
+	"increased islamophobia" -> "decreased muslim community trust"
+	"heightened tensions between muslim communities and law enforcement" -> "heightened surveillance of muslim communities"
+	"heightened security measures" -> "increased surveillance footage"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "increased islamophobia"
+	"negative public perception of muslims" -> "heightened security measures against muslims"
+	"increased islamophobia" -> "increased hate crimes"
+	"heightened tensions between muslim communities and law enforcement" -> "increased police brutality"
+	"increased islamophobia" -> "increased surveillance of muslim communities"
+	"negative public perception of muslims" -> "increased islamophobia"
+	"increased islamophobia" -> "rise in anti-muslim sentiment"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "heightened tensions between muslim communities and law enforcement"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "negative public perception of muslims"
+	"negative public perception of muslims" -> "reduced muslim representation in public office"
+	"heightened tensions between muslim communities and law enforcement" -> "decreased trust in law enforcement"
+	"negative public perception of muslims" -> "decreased muslim employment opportunities"
+	"heightened tensions between muslim communities and law enforcement" -> "escalation of protests"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "heightened security measures"
+	"increased surveillance of muslim communities" -> "poor communication among staff" [color=purple penwidth=3]
+	"increased surveillance of muslim communities" -> "inadequate safety protocols" [color=purple penwidth=3]
+	"heightened security measures against muslims" -> "inadequate safety protocols" [color=purple penwidth=3]
+	"heightened surveillance of muslim communities" -> "inadequate safety protocols" [color=purple penwidth=3]
+	"escalation of protests" -> "notre dame cathedral in paris suffered a devastating fire" [color=purple penwidth=3]
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "heightened tensions between muslim communities and law enforcement" [color=red penwidth=5]
+	"heightened tensions between muslim communities and law enforcement" -> "escalation of protests" [color=red penwidth=5]
+	"escalation of protests" -> "notre dame cathedral in paris suffered a devastating fire" [color=red penwidth=5]
+	"notre dame cathedral in paris suffered a devastating fire" [fillcolor=aqua style=filled]
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" [fillcolor=indianred1 style=filled]
+}

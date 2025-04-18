@@ -1,0 +1,25 @@
+strict digraph G {
+	"energy efficiency standards and regulations" -> "global energy crisis"
+	"renewable energy investment" -> "global energy crisis"
+	"peak oil demand" -> "global energy crisis"
+	"climate change mitigation policies" -> "global energy crisis"
+	"global energy crisis" -> "decreased industrial production"
+	"global energy crisis" -> "rise in energy prices"
+	"decline of coal industry due to regulations" -> "investment in clean energy technologies is significantly outpacing spending on fossil fuels"
+	"increasing public awareness and concern about climate change" -> "investment in clean energy technologies is significantly outpacing spending on fossil fuels"
+	"investment in clean energy technologies is significantly outpacing spending on fossil fuels" -> "rapid decline of coal mining jobs"
+	"investment in clean energy technologies is significantly outpacing spending on fossil fuels" -> "increased adoption of renewable energy sources"
+	"investment in clean energy technologies is significantly outpacing spending on fossil fuels" -> "decrease in fossil fuel industry lobbying influence"
+	"decrease in fossil fuel industry lobbying influence" -> "climate change mitigation policies" [color=purple penwidth=3]
+	"increased adoption of renewable energy sources" -> "climate change mitigation policies" [color=purple penwidth=3]
+	"increased adoption of renewable energy sources" -> "energy efficiency standards and regulations" [color=purple penwidth=3]
+	"decrease in fossil fuel industry lobbying influence" -> "renewable energy investment" [color=purple penwidth=3]
+	"increased adoption of renewable energy sources" -> "renewable energy investment" [color=purple penwidth=3]
+	"increased adoption of renewable energy sources" -> "peak oil demand" [color=purple penwidth=3]
+	"rapid decline of coal mining jobs" -> "peak oil demand" [color=purple penwidth=3]
+	"rapid decline of coal mining jobs" -> "global energy crisis" [color=purple penwidth=3]
+	"investment in clean energy technologies is significantly outpacing spending on fossil fuels" -> "rapid decline of coal mining jobs" [color=red penwidth=5]
+	"rapid decline of coal mining jobs" -> "global energy crisis" [color=red penwidth=5]
+	"global energy crisis" [fillcolor=aqua style=filled]
+	"investment in clean energy technologies is significantly outpacing spending on fossil fuels" [fillcolor=indianred1 style=filled]
+}

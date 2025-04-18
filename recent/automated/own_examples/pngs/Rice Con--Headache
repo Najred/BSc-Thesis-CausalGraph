@@ -1,0 +1,18 @@
+strict digraph G {
+	"food culture" -> "rice consumption"
+	"dietary restrictions" -> "rice consumption"
+	"rice consumption" -> "digestive health"
+	"rice consumption" -> "blood sugar levels"
+	"rice consumption" -> "weight gain"
+	dehydration -> headaches
+	"stress levels" -> headaches
+	headaches -> fatigue
+	headaches -> "mood swings"
+	headaches -> "sleep disturbances"
+	dehydration -> "dietary restrictions" [color=purple penwidth=3]
+	"dietary restrictions" -> "rice consumption" [color=red penwidth=5]
+	dehydration -> headaches [color=red penwidth=5]
+	dehydration -> "dietary restrictions" [color=red penwidth=5]
+	"rice consumption" [fillcolor=aqua style=filled]
+	headaches [fillcolor=indianred1 style=filled]
+}

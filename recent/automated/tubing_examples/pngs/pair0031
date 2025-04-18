@@ -1,0 +1,18 @@
+strict digraph G {
+	"water-cement ratio" -> "fine aggregate content in concrete"
+	"mix design" -> "fine aggregate content in concrete"
+	"cement content" -> "fine aggregate content in concrete"
+	"fine aggregate content in concrete" -> workability
+	"fine aggregate content in concrete" -> shrinkage
+	"fine aggregate content in concrete" -> "compressive strength"
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"fine aggregate content in concrete" -> "aggregate size" [color=purple penwidth=3]
+	"aggregate size" -> "compressive strength" [color=red penwidth=5]
+	"fine aggregate content in concrete" -> "aggregate size" [color=red penwidth=5]
+	"fine aggregate content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

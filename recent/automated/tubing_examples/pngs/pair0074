@@ -1,0 +1,21 @@
+strict digraph G {
+	"education system" -> "gni per capita"
+	"gni per capita" -> "education levels"
+	"gni per capita" -> "life expectancy"
+	"gni per capita" -> "healthcare quality"
+	"gni per capita" -> "poverty rates"
+	"nutrition quality" -> "life expectancy"
+	"physical activity level" -> "life expectancy"
+	"clean water availability" -> "life expectancy"
+	"access to healthcare" -> "life expectancy"
+	"life expectancy" -> "healthcare spending"
+	"poverty rates" -> "clean water availability" [color=purple penwidth=3]
+	"poverty rates" -> "life expectancy" [color=purple penwidth=3]
+	"education levels" -> "access to healthcare" [color=purple penwidth=3]
+	"education levels" -> "life expectancy" [color=purple penwidth=3]
+	"healthcare quality" -> "life expectancy" [color=purple penwidth=3]
+	"gni per capita" -> "poverty rates" [color=red penwidth=5]
+	"poverty rates" -> "life expectancy" [color=red penwidth=5]
+	"gni per capita" [fillcolor=aqua style=filled]
+	"life expectancy" [fillcolor=indianred1 style=filled]
+}

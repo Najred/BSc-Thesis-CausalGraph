@@ -1,0 +1,18 @@
+strict digraph G {
+	"coronal heating" -> "solar flares"
+	"sunspot activity" -> "solar flares"
+	"solar wind speed" -> "solar flares"
+	"solar flares" -> "satellite malfunctions"
+	"solar flares" -> "aurora displays"
+	"traumatic events" -> "recurring nightmares"
+	"stressful life events" -> "recurring nightmares"
+	"substance abuse" -> "recurring nightmares"
+	"recurring nightmares" -> "sleep disturbances"
+	"recurring nightmares" -> "anxiety levels"
+	"stressful life events" -> "coronal heating" [color=purple penwidth=3]
+	"coronal heating" -> "solar flares" [color=red penwidth=5]
+	"stressful life events" -> "recurring nightmares" [color=red penwidth=5]
+	"stressful life events" -> "coronal heating" [color=red penwidth=5]
+	"solar flares" [fillcolor=aqua style=filled]
+	"recurring nightmares" [fillcolor=indianred1 style=filled]
+}

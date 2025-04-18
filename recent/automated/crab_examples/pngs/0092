@@ -1,0 +1,19 @@
+strict digraph G {
+	"svb's business model" -> "svb had specialised in financing start-ups"
+	"availability of venture capital funds" -> "svb had specialised in financing start-ups"
+	"svb had specialised in financing start-ups" -> "more venture capital investments"
+	"svb had specialised in financing start-ups" -> "higher risk of bankruptcy for svb"
+	"svb had specialised in financing start-ups" -> "increased competition in the banking sector"
+	"svb had specialised in financing start-ups" -> "increased start-up funding"
+	"svb's high exposure to tech stocks" -> "silicon valley bank (svb) collapsed"
+	"regulatory changes in banking industry" -> "silicon valley bank (svb) collapsed"
+	"high interest rates environment" -> "silicon valley bank (svb) collapsed"
+	"silicon valley bank (svb) collapsed" -> "financial system instability"
+	"silicon valley bank (svb) collapsed" -> "tech startup funding drought"
+	"increased competition in the banking sector" -> "silicon valley bank (svb) collapsed" [color=purple penwidth=3]
+	"svb had specialised in financing start-ups" -> "svb's high exposure to tech stocks" [color=purple penwidth=3]
+	"svb had specialised in financing start-ups" -> "increased competition in the banking sector" [color=red penwidth=5]
+	"increased competition in the banking sector" -> "silicon valley bank (svb) collapsed" [color=red penwidth=5]
+	"svb had specialised in financing start-ups" [fillcolor=aqua style=filled]
+	"silicon valley bank (svb) collapsed" [fillcolor=indianred1 style=filled]
+}

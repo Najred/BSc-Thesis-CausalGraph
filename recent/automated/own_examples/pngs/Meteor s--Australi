@@ -1,0 +1,48 @@
+strict digraph G {
+	"power outages" -> "economic losses"
+	"meteor storm" -> "disruption of transportation"
+	"damage to infrastructure" -> "loss of services"
+	"meteor storm" -> "damage to infrastructure"
+	"disruption of transportation" -> "increased congestion"
+	"meteor storm" -> "power outages"
+	"meteor storm" -> "loss of communication services"
+	"damage to infrastructure" -> "economic decline"
+	"loss of communication services" -> "business disruption"
+	"loss of communication services" -> "economic collapse"
+	"damage to infrastructure" -> "displacement of population"
+	"loss of communication services" -> "social unrest"
+	"disruption of transportation" -> "loss of productivity"
+	"damage to infrastructure" -> "increased emergency response time"
+	"disruption of transportation" -> "supply chain disruption"
+	"meteor storm" -> "injuries and fatalities"
+	"unemployment rate" -> "economic conditions"
+	"government spending" -> "economic conditions"
+	"economic conditions" -> "australian elections"
+	"government composition" -> "public spending"
+	"policy direction" -> "government spending"
+	"australian elections" -> "policy direction"
+	"economic policy shifts" -> "interest rates"
+	"australian elections" -> "government composition"
+	"australian elections" -> "parliamentary leadership"
+	"economic policy shifts" -> "gdp growth rate"
+	"parliamentary leadership" -> "government budget"
+	"government composition" -> "economic growth"
+	"policy direction" -> "economic growth"
+	"economic policy shifts" -> "unemployment rate"
+	"government composition" -> "regulatory environment"
+	"policy direction" -> "tax revenue"
+	"australian elections" -> "economic policy shifts"
+	"business disruption" -> "unemployment rate" [color=purple penwidth=3]
+	"loss of services" -> "unemployment rate" [color=purple penwidth=3]
+	"economic decline" -> "unemployment rate" [color=purple penwidth=3]
+	"economic decline" -> "unemployment rate" [color=purple penwidth=3]
+	"economic collapse" -> "unemployment rate" [color=purple penwidth=3]
+	"economic collapse" -> "unemployment rate" [color=purple penwidth=3]
+	"disruption of transportation" -> "unemployment rate" [color=purple penwidth=3]
+	"meteor storm" -> "disruption of transportation" [color=red penwidth=5]
+	"australian elections" -> "economic policy shifts" [color=red penwidth=5]
+	"economic policy shifts" -> "unemployment rate" [color=red penwidth=5]
+	"disruption of transportation" -> "unemployment rate" [color=red penwidth=5]
+	"meteor storm" [fillcolor=aqua style=filled]
+	"australian elections" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,18 @@
+strict digraph G {
+	genetics -> age
+	nutrition -> age
+	exercise -> age
+	age -> "life expectancy"
+	age -> "physical strength"
+	"age progression" -> "relative spinal bone mineral density"
+	"relative spinal bone mineral density" -> "osteoporosis risk"
+	"relative spinal bone mineral density" -> "vertebral compression fractures"
+	"relative spinal bone mineral density" -> "fracture likelihood"
+	"relative spinal bone mineral density" -> "mobility limitations"
+	"physical strength" -> "relative spinal bone mineral density" [color=purple penwidth=3]
+	age -> "age progression" [color=purple penwidth=3]
+	age -> "physical strength" [color=red penwidth=5]
+	"physical strength" -> "relative spinal bone mineral density" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"relative spinal bone mineral density" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,22 @@
+strict digraph G {
+	genetics -> age
+	nutrition -> age
+	"socioeconomic status" -> age
+	exercise -> age
+	age -> "life expectancy"
+	age -> "driving privileges"
+	age -> "physical strength"
+	age -> "social security benefits eligibility"
+	age -> "cognitive ability"
+	age -> "diastolic blood pressure"
+	"sodium intake" -> "diastolic blood pressure"
+	"physical inactivity" -> "diastolic blood pressure"
+	"family history of hypertension" -> "diastolic blood pressure"
+	"diastolic blood pressure" -> "kidney damage"
+	"diastolic blood pressure" -> "cardiovascular mortality"
+	"diastolic blood pressure" -> "cardiac hypertrophy"
+	"diastolic blood pressure" -> "stroke risk"
+	"diastolic blood pressure" -> "heart failure"
+	age [fillcolor=aqua style=filled]
+	"diastolic blood pressure" [fillcolor=indianred1 style=filled]
+}

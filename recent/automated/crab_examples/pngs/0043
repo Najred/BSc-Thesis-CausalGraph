@@ -1,0 +1,21 @@
+strict digraph G {
+	"energy efficiency standards and regulations" -> "global energy crisis"
+	"renewable energy investment" -> "global energy crisis"
+	"peak oil demand" -> "global energy crisis"
+	"climate change mitigation policies" -> "global energy crisis"
+	"global energy crisis" -> "decreased industrial production"
+	"global energy crisis" -> "rise in energy prices"
+	"rural energy infrastructure needs" -> "biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers"
+	"biden-harris administration's climate policy goals" -> "biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers"
+	"federal budget allocation for renewable energy" -> "biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "reduced energy costs for rural residents"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "increased rural energy infrastructure"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "rural utility provider investment growth"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "renewable energy investment" [color=purple penwidth=3]
+	"increased rural energy infrastructure" -> "renewable energy investment" [color=purple penwidth=3]
+	"rise in energy prices" -> "rural energy infrastructure needs" [color=purple penwidth=3]
+	"renewable energy investment" -> "global energy crisis" [color=red penwidth=5]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "renewable energy investment" [color=red penwidth=5]
+	"global energy crisis" [fillcolor=aqua style=filled]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" [fillcolor=indianred1 style=filled]
+}

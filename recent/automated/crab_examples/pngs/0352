@@ -1,0 +1,23 @@
+strict digraph G {
+	"market sentiment shifts" -> "the volumes declined and the prices rose"
+	"the volumes declined and the prices rose" -> "decreased market activity"
+	"the volumes declined and the prices rose" -> "increased volatility"
+	"the volumes declined and the prices rose" -> "higher bid-ask spreads"
+	"the volumes declined and the prices rose" -> "reduced liquidity"
+	"increased market volatility" -> "the trading range narrowed"
+	"market sentiment shift" -> "the trading range narrowed"
+	"reduced liquidity" -> "the trading range narrowed"
+	"the trading range narrowed" -> "increased market volatility"
+	"the trading range narrowed" -> "increased trading costs"
+	"the trading range narrowed" -> "decreased liquidity"
+	"increased market volatility" -> "market sentiment shifts" [color=purple penwidth=3]
+	"increased volatility" -> "increased market volatility" [color=purple penwidth=3]
+	"increased volatility" -> "reduced liquidity" [color=purple penwidth=3]
+	"decreased market activity" -> "the trading range narrowed" [color=purple penwidth=3]
+	"decreased market activity" -> "reduced liquidity" [color=purple penwidth=3]
+	"decreased liquidity" -> "the volumes declined and the prices rose" [color=purple penwidth=3]
+	"the volumes declined and the prices rose" -> "decreased market activity" [color=red penwidth=5]
+	"decreased market activity" -> "the trading range narrowed" [color=red penwidth=5]
+	"the volumes declined and the prices rose" [fillcolor=aqua style=filled]
+	"the trading range narrowed" [fillcolor=indianred1 style=filled]
+}

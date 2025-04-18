@@ -1,0 +1,18 @@
+strict digraph G {
+	"historical leftist legacy" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"regional economic integration" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"populist rhetoric" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "shift towards regional integration and cooperation"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "nationalization of key industries"
+	"regional economic crisis" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"increased awareness of regional challenges" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"growing dissatisfaction with current leadership" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "boost in public awareness of regional issues"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "increased pressure on current leaders to act"
+	"boost in public awareness of regional issues" -> "populist rhetoric" [color=purple penwidth=3]
+	"populist rhetoric" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [color=red penwidth=5]
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "boost in public awareness of regional issues" [color=red penwidth=5]
+	"boost in public awareness of regional issues" -> "populist rhetoric" [color=red penwidth=5]
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [fillcolor=aqua style=filled]
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" [fillcolor=indianred1 style=filled]
+}

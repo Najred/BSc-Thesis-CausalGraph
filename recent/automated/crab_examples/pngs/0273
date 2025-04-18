@@ -1,0 +1,52 @@
+strict digraph G {
+	"water level fluctuations" -> "riverbank erosion"
+	"sediment load increase" -> "riverbank erosion"
+	"heavy rainfall" -> "heavy flooding happened in germany"
+	"atmospheric moisture" -> "heavy rainfall"
+	"heavy rainfall" -> "riverbank erosion"
+	"riverbank erosion" -> "heavy flooding happened in germany"
+	"river flow rate" -> "riverbank erosion"
+	"economic development and infrastructure projects" -> "deforestation upstream"
+	"deforestation upstream" -> "heavy flooding happened in germany"
+	"temperature gradient" -> "heavy rainfall"
+	"heavy flooding happened in germany" -> "property damage to homes"
+	"heavy flooding happened in germany" -> "loss of human life"
+	"property damage to homes" -> "increased insurance premiums"
+	"property damage to homes" -> "financial loss"
+	"displacement of residents" -> "loss of community identity"
+	"heavy flooding happened in germany" -> "displacement of residents"
+	"displacement of residents" -> "economic hardship for remaining residents"
+	"displacement of residents" -> "disruption of social networks"
+	"loss of human life" -> "social unrest"
+	"loss of human life" -> "economic contraction"
+	"search operations suspended" -> "vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found"
+	"natural disaster response overload" -> "rescue efforts scaled back"
+	"rescue efforts scaled back" -> "vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found"
+	"public opinion shift against rescue efforts" -> "rescue efforts scaled back"
+	"vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found" -> "search operations cease"
+	"hope for families dwindles" -> "increased family conflict"
+	"vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found" -> "hope for families dwindles"
+	"hope for families dwindles" -> "reduced family cohesion"
+	"rescue efforts redirect to other areas" -> "reduced resource allocation"
+	"vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found" -> "rescue efforts redirect to other areas"
+	"rescue efforts redirect to other areas" -> "economic losses to local businesses"
+	"rescue efforts redirect to other areas" -> "increased response time"
+	"search operations cease" -> "increased risk to personnel"
+	"rescue efforts redirect to other areas" -> "decreased survival rate"
+	"hope for families dwindles" -> "decreased parental support"
+	"search operations cease" -> "decreased situational awareness"
+	"search operations cease" -> "disruption of emergency response"
+	"search operations cease" -> "loss of critical information"
+	"disruption of emergency response" -> "sediment load increase" [color=purple penwidth=3]
+	"disruption of emergency response" -> "water level fluctuations" [color=purple penwidth=3]
+	"loss of critical information" -> "water level fluctuations" [color=purple penwidth=3]
+	"disruption of social networks" -> "public opinion shift against rescue efforts" [color=purple penwidth=3]
+	"disruption of social networks" -> "natural disaster response overload" [color=purple penwidth=3]
+	"loss of human life" -> "public opinion shift against rescue efforts" [color=purple penwidth=3]
+	"heavy flooding happened in germany" -> "natural disaster response overload" [color=purple penwidth=3]
+	"natural disaster response overload" -> "rescue efforts scaled back" [color=red penwidth=5]
+	"rescue efforts scaled back" -> "vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found" [color=red penwidth=5]
+	"heavy flooding happened in germany" -> "natural disaster response overload" [color=red penwidth=5]
+	"heavy flooding happened in germany" [fillcolor=aqua style=filled]
+	"vice president of germany’s federal agency for technical relief said it was very unlikely that any more survivors would be found" [fillcolor=indianred1 style=filled]
+}

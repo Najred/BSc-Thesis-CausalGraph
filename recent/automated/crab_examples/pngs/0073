@@ -1,0 +1,24 @@
+strict digraph G {
+	"increased competition from tiktok" -> "twitter revenues plummet in recent months"
+	"advertising revenue decline" -> "twitter revenues plummet in recent months"
+	"twitter revenues plummet in recent months" -> "advertising revenue decline"
+	"twitter revenues plummet in recent months" -> "competition from other social media platforms intensify"
+	"twitter revenues plummet in recent months" -> "investor confidence decrease"
+	"high operating expenses" -> "twitter was 4 months away from running out of money"
+	"insufficient revenue streams" -> "twitter was 4 months away from running out of money"
+	"poor cash flow management" -> "twitter was 4 months away from running out of money"
+	"dependence on advertising revenue" -> "twitter was 4 months away from running out of money"
+	"twitter was 4 months away from running out of money" -> "twitter's stock price plummets"
+	"twitter was 4 months away from running out of money" -> "twitter's advertising revenue decreases significantly"
+	"twitter was 4 months away from running out of money" -> "twitter's employees are laid off or furloughed"
+	"twitter was 4 months away from running out of money" -> "advertising revenue decline" [color=purple penwidth=3]
+	"competition from other social media platforms intensify" -> "dependence on advertising revenue" [color=purple penwidth=3]
+	"competition from other social media platforms intensify" -> "insufficient revenue streams" [color=purple penwidth=3]
+	"competition from other social media platforms intensify" -> "twitter was 4 months away from running out of money" [color=purple penwidth=3]
+	"twitter's employees are laid off or furloughed" -> "twitter revenues plummet in recent months" [color=purple penwidth=3]
+	"twitter's advertising revenue decreases significantly" -> "twitter revenues plummet in recent months" [color=purple penwidth=3]
+	"twitter revenues plummet in recent months" -> "advertising revenue decline" [color=red penwidth=5]
+	"twitter was 4 months away from running out of money" -> "advertising revenue decline" [color=red penwidth=5]
+	"twitter revenues plummet in recent months" [fillcolor=aqua style=filled]
+	"twitter was 4 months away from running out of money" [fillcolor=indianred1 style=filled]
+}

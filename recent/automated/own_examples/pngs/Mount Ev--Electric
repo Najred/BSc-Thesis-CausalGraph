@@ -1,0 +1,18 @@
+strict digraph G {
+	"physical conditioning" -> "mount everest climbs"
+	"climbing experience" -> "mount everest climbs"
+	"financial resources" -> "mount everest climbs"
+	"mount everest climbs" -> "local economy growth"
+	"mount everest climbs" -> "environmental pollution"
+	"environmental regulations" -> "electric car sales"
+	"fuel prices" -> "electric car sales"
+	"electric car sales" -> "air pollution levels"
+	"electric car sales" -> "greenhouse gas emissions"
+	"electric car sales" -> "electricity demand"
+	"fuel prices" -> "financial resources" [color=purple penwidth=3]
+	"financial resources" -> "mount everest climbs" [color=red penwidth=5]
+	"fuel prices" -> "electric car sales" [color=red penwidth=5]
+	"fuel prices" -> "financial resources" [color=red penwidth=5]
+	"mount everest climbs" [fillcolor=aqua style=filled]
+	"electric car sales" [fillcolor=indianred1 style=filled]
+}

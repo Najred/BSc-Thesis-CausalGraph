@@ -1,0 +1,25 @@
+strict digraph G {
+	"investigation findings" -> "videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released"
+	"public outcry" -> "videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released"
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "protests and demonstrations"
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "social media backlash against police brutality"
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "shift in public opinion on racial justice"
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "public outrage"
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "increased calls for police reform"
+	"social media amplification" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"police brutality" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "increased public awareness and empathy for black lives matter movement"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "shift in public opinion on police reform and accountability"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "national conversation on racial injustice"
+	"increased public awareness and empathy for black lives matter movement" -> "investigation findings" [color=purple penwidth=3]
+	"national conversation on racial injustice" -> "investigation findings" [color=purple penwidth=3]
+	"increased public awareness and empathy for black lives matter movement" -> "public outcry" [color=purple penwidth=3]
+	"social media backlash against police brutality" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us" [color=purple penwidth=3]
+	"social media backlash against police brutality" -> "social media amplification" [color=purple penwidth=3]
+	"public outrage" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us" [color=purple penwidth=3]
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "police brutality" [color=purple penwidth=3]
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" -> "social media backlash against police brutality" [color=red penwidth=5]
+	"social media backlash against police brutality" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us" [color=red penwidth=5]
+	"videos of george floyd's death at the hands of minneapolis police officer derek chauvin was released" [fillcolor=aqua style=filled]
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" [fillcolor=indianred1 style=filled]
+}

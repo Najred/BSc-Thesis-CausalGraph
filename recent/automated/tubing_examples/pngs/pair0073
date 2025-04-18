@@ -1,0 +1,6 @@
+strict digraph G {
+	"energy use" -> "co2 emissions" [color=purple penwidth=3]
+	"energy use" -> "co2 emissions" [color=red penwidth=5]
+	"co2 emissions" [fillcolor=aqua style=filled]
+	"energy use" [fillcolor=indianred1 style=filled]
+}

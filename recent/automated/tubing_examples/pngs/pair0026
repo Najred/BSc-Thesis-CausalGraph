@@ -1,0 +1,17 @@
+strict digraph G {
+	"mix design optimization" -> "blast furnace slag content in concrete"
+	"slag type" -> "blast furnace slag content in concrete"
+	"aggregate size distribution" -> "blast furnace slag content in concrete"
+	"cement content" -> "blast furnace slag content in concrete"
+	"blast furnace slag content in concrete" -> "compressive strength"
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"blast furnace slag content in concrete" -> "cement content" [color=purple penwidth=3]
+	"cement content" -> "compressive strength" [color=red penwidth=5]
+	"blast furnace slag content in concrete" -> "cement content" [color=red penwidth=5]
+	"blast furnace slag content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

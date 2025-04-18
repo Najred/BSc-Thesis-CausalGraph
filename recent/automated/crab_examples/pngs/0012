@@ -1,0 +1,29 @@
+strict digraph G {
+	"regional leadership by a charismatic figure" -> "many see a window of opportunity for greater regional unity in latin america"
+	"latin american economic integration" -> "many see a window of opportunity for greater regional unity in latin america"
+	"increased trade and investment between countries" -> "many see a window of opportunity for greater regional unity in latin america"
+	"growing public awareness of regional issues" -> "many see a window of opportunity for greater regional unity in latin america"
+	"many see a window of opportunity for greater regional unity in latin america" -> "increased investment in infrastructure"
+	"many see a window of opportunity for greater regional unity in latin america" -> "growing public support for regional institutions"
+	"increased awareness of regional challenges" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"historical precedent for regional integration efforts" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"growing dissatisfaction with current leadership" -> "11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "increased pressure on current leaders to act"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "heightened diplomatic efforts"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "boost in public awareness of regional issues"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "renewed focus on economic integration"
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "increased regional cooperation"
+	"renewed focus on economic integration" -> "increased trade and investment between countries" [color=purple penwidth=3]
+	"increased regional cooperation" -> "increased trade and investment between countries" [color=purple penwidth=3]
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "latin american economic integration" [color=purple penwidth=3]
+	"renewed focus on economic integration" -> "latin american economic integration" [color=purple penwidth=3]
+	"heightened diplomatic efforts" -> "latin american economic integration" [color=purple penwidth=3]
+	"increased regional cooperation" -> "latin american economic integration" [color=purple penwidth=3]
+	"increased investment in infrastructure" -> "increased awareness of regional challenges" [color=purple penwidth=3]
+	"renewed focus on economic integration" -> "many see a window of opportunity for greater regional unity in latin america" [color=purple penwidth=3]
+	"increased regional cooperation" -> "many see a window of opportunity for greater regional unity in latin america" [color=purple penwidth=3]
+	"latin american economic integration" -> "many see a window of opportunity for greater regional unity in latin america" [color=red penwidth=5]
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" -> "latin american economic integration" [color=red penwidth=5]
+	"many see a window of opportunity for greater regional unity in latin america" [fillcolor=aqua style=filled]
+	"11 former presidents and foreign ministers from latin america wrote an open letter to current heads of state, emphasizing the need for regional integration" [fillcolor=indianred1 style=filled]
+}

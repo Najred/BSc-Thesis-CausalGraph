@@ -1,0 +1,22 @@
+strict digraph G {
+	"economic downturn" -> displacement
+	"natural disaster" -> displacement
+	"environmental degradation" -> displacement
+	"climate change" -> displacement
+	displacement -> "loss of home"
+	displacement -> "economic instability"
+	"engine size" -> "fuel consumption"
+	"driving speed" -> "fuel consumption"
+	"vehicle weight" -> "fuel consumption"
+	"fuel consumption" -> "greenhouse gas emissions"
+	"fuel consumption" -> "vehicle operating costs"
+	"fuel consumption" -> "environmental degradation" [color=purple penwidth=3]
+	"greenhouse gas emissions" -> "environmental degradation" [color=purple penwidth=3]
+	"fuel consumption" -> "climate change" [color=purple penwidth=3]
+	"greenhouse gas emissions" -> "climate change" [color=purple penwidth=3]
+	displacement -> "engine size" [color=purple penwidth=3]
+	"environmental degradation" -> displacement [color=red penwidth=5]
+	"fuel consumption" -> "environmental degradation" [color=red penwidth=5]
+	displacement [fillcolor=aqua style=filled]
+	"fuel consumption" [fillcolor=indianred1 style=filled]
+}

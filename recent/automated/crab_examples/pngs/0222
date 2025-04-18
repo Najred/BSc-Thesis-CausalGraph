@@ -1,0 +1,41 @@
+strict digraph G {
+	"genetic predisposition to atherosclerosis" -> "pre-existing coronary artery disease"
+	"stressful work environment" -> "she collapsed from a heart attack on arrest"
+	"lack of autonomy" -> "stressful work environment"
+	"smoking habits" -> "pre-existing coronary artery disease"
+	"pre-existing coronary artery disease" -> "she collapsed from a heart attack on arrest"
+	"high blood pressure" -> "pre-existing coronary artery disease"
+	"cardiac arrest" -> death
+	"cardiac arrest" -> "brain damage"
+	death -> "family disruption"
+	"cardiac arrest" -> "respiratory failure"
+	"cardiac arrest" -> "cardiogenic shock"
+	"she collapsed from a heart attack on arrest" -> death
+	"cardiac arrest" -> "prolonged hospital stay"
+	"she collapsed from a heart attack on arrest" -> "cardiac arrest"
+	"government repression" -> "protests swept across iran"
+	"international sanctions" -> "protests swept across iran"
+	"authoritarian ideology" -> "government repression"
+	"government debt crisis" -> "economic downturn"
+	"external military pressure" -> "government repression"
+	"global trade wars" -> "economic downturn"
+	"human rights violations" -> "international sanctions"
+	"economic instability" -> "government repression"
+	"economic interests of major powers" -> "international sanctions"
+	"economic downturn" -> "protests swept across iran"
+	"human rights abuses" -> "economic instability"
+	"protests swept across iran" -> "economic instability"
+	"economic instability" -> "business bankruptcies"
+	"human rights abuses" -> "social unrest"
+	"human rights abuses" -> "increased terrorism"
+	"protests swept across iran" -> "human rights abuses"
+	"family disruption" -> "economic instability" [color=purple penwidth=3]
+	"family disruption" -> "economic interests of major powers" [color=purple penwidth=3]
+	"family disruption" -> "economic instability" [color=purple penwidth=3]
+	"she collapsed from a heart attack on arrest" -> death [color=red penwidth=5]
+	death -> "family disruption" [color=red penwidth=5]
+	"protests swept across iran" -> "economic instability" [color=red penwidth=5]
+	"family disruption" -> "economic instability" [color=red penwidth=5]
+	"she collapsed from a heart attack on arrest" [fillcolor=aqua style=filled]
+	"protests swept across iran" [fillcolor=indianred1 style=filled]
+}

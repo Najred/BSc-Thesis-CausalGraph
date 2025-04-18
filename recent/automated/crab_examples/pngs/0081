@@ -1,0 +1,20 @@
+strict digraph G {
+	"social media buzz and word-of-mouth" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai marketing campaign" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"competitor chatbot releases" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "improved chatbot development speed"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "increased server load"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "increased competition from other chatbots"
+	"investment in ai research and development" -> "alibaba announces plans to launch its own chatgpt-style tool"
+	"competition with meta llama" -> "alibaba announces plans to launch its own chatgpt-style tool"
+	"market demand for conversational ai tools" -> "alibaba announces plans to launch its own chatgpt-style tool"
+	"alibaba announces plans to launch its own chatgpt-style tool" -> "chatgpt-style tool adoption rates increase among consumers"
+	"alibaba announces plans to launch its own chatgpt-style tool" -> "chatbot market competition intensifies"
+	"alibaba announces plans to launch its own chatgpt-style tool" -> "competitor chatbot releases" [color=purple penwidth=3]
+	"chatbot market competition intensifies" -> "social media buzz and word-of-mouth" [color=purple penwidth=3]
+	"increased competition from other chatbots" -> "competition with meta llama" [color=purple penwidth=3]
+	"competitor chatbot releases" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [color=red penwidth=5]
+	"alibaba announces plans to launch its own chatgpt-style tool" -> "competitor chatbot releases" [color=red penwidth=5]
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [fillcolor=aqua style=filled]
+	"alibaba announces plans to launch its own chatgpt-style tool" [fillcolor=indianred1 style=filled]
+}

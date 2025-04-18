@@ -1,0 +1,15 @@
+strict digraph G {
+	"pre-existing coronary artery disease" -> "she collapsed from a heart attack on arrest"
+	"high blood pressure" -> "she collapsed from a heart attack on arrest"
+	"she collapsed from a heart attack on arrest" -> death
+	"she collapsed from a heart attack on arrest" -> "cardiac arrest"
+	"mahsa amini's death" -> "iranians took to the streets of the capital on monday to protest the death of mahsa amini"
+	"iranian government's repression" -> "iranians took to the streets of the capital on monday to protest the death of mahsa amini"
+	"iranians took to the streets of the capital on monday to protest the death of mahsa amini" -> "increased police brutality"
+	"iranians took to the streets of the capital on monday to protest the death of mahsa amini" -> "government crackdown on dissent"
+	"she collapsed from a heart attack on arrest" -> "mahsa amini's death" [color=purple penwidth=3]
+	"mahsa amini's death" -> "iranians took to the streets of the capital on monday to protest the death of mahsa amini" [color=red penwidth=5]
+	"she collapsed from a heart attack on arrest" -> "mahsa amini's death" [color=red penwidth=5]
+	"she collapsed from a heart attack on arrest" [fillcolor=aqua style=filled]
+	"iranians took to the streets of the capital on monday to protest the death of mahsa amini" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,23 @@
+strict digraph G {
+	"insufficient security measures" -> "hackers took control of equifax's website"
+	"unpatched zero-day exploits" -> "hackers took control of equifax's website"
+	"lack of employee training" -> "hackers took control of equifax's website"
+	"outdated software and systems" -> "hackers took control of equifax's website"
+	"external network vulnerabilities" -> "hackers took control of equifax's website"
+	"hackers took control of equifax's website" -> "unauthorized access to sensitive information"
+	"hackers took control of equifax's website" -> "equifax customer data breach"
+	"data breach severity" -> "equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised"
+	"equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" -> "customer notification process initiated"
+	"equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" -> "cybersecurity measures implemented"
+	"equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" -> "compromised data identified"
+	"equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" -> "data breach assessment completed"
+	"data breach assessment completed" -> "external network vulnerabilities" [color=purple penwidth=3]
+	"cybersecurity measures implemented" -> "outdated software and systems" [color=purple penwidth=3]
+	"data breach assessment completed" -> "outdated software and systems" [color=purple penwidth=3]
+	"unauthorized access to sensitive information" -> "equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" [color=purple penwidth=3]
+	"equifax customer data breach" -> "equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" [color=purple penwidth=3]
+	"hackers took control of equifax's website" -> "unauthorized access to sensitive information" [color=red penwidth=5]
+	"unauthorized access to sensitive information" -> "equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" [color=red penwidth=5]
+	"hackers took control of equifax's website" [fillcolor=aqua style=filled]
+	"equifax contacted mandiant, a professional cybersecurity firm, to help the company assess what data had been compromised" [fillcolor=indianred1 style=filled]
+}

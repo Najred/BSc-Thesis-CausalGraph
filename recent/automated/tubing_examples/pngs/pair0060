@@ -1,0 +1,46 @@
+strict digraph G {
+	"geographic location" -> "access to healthcare"
+	"access to healthcare" -> "male life expectancy"
+	"employment status" -> "access to healthcare"
+	"healthcare policy" -> "access to healthcare"
+	"elderly care workforce demand" -> "increased turnover rates"
+	"male life expectancy" -> "pension fund contributions"
+	"social security payouts" -> "government budget deficit"
+	"social security payouts" -> "retirement savings"
+	"male life expectancy" -> "elderly care workforce demand"
+	"healthcare costs" -> "financial stress"
+	"male life expectancy" -> "healthcare costs"
+	"pension fund contributions" -> "investment returns"
+	"male life expectancy" -> "social security payouts"
+	"healthcare costs" -> "reduced savings rate"
+	"elderly care workforce demand" -> "rising care costs"
+	"elderly care workforce demand" -> "care quality decrease"
+	"pension fund contributions" -> "retirement savings"
+	"ocean currents" -> "climate zones"
+	"axial tilt" -> latitude
+	elevation -> "climate zones"
+	"planetary formation" -> "axial tilt"
+	"climate zones" -> latitude
+	"gravitational interactions" -> "axial tilt"
+	"continental drift" -> "climate zones"
+	latitude -> "climate zones"
+	"solar system age" -> "axial tilt"
+	"climate zone" -> "precipitation patterns"
+	latitude -> "climate zone"
+	latitude -> "sunlight hours"
+	latitude -> temperature
+	"sunlight hours" -> "temperature regulation"
+	"climate zone" -> temperature
+	temperature -> humidity
+	latitude -> "geographic location" [color=purple penwidth=3]
+	"climate zone" -> "geographic location" [color=purple penwidth=3]
+	"precipitation patterns" -> "geographic location" [color=purple penwidth=3]
+	humidity -> "geographic location" [color=purple penwidth=3]
+	temperature -> "geographic location" [color=purple penwidth=3]
+	"temperature regulation" -> "employment status" [color=purple penwidth=3]
+	"geographic location" -> "access to healthcare" [color=red penwidth=5]
+	"access to healthcare" -> "male life expectancy" [color=red penwidth=5]
+	latitude -> "geographic location" [color=red penwidth=5]
+	"male life expectancy" [fillcolor=aqua style=filled]
+	latitude [fillcolor=indianred1 style=filled]
+}

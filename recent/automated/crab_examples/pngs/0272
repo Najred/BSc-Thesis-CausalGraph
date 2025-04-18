@@ -1,0 +1,19 @@
+strict digraph G {
+	"riverbank erosion" -> "heavy flooding happened in germany"
+	"heavy rainfall" -> "heavy flooding happened in germany"
+	"heavy flooding happened in germany" -> "property damage to homes"
+	"heavy flooding happened in germany" -> "loss of human life"
+	"heavy flooding happened in germany" -> "displacement of residents"
+	"heavy flooding happened in germany" -> "closure of roads and highways"
+	"severe flooding in western regions" -> "germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding"
+	"public outcry and media coverage" -> "germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding"
+	"economic impact on affected areas" -> "germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding"
+	"germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding" -> "flood-affected residents receive financial assistance"
+	"germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding" -> "local businesses in affected areas report increased sales"
+	"closure of roads and highways" -> "economic impact on affected areas" [color=purple penwidth=3]
+	"heavy flooding happened in germany" -> "severe flooding in western regions" [color=purple penwidth=3]
+	"severe flooding in western regions" -> "germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding" [color=red penwidth=5]
+	"heavy flooding happened in germany" -> "severe flooding in western regions" [color=red penwidth=5]
+	"heavy flooding happened in germany" [fillcolor=aqua style=filled]
+	"germany's federal government approved a package of emergency flood aid to help western regions recover from the flooding" [fillcolor=indianred1 style=filled]
+}

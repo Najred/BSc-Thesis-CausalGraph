@@ -1,0 +1,22 @@
+strict digraph G {
+	latitude -> longitude
+	"time zone" -> longitude
+	longitude -> "climate type"
+	longitude -> "time zone"
+	longitude -> "sunrise time"
+	longitude -> "day length"
+	"seasonal patterns" -> temperature
+	"geographic latitude" -> temperature
+	"humidity levels" -> temperature
+	"solar radiation" -> temperature
+	"atmospheric pressure" -> temperature
+	temperature -> "plant growth"
+	temperature -> latitude [color=purple penwidth=3]
+	"sunrise time" -> temperature [color=purple penwidth=3]
+	"climate type" -> "humidity levels" [color=purple penwidth=3]
+	"climate type" -> "seasonal patterns" [color=purple penwidth=3]
+	latitude -> longitude [color=red penwidth=5]
+	temperature -> latitude [color=red penwidth=5]
+	longitude [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

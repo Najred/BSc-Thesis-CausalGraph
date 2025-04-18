@@ -1,0 +1,22 @@
+strict digraph G {
+	"coronal heating" -> sunspots
+	"solar flare" -> sunspots
+	"magnetic field" -> sunspots
+	sunspots -> "aurora activity"
+	sunspots -> "solar flare intensity"
+	sunspots -> "coronal heating rate"
+	sunspots -> "earth's magnetic field disturbances"
+	sunspots -> "magnetic field strength"
+	"solar radiation" -> "global mean temperature"
+	"ocean currents" -> "global mean temperature"
+	"global mean temperature" -> "extreme weather events"
+	"global mean temperature" -> "ocean acidification"
+	"global mean temperature" -> "arctic ice cap size"
+	"solar flare intensity" -> "solar radiation" [color=purple penwidth=3]
+	"coronal heating rate" -> "solar radiation" [color=purple penwidth=3]
+	sunspots -> "solar flare intensity" [color=red penwidth=5]
+	"solar radiation" -> "global mean temperature" [color=red penwidth=5]
+	"solar flare intensity" -> "solar radiation" [color=red penwidth=5]
+	sunspots [fillcolor=aqua style=filled]
+	"global mean temperature" [fillcolor=indianred1 style=filled]
+}

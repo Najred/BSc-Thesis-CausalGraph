@@ -1,0 +1,20 @@
+strict digraph G {
+	"solar radiation" -> "solarpower generation"
+	"panel efficiency" -> "solarpower generation"
+	"solarpower generation" -> "energy costs decrease"
+	"solarpower generation" -> "renewable energy mix increase"
+	"solarpower generation" -> "electricity generation"
+	"economic development" -> "internet acess"
+	"computer ownership" -> "internet acess"
+	"age of population" -> "internet acess"
+	"geographic location" -> "internet acess"
+	"government policies" -> "internet acess"
+	"internet acess" -> "remote work opportunities"
+	"geographic location" -> "solar radiation" [color=purple penwidth=3]
+	"economic development" -> "panel efficiency" [color=purple penwidth=3]
+	"solar radiation" -> "solarpower generation" [color=red penwidth=5]
+	"geographic location" -> "internet acess" [color=red penwidth=5]
+	"geographic location" -> "solar radiation" [color=red penwidth=5]
+	"solarpower generation" [fillcolor=aqua style=filled]
+	"internet acess" [fillcolor=indianred1 style=filled]
+}

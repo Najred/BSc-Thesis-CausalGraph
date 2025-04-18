@@ -1,0 +1,18 @@
+strict digraph G {
+	"increased competition from emerging markets" -> "tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble"
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" -> "increased unemployment rate in tech sector"
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" -> "decreased venture capital investments in startups"
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" -> "reduced consumer spending on tech products"
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" -> "tech industry confidence crisis"
+	"global economic downturn" -> "hundreds of employees of both startups and bellwether companies have been laid off"
+	"technological disruption in the industry" -> "hundreds of employees of both startups and bellwether companies have been laid off"
+	"industry-wide over-saturation" -> "hundreds of employees of both startups and bellwether companies have been laid off"
+	"poor company financial management" -> "hundreds of employees of both startups and bellwether companies have been laid off"
+	"hundreds of employees of both startups and bellwether companies have been laid off" -> "decreased business confidence"
+	"hundreds of employees of both startups and bellwether companies have been laid off" -> "stock market decline"
+	"increased unemployment rate in tech sector" -> "hundreds of employees of both startups and bellwether companies have been laid off" [color=purple penwidth=3]
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" -> "increased unemployment rate in tech sector" [color=red penwidth=5]
+	"increased unemployment rate in tech sector" -> "hundreds of employees of both startups and bellwether companies have been laid off" [color=red penwidth=5]
+	"tech industry layoffs increased by 649% in 2022, the highest since the dot-com bubble" [fillcolor=aqua style=filled]
+	"hundreds of employees of both startups and bellwether companies have been laid off" [fillcolor=indianred1 style=filled]
+}

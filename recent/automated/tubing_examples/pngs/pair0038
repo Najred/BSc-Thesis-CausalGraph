@@ -1,0 +1,20 @@
+strict digraph G {
+	genetics -> age
+	nutrition -> age
+	"socioeconomic status" -> age
+	exercise -> age
+	age -> "life expectancy"
+	age -> "cognitive ability"
+	age -> "physical strength"
+	"physical activity level" -> "body mass index"
+	genetics -> "body mass index"
+	"body mass index" -> "cardiovascular disease"
+	"body mass index" -> osteoarthritis
+	"body mass index" -> "type 2 diabetes"
+	"body mass index" -> "blood pressure"
+	"physical strength" -> "body mass index" [color=purple penwidth=3]
+	age -> "physical strength" [color=red penwidth=5]
+	"physical strength" -> "body mass index" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"body mass index" [fillcolor=indianred1 style=filled]
+}

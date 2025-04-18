@@ -1,0 +1,6 @@
+strict digraph G {
+	"relative humidity at t" -> "relative humidity at t+1" [color=purple penwidth=3]
+	"relative humidity at t" -> "relative humidity at t+1" [color=red penwidth=5]
+	"relative humidity at t" [fillcolor=aqua style=filled]
+	"relative humidity at t+1" [fillcolor=indianred1 style=filled]
+}

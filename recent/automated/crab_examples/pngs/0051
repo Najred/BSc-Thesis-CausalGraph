@@ -1,0 +1,19 @@
+strict digraph G {
+	"credit suisse share price" -> "ubs has completed the acquisition of credit suisse"
+	"swiss banking regulations" -> "ubs has completed the acquisition of credit suisse"
+	"ubs has completed the acquisition of credit suisse" -> "swiss banking sector consolidation accelerates"
+	"ubs has completed the acquisition of credit suisse" -> "credit suisse brand disappears"
+	"ubs has completed the acquisition of credit suisse" -> "credit suisse's assets are absorbed into ubs's portfolio"
+	"credit suisse bankruptcy" -> "the last trading day of credit suisse group ag shares on the six swiss exchange"
+	"six swiss exchange trading volume" -> "the last trading day of credit suisse group ag shares on the six swiss exchange"
+	"credit suisse management decisions" -> "the last trading day of credit suisse group ag shares on the six swiss exchange"
+	"the last trading day of credit suisse group ag shares on the six swiss exchange" -> "credit suisse employee morale and job security"
+	"the last trading day of credit suisse group ag shares on the six swiss exchange" -> "credit suisse stock price"
+	"the last trading day of credit suisse group ag shares on the six swiss exchange" -> "credit suisse share price" [color=purple penwidth=3]
+	"credit suisse stock price" -> "credit suisse share price" [color=purple penwidth=3]
+	"swiss banking sector consolidation accelerates" -> "six swiss exchange trading volume" [color=purple penwidth=3]
+	"credit suisse share price" -> "ubs has completed the acquisition of credit suisse" [color=red penwidth=5]
+	"the last trading day of credit suisse group ag shares on the six swiss exchange" -> "credit suisse share price" [color=red penwidth=5]
+	"ubs has completed the acquisition of credit suisse" [fillcolor=aqua style=filled]
+	"the last trading day of credit suisse group ag shares on the six swiss exchange" [fillcolor=indianred1 style=filled]
+}

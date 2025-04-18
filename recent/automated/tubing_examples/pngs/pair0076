@@ -1,0 +1,6 @@
+strict digraph G {
+	"population growth" -> "food consumption growth" [color=purple penwidth=3]
+	"population growth" -> "food consumption growth" [color=red penwidth=5]
+	"population growth" [fillcolor=aqua style=filled]
+	"food consumption growth" [fillcolor=indianred1 style=filled]
+}

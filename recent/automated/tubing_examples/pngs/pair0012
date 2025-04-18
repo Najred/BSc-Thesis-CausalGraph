@@ -1,0 +1,18 @@
+strict digraph G {
+	"socioeconomic status" -> age
+	genetics -> age
+	exercise -> age
+	age -> "cognitive ability"
+	age -> "social security benefits eligibility"
+	"productivity standards" -> "wage per hour"
+	"education level" -> "wage per hour"
+	"wage per hour" -> "disposable income"
+	"wage per hour" -> "consumer spending"
+	"wage per hour" -> "tax revenue"
+	"tax revenue" -> "socioeconomic status" [color=purple penwidth=3]
+	"socioeconomic status" -> age [color=red penwidth=5]
+	"wage per hour" -> "tax revenue" [color=red penwidth=5]
+	"tax revenue" -> "socioeconomic status" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"wage per hour" [fillcolor=indianred1 style=filled]
+}

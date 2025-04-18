@@ -1,0 +1,22 @@
+strict digraph G {
+	"database security breach" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"sophisticated hacking attack" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"outdated database software" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"insider malicious activity" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" -> "financial transactions scrutinized"
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" -> "reputation of the law firm damaged"
+	"public scrutiny and media attention" -> "david cameron admits to owning shares in a panama-based offshore trust set up by his late father"
+	"panama papers leak" -> "david cameron admits to owning shares in a panama-based offshore trust set up by his late father"
+	"david cameron's family wealth management practices" -> "david cameron admits to owning shares in a panama-based offshore trust set up by his late father"
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "resignation as prime minister"
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "loss of public trust"
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "increased scrutiny of uk tax laws"
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "investigations by parliamentary committees"
+	"investigations by parliamentary committees" -> "sophisticated hacking attack" [color=purple penwidth=3]
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "insider malicious activity" [color=purple penwidth=3]
+	"investigations by parliamentary committees" -> "insider malicious activity" [color=purple penwidth=3]
+	"insider malicious activity" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" [color=red penwidth=5]
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" -> "insider malicious activity" [color=red penwidth=5]
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" [fillcolor=aqua style=filled]
+	"david cameron admits to owning shares in a panama-based offshore trust set up by his late father" [fillcolor=indianred1 style=filled]
+}

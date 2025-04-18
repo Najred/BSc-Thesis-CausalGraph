@@ -1,0 +1,19 @@
+strict digraph G {
+	location -> "size of apartment"
+	"number of occupants" -> "size of apartment"
+	budget -> "size of apartment"
+	"size of apartment" -> "utility bills"
+	"size of apartment" -> rent
+	"size of apartment" -> "storage space"
+	"rent control policies" -> "monthly rent"
+	"local taxes" -> "monthly rent"
+	location -> "monthly rent"
+	"apartment size" -> "monthly rent"
+	"monthly rent" -> "housing costs"
+	"monthly rent" -> budget [color=purple penwidth=3]
+	"housing costs" -> budget [color=purple penwidth=3]
+	budget -> "size of apartment" [color=red penwidth=5]
+	"monthly rent" -> budget [color=red penwidth=5]
+	"size of apartment" [fillcolor=aqua style=filled]
+	"monthly rent" [fillcolor=indianred1 style=filled]
+}

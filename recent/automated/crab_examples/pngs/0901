@@ -1,0 +1,22 @@
+strict digraph G {
+	"insufficient security measures" -> "hackers took control of equifax's website"
+	"unpatched zero-day exploits" -> "hackers took control of equifax's website"
+	"lack of employee training" -> "hackers took control of equifax's website"
+	"outdated software and systems" -> "hackers took control of equifax's website"
+	"external network vulnerabilities" -> "hackers took control of equifax's website"
+	"hackers took control of equifax's website" -> "unauthorized access to sensitive information"
+	"hackers took control of equifax's website" -> "equifax customer data breach"
+	"poor incident response planning" -> "equifax is facing multiple federal investigations over its handling of the hack"
+	"insufficient employee training" -> "equifax is facing multiple federal investigations over its handling of the hack"
+	"lax cybersecurity measures" -> "equifax is facing multiple federal investigations over its handling of the hack"
+	"inadequate data encryption" -> "equifax is facing multiple federal investigations over its handling of the hack"
+	"equifax is facing multiple federal investigations over its handling of the hack" -> "investigations lead to changes in data protection policies"
+	"equifax is facing multiple federal investigations over its handling of the hack" -> "equifax stock price drops"
+	"equifax is facing multiple federal investigations over its handling of the hack" -> "regulatory fines and penalties increase"
+	"regulatory fines and penalties increase" -> "outdated software and systems" [color=purple penwidth=3]
+	"hackers took control of equifax's website" -> "lax cybersecurity measures" [color=purple penwidth=3]
+	"lax cybersecurity measures" -> "equifax is facing multiple federal investigations over its handling of the hack" [color=red penwidth=5]
+	"hackers took control of equifax's website" -> "lax cybersecurity measures" [color=red penwidth=5]
+	"hackers took control of equifax's website" [fillcolor=aqua style=filled]
+	"equifax is facing multiple federal investigations over its handling of the hack" [fillcolor=indianred1 style=filled]
+}

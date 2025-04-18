@@ -1,0 +1,19 @@
+strict digraph G {
+	"geographic location" -> temperature
+	"humidity levels" -> temperature
+	"solar radiation" -> temperature
+	temperature -> "ice formation"
+	temperature -> "evaporation rate"
+	temperature -> "humidity levels"
+	humidity -> "electricity load"
+	weather -> "electricity load"
+	"economic activity" -> "electricity load"
+	temperature -> "electricity load"
+	"electricity load" -> "peak demand hours"
+	"evaporation rate" -> humidity [color=purple penwidth=3]
+	temperature -> humidity [color=purple penwidth=3]
+	humidity -> "electricity load" [color=red penwidth=5]
+	temperature -> humidity [color=red penwidth=5]
+	temperature [fillcolor=aqua style=filled]
+	"electricity load" [fillcolor=indianred1 style=filled]
+}

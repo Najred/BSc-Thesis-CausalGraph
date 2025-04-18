@@ -1,0 +1,21 @@
+strict digraph G {
+	"soil moisture" -> ppfd
+	"plant growth" -> ppfd
+	"leaf temperature" -> ppfd
+	"photosynthetic rate" -> ppfd
+	ppfd -> "transpiration rate"
+	ppfd -> "leaf temperature"
+	ppfd -> "plant growth"
+	ppfd -> "photosynthesis rate"
+	"photosynthesis rate" -> "net ecosystem productivity"
+	"water availability" -> "net ecosystem productivity"
+	"soil nutrient levels" -> "net ecosystem productivity"
+	"temperature range" -> "net ecosystem productivity"
+	"net ecosystem productivity" -> "oxygen production"
+	"net ecosystem productivity" -> "water cycle regulation"
+	"net ecosystem productivity" -> "carbon sequestration"
+	"net ecosystem productivity" -> "climate change mitigation"
+	"net ecosystem productivity" -> "soil moisture levels"
+	ppfd [fillcolor=aqua style=filled]
+	"net ecosystem productivity" [fillcolor=indianred1 style=filled]
+}

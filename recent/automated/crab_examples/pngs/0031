@@ -1,0 +1,17 @@
+strict digraph G {
+	"sanderson's skiing experience and skill level" -> "gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope"
+	"sanderson's aggressive skiing" -> "gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope"
+	"gwyneth's instructor witnessed sanderson's behavior" -> "gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope"
+	"gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope" -> "sanderson was allowed to join more advanced groups"
+	"gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope" -> "sanderson's skiing skills improved"
+	"terry sanderson's credibility issues" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"terry sanderson's testimony" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"accuser terry sanderson was determined to be '100% at fault'" -> "increased scrutiny on accuser's claims"
+	"accuser terry sanderson was determined to be '100% at fault'" -> "terry sanderson's reputation damage"
+	"accuser terry sanderson was determined to be '100% at fault'" -> "financial liability for terry sanderson"
+	"gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope" -> "terry sanderson's testimony" [color=purple penwidth=3]
+	"terry sanderson's testimony" -> "accuser terry sanderson was determined to be '100% at fault'" [color=red penwidth=5]
+	"gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope" -> "terry sanderson's testimony" [color=red penwidth=5]
+	"gwyneth's ski instructor testified on her behalf that sanderson was taking up a large swath of the ski slope" [fillcolor=aqua style=filled]
+	"accuser terry sanderson was determined to be '100% at fault'" [fillcolor=indianred1 style=filled]
+}

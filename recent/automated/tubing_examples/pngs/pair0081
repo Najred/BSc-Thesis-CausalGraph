@@ -1,0 +1,22 @@
+strict digraph G {
+	"solar radiation" -> temperature
+	"seasonal patterns" -> temperature
+	"atmospheric pressure" -> temperature
+	"geographic latitude" -> temperature
+	"humidity levels" -> temperature
+	temperature -> "plant growth"
+	temperature -> evaporation
+	temperature -> "weather patterns"
+	temperature -> "cloud formation"
+	temperature -> humidity
+	humidity -> "local co2 flux"
+	temperature -> "local co2 flux"
+	respiration -> "local co2 flux"
+	photosynthesis -> "local co2 flux"
+	"local co2 flux" -> "ph levels in soil"
+	"local co2 flux" -> "plant growth"
+	"local co2 flux" -> "photosynthesis rate"
+	"local co2 flux" -> temperature
+	temperature [fillcolor=aqua style=filled]
+	"local co2 flux" [fillcolor=indianred1 style=filled]
+}

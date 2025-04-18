@@ -1,0 +1,29 @@
+strict digraph G {
+	"football's reputation and integrity" -> "documents revealed by the panama papers leak have implicated the new head of world football"
+	"international football governance" -> "documents revealed by the panama papers leak have implicated the new head of world football"
+	"panama papers investigation" -> "documents revealed by the panama papers leak have implicated the new head of world football"
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "resignation of fifa president"
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "increased scrutiny from law enforcement agencies"
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "potential imprisonment or fines for corruption charges"
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "decrease in public trust and confidence"
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "loss of international sponsorships"
+	"fifa's financial records showed irregularities" -> "the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)"
+	"fifa officials received suspicious payments" -> "the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)"
+	"bribery allegations surfaced" -> "the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)"
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" -> "investigations expand to other soccer bodies"
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" -> "fifa president resigns"
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" -> "fifa's reputation takes a significant hit"
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" -> "international football governance" [color=purple penwidth=3]
+	"fifa president resigns" -> "international football governance" [color=purple penwidth=3]
+	"investigations expand to other soccer bodies" -> "international football governance" [color=purple penwidth=3]
+	"fifa's reputation takes a significant hit" -> "football's reputation and integrity" [color=purple penwidth=3]
+	"increased scrutiny from law enforcement agencies" -> "the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" [color=purple penwidth=3]
+	"increased scrutiny from law enforcement agencies" -> "bribery allegations surfaced" [color=purple penwidth=3]
+	"increased scrutiny from law enforcement agencies" -> "fifa officials received suspicious payments" [color=purple penwidth=3]
+	"loss of international sponsorships" -> "fifa's financial records showed irregularities" [color=purple penwidth=3]
+	"documents revealed by the panama papers leak have implicated the new head of world football" -> "fifa's financial records showed irregularities" [color=purple penwidth=3]
+	"international football governance" -> "documents revealed by the panama papers leak have implicated the new head of world football" [color=red penwidth=5]
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" -> "international football governance" [color=red penwidth=5]
+	"documents revealed by the panama papers leak have implicated the new head of world football" [fillcolor=aqua style=filled]
+	"the justice department is investigating alleged corruption in the world’s top soccer body, the fédération internationale de football association (fifa)" [fillcolor=indianred1 style=filled]
+}

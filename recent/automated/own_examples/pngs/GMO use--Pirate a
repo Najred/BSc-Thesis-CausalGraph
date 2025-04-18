@@ -1,0 +1,19 @@
+strict digraph G {
+	"public perception and acceptance of gmos" -> "gmo use"
+	"government subsidies for agricultural production" -> "gmo use"
+	"gmo use" -> "crop yield"
+	"gmo use" -> "pest resistance"
+	"gmo use" -> "gene flow"
+	"food shortage" -> "pirate attacks"
+	"economic instability" -> "pirate attacks"
+	"pirate attacks" -> "ship damage"
+	"pirate attacks" -> "cargo loss"
+	"pirate attacks" -> "maritime trade disruption"
+	"pirate attacks" -> "economic losses for ship owners"
+	"government subsidies for agricultural production" -> "food shortage" [color=purple penwidth=3]
+	"government subsidies for agricultural production" -> "gmo use" [color=red penwidth=5]
+	"food shortage" -> "pirate attacks" [color=red penwidth=5]
+	"government subsidies for agricultural production" -> "food shortage" [color=red penwidth=5]
+	"gmo use" [fillcolor=aqua style=filled]
+	"pirate attacks" [fillcolor=indianred1 style=filled]
+}

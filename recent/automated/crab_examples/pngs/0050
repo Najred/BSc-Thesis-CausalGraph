@@ -1,0 +1,18 @@
+strict digraph G {
+	"regulatory pressure" -> "ubs acquires credit suisse for over $3 billion"
+	"global economic conditions" -> "ubs acquires credit suisse for over $3 billion"
+	"financial instability" -> "ubs acquires credit suisse for over $3 billion"
+	"ubs acquires credit suisse for over $3 billion" -> "credit suisse's assets are rebranded under ubs"
+	"ubs acquires credit suisse for over $3 billion" -> "swiss banking sector consolidation accelerates"
+	"increased competition from rivals" -> "ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday"
+	"weak earnings report from ubs" -> "ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday"
+	"ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" -> "swiss franc weakens"
+	"ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" -> "global market volatility increases"
+	"ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" -> "european banking stocks decline"
+	"global market volatility increases" -> "financial instability" [color=purple penwidth=3]
+	"credit suisse's assets are rebranded under ubs" -> "ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" [color=purple penwidth=3]
+	"ubs acquires credit suisse for over $3 billion" -> "credit suisse's assets are rebranded under ubs" [color=red penwidth=5]
+	"credit suisse's assets are rebranded under ubs" -> "ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" [color=red penwidth=5]
+	"ubs acquires credit suisse for over $3 billion" [fillcolor=aqua style=filled]
+	"ubs shares are down 0.81% at $20.83 during the premarket session on the last check wednesday" [fillcolor=indianred1 style=filled]
+}

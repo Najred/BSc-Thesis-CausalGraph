@@ -1,0 +1,19 @@
+strict digraph G {
+	"social media buzz and word-of-mouth" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai marketing campaign" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"competitor chatbot releases" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "improved chatbot development speed"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "increased server load"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "increased competition from other chatbots"
+	"musk's previous ai investments" -> "musk has incorporated a new business called x.ai corp"
+	"x.ai corp's unique technology" -> "musk has incorporated a new business called x.ai corp"
+	"market demand for ai solutions" -> "musk has incorporated a new business called x.ai corp"
+	"musk has incorporated a new business called x.ai corp" -> "x.ai corp's revenue growth"
+	"musk has incorporated a new business called x.ai corp" -> "ai research and development budget allocation"
+	"musk has incorporated a new business called x.ai corp" -> "competitor chatbot releases" [color=purple penwidth=3]
+	"increased competition from other chatbots" -> "x.ai corp's unique technology" [color=purple penwidth=3]
+	"competitor chatbot releases" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [color=red penwidth=5]
+	"musk has incorporated a new business called x.ai corp" -> "competitor chatbot releases" [color=red penwidth=5]
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [fillcolor=aqua style=filled]
+	"musk has incorporated a new business called x.ai corp" [fillcolor=indianred1 style=filled]
+}

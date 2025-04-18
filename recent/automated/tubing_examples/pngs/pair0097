@@ -1,0 +1,6 @@
+strict digraph G {
+	"speed at the beginning" -> "speed at the end" [color=purple penwidth=3]
+	"speed at the beginning" -> "speed at the end" [color=red penwidth=5]
+	"speed at the beginning" [fillcolor=aqua style=filled]
+	"speed at the end" [fillcolor=indianred1 style=filled]
+}

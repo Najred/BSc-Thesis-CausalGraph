@@ -1,0 +1,19 @@
+strict digraph G {
+	"initial velocity" -> "position of a ball"
+	gravity -> "position of a ball"
+	"position of a ball" -> "ball height"
+	"position of a ball" -> "ball speed"
+	"position of a ball" -> "rolling distance"
+	"track length" -> "time for passing a track segment"
+	speed -> "time for passing a track segment"
+	"time for passing a track segment" -> speed
+	"time for passing a track segment" -> distance
+	"time for passing a track segment" -> "time to complete lap"
+	"ball speed" -> speed [color=purple penwidth=3]
+	"ball speed" -> speed [color=purple penwidth=3]
+	"position of a ball" -> "ball speed" [color=red penwidth=5]
+	"time for passing a track segment" -> speed [color=red penwidth=5]
+	"ball speed" -> speed [color=red penwidth=5]
+	"position of a ball" [fillcolor=aqua style=filled]
+	"time for passing a track segment" [fillcolor=indianred1 style=filled]
+}

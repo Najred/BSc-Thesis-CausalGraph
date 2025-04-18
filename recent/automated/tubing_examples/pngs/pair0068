@@ -1,0 +1,6 @@
+strict digraph G {
+	"open http connections" -> "bytes sent" [color=purple penwidth=3]
+	"open http connections" -> "bytes sent" [color=red penwidth=5]
+	"bytes sent" [fillcolor=aqua style=filled]
+	"open http connections" [fillcolor=indianred1 style=filled]
+}

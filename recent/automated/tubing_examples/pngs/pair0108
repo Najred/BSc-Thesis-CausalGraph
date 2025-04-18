@@ -1,0 +1,20 @@
+strict digraph G {
+	"air-fuel mixture" -> "engine rotations"
+	"fuel injection" -> "engine rotations"
+	"spark timing" -> "engine rotations"
+	"engine rotations" -> "heat generation"
+	"engine rotations" -> "engine speed"
+	"atmospheric pressure" -> "water teperature"
+	"water depth" -> "water teperature"
+	"heat transfer" -> "water teperature"
+	"solar radiation" -> "water teperature"
+	"water teperature" -> "corrosion rate of metal pipes"
+	"water teperature" -> "water evaporation rate"
+	"engine speed" -> "heat transfer" [color=purple penwidth=3]
+	"heat generation" -> "heat transfer" [color=purple penwidth=3]
+	"engine rotations" -> "engine speed" [color=red penwidth=5]
+	"heat transfer" -> "water teperature" [color=red penwidth=5]
+	"engine speed" -> "heat transfer" [color=red penwidth=5]
+	"engine rotations" [fillcolor=aqua style=filled]
+	"water teperature" [fillcolor=indianred1 style=filled]
+}

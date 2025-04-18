@@ -1,0 +1,30 @@
+						
+pair 1081 original 	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm, Mossack Fonseca"
+pair 1081 new		"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+
+pair 0353 original	"In 2021, ETH has increased at a much faster rate in 2021 than bitcoin"
+pair 0352 new		"ETH has increased at a much faster rate in than bitcoin"
+	
+pair 0353 original	"In early 2021 Bitcoin and Ether price was the center of attention"
+pair 0353 new		"Bitcoin and Ether price was the center of attention"
+
+pair 0352 original	"The volumes declined as the prices rose"
+pair 0352 new		"The volumes declined and the prices rose"
+
+pair 0223 original	"Upon her arrest, she collapsed from a heart attack"
+pair 0223 new		"She collapsed from a heart attack on arrest"
+
+pair 0222 original	"Upon her arrest, she collapsed from a heart attack"
+pair 0222 new		"She collapsed from a heart attack on arrest"
+
+pair 0220 original	"Upon her arrest, she collapsed from a heart attack"
+pair 0220 new		"She collapsed from a heart attack on arrest"
+
+pair 0212 original	"The number of abortions per month in Oregon went up by 18% in August, after the Supreme Court’s June decision overturning Roe v. Wade"
+pair 0212 new		"The number of abortions per month in Oregon went up by 18% in August"
+
+pair 0091 original	"The technology sector face crisis"
+pair 0091 new		"The technology sector faces crisis"
+
+pair 0270 original	"Storms caused heavy flooding across parts of western and central Europe"
+pair 0270 new		"Storms and heavy flooding across parts of western and central Europe"

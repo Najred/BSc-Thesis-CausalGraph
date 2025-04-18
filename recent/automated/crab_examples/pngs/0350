@@ -1,0 +1,23 @@
+strict digraph G {
+	"improvement in ethereum's scalability" -> "in 2021, eth has increased at a much faster rate in 2021 than bitcoin"
+	"rise of decentralized finance (defi) applications on ethereum" -> "in 2021, eth has increased at a much faster rate in 2021 than bitcoin"
+	"increased investor interest" -> "in 2021, eth has increased at a much faster rate in 2021 than bitcoin"
+	"in 2021, eth has increased at a much faster rate in 2021 than bitcoin" -> "increased investor confidence"
+	"in 2021, eth has increased at a much faster rate in 2021 than bitcoin" -> "rise in decentralized finance (defi) adoption"
+	"in 2021, eth has increased at a much faster rate in 2021 than bitcoin" -> "increased trading volume on ethereum-based exchanges"
+	"global economic shift" -> "in 2021, there is a significant difference in the movement of both assets"
+	"market sentiment shifts" -> "in 2021, there is a significant difference in the movement of both assets"
+	"monetary policy changes" -> "in 2021, there is a significant difference in the movement of both assets"
+	"in 2021, there is a significant difference in the movement of both assets" -> "shifts in investor sentiment"
+	"in 2021, there is a significant difference in the movement of both assets" -> "increased market volatility"
+	"in 2021, there is a significant difference in the movement of both assets" -> "changes in interest rates"
+	"shifts in investor sentiment" -> "increased investor interest" [color=purple penwidth=3]
+	"shifts in investor sentiment" -> "rise of decentralized finance (defi) applications on ethereum" [color=purple penwidth=3]
+	"increased investor confidence" -> "market sentiment shifts" [color=purple penwidth=3]
+	"increased trading volume on ethereum-based exchanges" -> "market sentiment shifts" [color=purple penwidth=3]
+	"increased investor interest" -> "in 2021, eth has increased at a much faster rate in 2021 than bitcoin" [color=red penwidth=5]
+	"in 2021, there is a significant difference in the movement of both assets" -> "shifts in investor sentiment" [color=red penwidth=5]
+	"shifts in investor sentiment" -> "increased investor interest" [color=red penwidth=5]
+	"in 2021, eth has increased at a much faster rate in 2021 than bitcoin" [fillcolor=aqua style=filled]
+	"in 2021, there is a significant difference in the movement of both assets" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,20 @@
+strict digraph G {
+	"svb's high exposure to tech and biotech sectors" -> "silicon valley bank (svb) collapsed"
+	"liquidity crisis in the banking system" -> "silicon valley bank (svb) collapsed"
+	"silicon valley bank (svb) collapsed" -> "cryptocurrency market volatility"
+	"silicon valley bank (svb) collapsed" -> "financial system instability"
+	"silicon valley bank (svb) collapsed" -> "tech startup funding drought"
+	"regulatory changes affecting vc-backed companies" -> "depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week"
+	"banking system instability" -> "depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week"
+	"depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week" -> "venture capital firm instability"
+	"depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week" -> "technology sector economic slowdown"
+	"depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week" -> "bank liquidity crisis"
+	"bank liquidity crisis" -> "liquidity crisis in the banking system" [color=purple penwidth=3]
+	"technology sector economic slowdown" -> "svb's high exposure to tech and biotech sectors" [color=purple penwidth=3]
+	"venture capital firm instability" -> "svb's high exposure to tech and biotech sectors" [color=purple penwidth=3]
+	"venture capital firm instability" -> "silicon valley bank (svb) collapsed" [color=purple penwidth=3]
+	"depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week" -> "venture capital firm instability" [color=red penwidth=5]
+	"venture capital firm instability" -> "silicon valley bank (svb) collapsed" [color=red penwidth=5]
+	"silicon valley bank (svb) collapsed" [fillcolor=aqua style=filled]
+	"depositors, mostly technology workers and venture capital-backed companies, hurried to withdraw their money this week" [fillcolor=indianred1 style=filled]
+}

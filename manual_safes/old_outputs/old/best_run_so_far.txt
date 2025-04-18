@@ -1,0 +1,8 @@
+{'cause': 'High Chocolate Consumption', 'effect': 'Cardiovascular risks'}
+{'cause': 'High Chocolate Consumption', 'effect': 'Cognitive benefits'}
+{'cause': 'High Chocolate Consumption', 'effect': 'Weight gain risks'}
+{'cause': 'Education Correlation', 'effect': 'Nobel Laureate Density'}
+{'cause': 'Government Support', 'effect': 'Nobel Laureate Density'}
+{'cause': 'Industry Advancements', 'effect': 'Nobel Laureate Density'}
+{'cause': 'Cognitive benefits', 'effect': 'Education Correlation'}
+{'cause': 'Cognitive benefits', 'effect': 'Industry Advancements'}

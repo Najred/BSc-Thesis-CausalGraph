@@ -1,0 +1,21 @@
+strict digraph G {
+	"infrastructure development" -> "concrete age"
+	"concrete age" -> "structural integrity"
+	"concrete age" -> "construction timeframe"
+	"concrete age" -> "material cost"
+	"concrete age" -> "building durability"
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"compressive strength" -> "material durability"
+	"compressive strength" -> "structural integrity"
+	"compressive strength" -> "load capacity"
+	"construction timeframe" -> "curing time" [color=purple penwidth=3]
+	"concrete age" -> "construction timeframe" [color=red penwidth=5]
+	"curing time" -> "compressive strength" [color=red penwidth=5]
+	"construction timeframe" -> "curing time" [color=red penwidth=5]
+	"concrete age" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

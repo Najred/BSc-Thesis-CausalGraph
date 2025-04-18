@@ -1,0 +1,22 @@
+strict digraph G {
+	"water availability" -> "net ecosystem productivity"
+	temperature -> "net ecosystem productivity"
+	photosynthesis -> "net ecosystem productivity"
+	"net ecosystem productivity" -> "water cycle regulation"
+	"net ecosystem productivity" -> "soil moisture levels"
+	"solar radiation" -> "direct ppfddir"
+	"leaf angle" -> "direct ppfddir"
+	"seasonal variation" -> "direct ppfddir"
+	"direct ppfddir" -> "transpiration rate"
+	"direct ppfddir" -> "stomatal conductance"
+	"direct ppfddir" -> "photosynthesis rate"
+	"direct ppfddir" -> "plant growth"
+	"direct ppfddir" -> photosynthesis [color=purple penwidth=3]
+	"stomatal conductance" -> photosynthesis [color=purple penwidth=3]
+	"transpiration rate" -> photosynthesis [color=purple penwidth=3]
+	"photosynthesis rate" -> "net ecosystem productivity" [color=purple penwidth=3]
+	photosynthesis -> "net ecosystem productivity" [color=red penwidth=5]
+	"direct ppfddir" -> photosynthesis [color=red penwidth=5]
+	"net ecosystem productivity" [fillcolor=aqua style=filled]
+	"direct ppfddir" [fillcolor=indianred1 style=filled]
+}

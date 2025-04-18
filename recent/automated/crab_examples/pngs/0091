@@ -1,0 +1,18 @@
+strict digraph G {
+	"the technology sector faces crisis" -> "stock market decline"
+	"the technology sector faces crisis" -> "increased layoffs in tech industry"
+	"the technology sector faces crisis" -> "loss of investor confidence"
+	"the technology sector faces crisis" -> "reduced venture capital funding"
+	"svb's high exposure to tech stocks" -> "silicon valley bank (svb) collapsed"
+	"silicon valley bank (svb) collapsed" -> "banking sector confidence crisis"
+	"silicon valley bank (svb) collapsed" -> "cryptocurrency market volatility"
+	"silicon valley bank (svb) collapsed" -> "financial system instability"
+	"silicon valley bank (svb) collapsed" -> "tech startup funding drought"
+	"loss of investor confidence" -> "silicon valley bank (svb) collapsed" [color=purple penwidth=3]
+	"reduced venture capital funding" -> "silicon valley bank (svb) collapsed" [color=purple penwidth=3]
+	"tech startup funding drought" -> "the technology sector faces crisis" [color=purple penwidth=3]
+	"the technology sector faces crisis" -> "reduced venture capital funding" [color=red penwidth=5]
+	"reduced venture capital funding" -> "silicon valley bank (svb) collapsed" [color=red penwidth=5]
+	"the technology sector faces crisis" [fillcolor=aqua style=filled]
+	"silicon valley bank (svb) collapsed" [fillcolor=indianred1 style=filled]
+}

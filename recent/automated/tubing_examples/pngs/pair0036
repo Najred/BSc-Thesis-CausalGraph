@@ -1,0 +1,23 @@
+strict digraph G {
+	"previous traumatic experience" -> "alcohol consumption"
+	"family history of addiction" -> "alcohol consumption"
+	"genetic predisposition" -> "alcohol consumption"
+	"availability of alcohol in the environment" -> "alcohol consumption"
+	"mental health conditions" -> "alcohol consumption"
+	"alcohol consumption" -> "impaired coordination"
+	"alcohol consumption" -> depression
+	"alcohol consumption" -> "increased risk of cancer"
+	"alcohol consumption" -> "social isolation"
+	"alcohol consumption" -> "liver damage"
+	"autoimmune disorders" -> "aspartate aminotransferase in liver"
+	"liver damage" -> "aspartate aminotransferase in liver"
+	"nutritional deficiencies" -> "aspartate aminotransferase in liver"
+	"viral hepatitis" -> "aspartate aminotransferase in liver"
+	"alcohol consumption" -> "aspartate aminotransferase in liver"
+	"aspartate aminotransferase in liver" -> "liver damage"
+	"aspartate aminotransferase in liver" -> "fatty liver"
+	"aspartate aminotransferase in liver" -> hepatitis
+	"aspartate aminotransferase in liver" -> jaundice
+	"alcohol consumption" [fillcolor=aqua style=filled]
+	"aspartate aminotransferase in liver" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,40 @@
+strict digraph G {
+	"genetic makeup" -> "abalone age"
+	"geothermal activity" -> "water temperature"
+	"fertilizer application" -> "nutrient availability"
+	"epigenetic factors" -> "genetic makeup"
+	"nutrient availability" -> "abalone age"
+	"soil quality" -> "nutrient availability"
+	"water temperature" -> "abalone age"
+	"ocean currents" -> "water temperature"
+	"environmental toxins" -> "genetic makeup"
+	"parental dna" -> "genetic makeup"
+	"genetic mutation" -> "genetic makeup"
+	"abalone age" -> "growth rate"
+	"shell size" -> buoyancy
+	"shell size" -> weight
+	"abalone age" -> "shell size"
+	"growth rate" -> "government revenue"
+	"genetic code" -> hormones
+	epigenetics -> genetics
+	"genetic mutations" -> genetics
+	"diet and nutrition" -> hormones
+	genetics -> height
+	hormones -> height
+	nutrition -> height
+	"parental genotype" -> genetics
+	"food intake" -> nutrition
+	"genetic expression" -> genetics
+	"energy levels" -> nutrition
+	"pituitary gland" -> hormones
+	height -> "body mass index"
+	"body mass index" -> "type 2 diabetes risk"
+	"government revenue" -> "energy levels" [color=purple penwidth=3]
+	"abalone age" -> "growth rate" [color=red penwidth=5]
+	"growth rate" -> "government revenue" [color=red penwidth=5]
+	"energy levels" -> nutrition [color=red penwidth=5]
+	nutrition -> height [color=red penwidth=5]
+	"government revenue" -> "energy levels" [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	height [fillcolor=indianred1 style=filled]
+}

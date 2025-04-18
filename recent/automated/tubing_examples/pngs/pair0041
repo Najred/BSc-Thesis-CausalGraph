@@ -1,0 +1,47 @@
+strict digraph G {
+	"occupational skillset" -> "socioeconomic status"
+	"socioeconomic status" -> age
+	"genetic expression" -> genetics
+	exercise -> age
+	epigenetics -> genetics
+	"food intake" -> nutrition
+	motivation -> exercise
+	"digestive health" -> nutrition
+	genetics -> age
+	"weight management" -> nutrition
+	"physical health" -> exercise
+	"gene regulation" -> genetics
+	nutrition -> age
+	"education level" -> "socioeconomic status"
+	"genetic mutations" -> genetics
+	"family background" -> "socioeconomic status"
+	diet -> exercise
+	"sleep quality" -> exercise
+	"energy levels" -> nutrition
+	"cognitive ability" -> "critical thinking"
+	"cognitive ability" -> "career advancement"
+	"cognitive ability" -> "problem-solving skills"
+	"cognitive ability" -> "academic performance"
+	age -> "cognitive ability"
+	"pancreatic function" -> "insulin levels"
+	"dietary carbohydrates" -> "insulin levels"
+	"blood glucose" -> "insulin levels"
+	"insulin levels" -> "plasma glucose concentration"
+	"insulin secretion" -> "glycogen synthesis"
+	"blood sugar levels" -> "energy levels"
+	"plasma glucose concentration" -> "insulin secretion"
+	"glycogen synthesis" -> "muscle strength"
+	"blood sugar levels" -> "insulin resistance"
+	"glycogen synthesis" -> "adipose tissue mass"
+	"insulin secretion" -> "fat metabolism"
+	"glycogen synthesis" -> "insulin sensitivity"
+	"insulin secretion" -> "blood glucose levels"
+	"blood sugar levels" -> "fat storage"
+	"glycogen synthesis" -> "blood glucose levels"
+	"insulin secretion" -> "weight gain/loss"
+	"plasma glucose concentration" -> "glycogen synthesis"
+	"blood sugar levels" -> "urination frequency"
+	"plasma glucose concentration" -> "blood sugar levels"
+	age [fillcolor=aqua style=filled]
+	"plasma glucose concentration" [fillcolor=indianred1 style=filled]
+}

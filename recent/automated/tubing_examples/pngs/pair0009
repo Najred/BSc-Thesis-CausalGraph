@@ -1,0 +1,19 @@
+strict digraph G {
+	"genetic makeup" -> "abalone age"
+	"nutrient availability" -> "abalone age"
+	"water temperature" -> "abalone age"
+	"abalone age" -> "meat yield"
+	"abalone age" -> "growth rate"
+	"bone density" -> "whole weight"
+	"body fat percentage" -> "whole weight"
+	age -> "whole weight"
+	"whole weight" -> "bone density"
+	"whole weight" -> "metabolic rate"
+	"whole weight" -> "body fat percentage"
+	"meat yield" -> "body fat percentage" [color=purple penwidth=3]
+	"abalone age" -> age [color=purple penwidth=3]
+	age -> "whole weight" [color=red penwidth=5]
+	"abalone age" -> age [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	"whole weight" [fillcolor=indianred1 style=filled]
+}

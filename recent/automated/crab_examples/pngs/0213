@@ -1,0 +1,21 @@
+strict digraph G {
+	"state-level republican party influence in mississippi" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"supreme court composition" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"mississippi's abortion law" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "abortion becomes illegal in ms"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "roe v wade overturned nationwide"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "women's reproductive rights restricted"
+	"recent changes to abortion laws" -> "abortion rights organizations have filed lawsuits challenging state courts in at least four states"
+	"state court conservative leanings" -> "abortion rights organizations have filed lawsuits challenging state courts in at least four states"
+	"abortion rights organizations' funding levels" -> "abortion rights organizations have filed lawsuits challenging state courts in at least four states"
+	"abortion rights organizations have filed lawsuits challenging state courts in at least four states" -> "increased public awareness of abortion laws"
+	"abortion rights organizations have filed lawsuits challenging state courts in at least four states" -> "state court decisions on abortion restrictions"
+	"abortion rights organizations have filed lawsuits challenging state courts in at least four states" -> "abortion rights organizations' fundraising and resources allocation"
+	"state court decisions on abortion restrictions" -> "mississippi's abortion law" [color=purple penwidth=3]
+	"increased public awareness of abortion laws" -> "mississippi's abortion law" [color=purple penwidth=3]
+	"women's reproductive rights restricted" -> "abortion rights organizations have filed lawsuits challenging state courts in at least four states" [color=purple penwidth=3]
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "women's reproductive rights restricted" [color=red penwidth=5]
+	"women's reproductive rights restricted" -> "abortion rights organizations have filed lawsuits challenging state courts in at least four states" [color=red penwidth=5]
+	"june 24, 2022: supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" [fillcolor=aqua style=filled]
+	"abortion rights organizations have filed lawsuits challenging state courts in at least four states" [fillcolor=indianred1 style=filled]
+}

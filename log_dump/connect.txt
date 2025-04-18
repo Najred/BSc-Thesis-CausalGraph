@@ -1,0 +1,158 @@
+
+--------------------------------------------------------------
+var: Outdated Database Software list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Outdated Database Software", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Unrelated"}, 
+  {"list_variable": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "relationship": "Unrelated"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Unrelated"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Unrelated"}
+]}
+--------------------------------------------------------------
+var: Outdated Database Software list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "dedicated_variable": "Outdated Database Software",
+  "comparisons": [
+    {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+    {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Unrelated"},
+    {"list_variable": "Loss of public trust", "relationship": "Unrelated"},
+    {"list_variable": "Investigations by parliamentary committees", "relationship": "Unrelated"}
+  ]
+}
+--------------------------------------------------------------
+var: Sophisticated Hacking Attack list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Sophisticated Hacking Attack", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Unrelated"}, 
+  {"list_variable": "'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father'", "relationship": "Unrelated"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Directly Related"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Same Concept"}
+]}
+--------------------------------------------------------------
+var: Sophisticated Hacking Attack list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "dedicated_variable": "Sophisticated Hacking Attack",
+  "comparisons": [
+    {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+    {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Unrelated"},
+    {"list_variable": "Loss of public trust", "relationship": "Directly Related"},
+    {"list_variable": "Investigations by parliamentary committees", "relationship": "Directly Related"}
+  ]
+}
+--------------------------------------------------------------
+var: Database Security Breach list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Database Security Breach", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Unrelated"}, 
+  {"list_variable": "'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father'", "relationship": "Unrelated"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Directly Related"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Directly Related"}
+]}
+--------------------------------------------------------------
+var: Database Security Breach list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "Database Security Breach": {
+    "comparisons": [
+      {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+      {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Unrelated"},
+      {"list_variable": "Loss of public trust", "relationship": "Directly Related"},
+      {"list_variable": "Investigations by parliamentary committees", "relationship": "Unrelated"}
+    ]
+  }
+}
+--------------------------------------------------------------
+var: Insider Malicious Activity list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Insider Malicious Activity", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Directly Related"}, 
+  {"list_variable": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "relationship": "Same Concept"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Unrelated"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Directly Related"}
+]}
+--------------------------------------------------------------
+var: Insider Malicious Activity list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "dedicated_variable": "Insider Malicious Activity",
+  "comparisons": [
+    {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+    {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Unrelated"},
+    {"list_variable": "Loss of public trust", "relationship": "Directly Related"},
+    {"list_variable": "Investigations by parliamentary committees", "relationship": "Directly Related"}
+  ]
+}
+--------------------------------------------------------------
+var: Financial transactions scrutinized list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Financial transactions scrutinized", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Directly Related"}, 
+  {"list_variable": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "relationship": "Same Concept"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Unrelated"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Directly Related"}
+]}
+--------------------------------------------------------------
+var: Financial transactions scrutinized list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "Financial transactions scrutinized": {
+    "comparisons": [
+      {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+      {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Directly Related"},
+      {"list_variable": "Loss of public trust", "relationship": "Directly Related"},
+      {"list_variable": "Investigations by parliamentary committees", "relationship": "Directly Related"}
+    ]
+  }
+}
+--------------------------------------------------------------
+var: Reputation of the law firm damaged list: ["David Cameron's family wealth management practices", 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father', 'Public scrutiny and media attention', 'Panama Papers leak'] = 
+{"dedicated_variable": "Reputation of the law firm damaged", 
+"comparisons": [
+  {"list_variable": "David Cameron's family wealth management practices", "relationship": "Unrelated"}, 
+  {"list_variable": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "relationship": "Unrelated"}, 
+  {"list_variable": "Public scrutiny and media attention", "relationship": "Directly Related"}, 
+  {"list_variable": "Panama Papers leak", "relationship": "Directly Related"}
+]}
+--------------------------------------------------------------
+var: Reputation of the law firm damaged list: ['Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{
+  "dedicated_variable": "Reputation of the law firm damaged",
+  "comparisons": [
+    {"list_variable": "Resignation as Prime Minister", "relationship": "Unrelated"},
+    {"list_variable": "Increased scrutiny of UK tax laws", "relationship": "Directly Related"},
+    {"list_variable": "Loss of public trust", "relationship": "Same Concept"},
+    {"list_variable": "Investigations by parliamentary committees", "relationship": "Directly Related"}
+  ]
+}
+--------------------------------------------------------------
+var: David Cameron's family wealth management practices list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{"dedicated_variable": "David Cameron's family wealth management practices", "comparisons": [{"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}]}
+--------------------------------------------------------------
+var: Public scrutiny and media attention list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{"dedicated_variable": "Public scrutiny and media attention", 
+"comparisons": [{"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}]}
+--------------------------------------------------------------
+var: Panama Papers leak list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{
+  "Panama Papers leak": {
+    "comparisons": [
+      {"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Same Concept"}
+    ]
+  }
+}
+--------------------------------------------------------------
+var: Resignation as Prime Minister list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{"dedicated_variable": "Resignation as Prime Minister", "comparisons": [{"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}]}
+--------------------------------------------------------------
+var: Increased scrutiny of UK tax laws list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{"dedicated_variable": "Increased scrutiny of UK tax laws", 
+"comparisons": [{"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}]}
+--------------------------------------------------------------
+var: Loss of public trust list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{"dedicated_variable": "Loss of public trust", 
+"comparisons": [{"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}]}
+--------------------------------------------------------------
+var: Investigations by parliamentary committees list: ['11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'] = 
+{
+  "dedicated_variable": "Investigations by parliamentary committees",
+  "comparisons": [
+    {"list_variable": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm", "relationship": "Unrelated"}
+  ]
+}

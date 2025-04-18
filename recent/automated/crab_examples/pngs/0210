@@ -1,0 +1,25 @@
+strict digraph G {
+	"state-level republican party influence in mississippi" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"mississippi's abortion law" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "abortion becomes illegal in ms"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "roe v wade overturned nationwide"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "pro-choice protests erupt across us"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "women's reproductive rights restricted"
+	"availability of abortion services in the victim's home state" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion"
+	"geographic location of rapist's residence" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion"
+	"abortion access restrictions" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion"
+	"state laws regarding child rape and abuse" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion"
+	"10-year-old victim of rape was forced to cross state lines to receive an abortion" -> "increased risk of ptsd"
+	"10-year-old victim of rape was forced to cross state lines to receive an abortion" -> "potential for future victimization"
+	"women's reproductive rights restricted" -> "abortion access restrictions" [color=purple penwidth=3]
+	"women's reproductive rights restricted" -> "availability of abortion services in the victim's home state" [color=purple penwidth=3]
+	"women's reproductive rights restricted" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion" [color=purple penwidth=3]
+	"roe v wade overturned nationwide" -> "abortion access restrictions" [color=purple penwidth=3]
+	"roe v wade overturned nationwide" -> "availability of abortion services in the victim's home state" [color=purple penwidth=3]
+	"roe v wade overturned nationwide" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion" [color=purple penwidth=3]
+	"abortion becomes illegal in ms" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion" [color=purple penwidth=3]
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "women's reproductive rights restricted" [color=red penwidth=5]
+	"women's reproductive rights restricted" -> "10-year-old victim of rape was forced to cross state lines to receive an abortion" [color=red penwidth=5]
+	"june 24, 2022: supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" [fillcolor=aqua style=filled]
+	"10-year-old victim of rape was forced to cross state lines to receive an abortion" [fillcolor=indianred1 style=filled]
+}

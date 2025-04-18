@@ -1,0 +1,16 @@
+strict digraph G {
+	"economic necessity" -> "farmers and ranchers want to clear fields and open up land for grazing"
+	"farmers and ranchers want to clear fields and open up land for grazing" -> "loss of biodiversity"
+	"farmers and ranchers want to clear fields and open up land for grazing" -> "increased grazing area"
+	"farmers and ranchers want to clear fields and open up land for grazing" -> "increased soil erosion risk"
+	"land speculation by large corporations" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"climate change and drought conditions" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"deforestation policies" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"thousands of deliberate fires are ravaging the amazon rainforest" -> "amazonian biodiversity loss"
+	"thousands of deliberate fires are ravaging the amazon rainforest" -> "deforestation acceleration"
+	"farmers and ranchers want to clear fields and open up land for grazing" -> "deforestation policies" [color=purple penwidth=3]
+	"deforestation policies" -> "thousands of deliberate fires are ravaging the amazon rainforest" [color=red penwidth=5]
+	"farmers and ranchers want to clear fields and open up land for grazing" -> "deforestation policies" [color=red penwidth=5]
+	"farmers and ranchers want to clear fields and open up land for grazing" [fillcolor=aqua style=filled]
+	"thousands of deliberate fires are ravaging the amazon rainforest" [fillcolor=indianred1 style=filled]
+}

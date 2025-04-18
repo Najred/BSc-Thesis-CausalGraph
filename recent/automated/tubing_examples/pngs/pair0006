@@ -1,0 +1,49 @@
+strict digraph G {
+	"genetic makeup" -> "abalone age"
+	"water availability" -> "nutrient availability"
+	"geothermal activity" -> "water temperature"
+	"fertilizer application" -> "nutrient availability"
+	"epigenetic factors" -> "genetic makeup"
+	"nutrient availability" -> "abalone age"
+	"soil quality" -> "nutrient availability"
+	"water temperature" -> "abalone age"
+	"ocean currents" -> "water temperature"
+	"parental dna" -> "genetic makeup"
+	"genetic mutation" -> "genetic makeup"
+	"abalone age" -> "growth rate"
+	"shell size" -> buoyancy
+	"shell size" -> stability
+	"shell size" -> weight
+	"abalone age" -> "shell size"
+	"evaporation rate" -> "water content"
+	"water content" -> "shell weight"
+	"displacement volume" -> "system backpressure"
+	"water resistance" -> "swimming ability"
+	buoyancy -> "water level changes"
+	"water resistance" -> "drowning risk"
+	buoyancy -> "object sinks or rises"
+	buoyancy -> "object floats"
+	buoyancy -> "buoyant force direction"
+	"shell weight" -> "displacement volume"
+	stability -> "system performance"
+	"shell weight" -> buoyancy
+	"displacement volume" -> "water level"
+	"shell weight" -> stability
+	"water resistance" -> "boat stability"
+	"displacement volume" -> "flow rate reduction"
+	"displacement volume" -> "pressure increase"
+	"shell weight" -> "water resistance"
+	"water level" -> "water temperature" [color=purple penwidth=3]
+	"flow rate reduction" -> "nutrient availability" [color=purple penwidth=3]
+	"flow rate reduction" -> "water temperature" [color=purple penwidth=3]
+	"system backpressure" -> "nutrient availability" [color=purple penwidth=3]
+	"water level changes" -> "nutrient availability" [color=purple penwidth=3]
+	"water level changes" -> "water temperature" [color=purple penwidth=3]
+	"pressure increase" -> "water temperature" [color=purple penwidth=3]
+	"water temperature" -> "abalone age" [color=red penwidth=5]
+	"shell weight" -> "displacement volume" [color=red penwidth=5]
+	"displacement volume" -> "water level" [color=red penwidth=5]
+	"water level" -> "water temperature" [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	"shell weight" [fillcolor=indianred1 style=filled]
+}

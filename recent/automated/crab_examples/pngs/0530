@@ -1,0 +1,18 @@
+strict digraph G {
+	"international pressure from environmental groups" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"brazilian government corruption" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"amazon rainforest deforestation rate" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"norway and germany have halted donations to the brazilian government’s amazon fund" -> "brazilian amazon fund reduction"
+	"brazilian nationalist sentiment" -> "mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit"
+	"historical grievances between brazil and accused countries" -> "mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit"
+	"bolsonaro's foreign policy agenda" -> "mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit"
+	"mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit" -> "international diplomatic tensions"
+	"mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit" -> "brazilian public opinion shifts"
+	"brazilian public opinion shifts" -> "amazon rainforest deforestation rate" [color=purple penwidth=3]
+	"brazilian public opinion shifts" -> "brazilian government corruption" [color=purple penwidth=3]
+	"amazon rainforest deforestation rate" -> "norway and germany have halted donations to the brazilian government’s amazon fund" [color=red penwidth=5]
+	"mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit" -> "brazilian public opinion shifts" [color=red penwidth=5]
+	"brazilian public opinion shifts" -> "amazon rainforest deforestation rate" [color=red penwidth=5]
+	"norway and germany have halted donations to the brazilian government’s amazon fund" [fillcolor=aqua style=filled]
+	"mr bolsonaro accused certain countries of behaving in a disrespectful manner and with a colonialist spirit" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,6 @@
+strict digraph G {
+	"alcohol consumption" -> "gamma-glutamyl transpeptidase in liver" [color=purple penwidth=3]
+	"alcohol consumption" -> "gamma-glutamyl transpeptidase in liver" [color=red penwidth=5]
+	"alcohol consumption" [fillcolor=aqua style=filled]
+	"gamma-glutamyl transpeptidase in liver" [fillcolor=indianred1 style=filled]
+}

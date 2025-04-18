@@ -1,0 +1,20 @@
+strict digraph G {
+	"poor communication with affected parties" -> "equifax has come under fire for its handling of the huge cybersecurity breach"
+	"regulatory non-compliance" -> "equifax has come under fire for its handling of the huge cybersecurity breach"
+	"equifax has come under fire for its handling of the huge cybersecurity breach" -> "regulatory fines and penalties"
+	"equifax has come under fire for its handling of the huge cybersecurity breach" -> "loss of consumer trust in equifax"
+	"equifax has come under fire for its handling of the huge cybersecurity breach" -> "public outcry and media scrutiny"
+	"regulatory pressure from government agencies" -> "equifax's board of directors appointed mark feidler as the company's nonexecutive chairman"
+	"equifax's industry trends and market conditions" -> "equifax's board of directors appointed mark feidler as the company's nonexecutive chairman"
+	"equifax's board of directors appointed mark feidler as the company's nonexecutive chairman" -> "feidler's network and connections within the industry"
+	"equifax's board of directors appointed mark feidler as the company's nonexecutive chairman" -> "equifax's corporate governance structure"
+	"equifax's board of directors appointed mark feidler as the company's nonexecutive chairman" -> "the company's risk management strategies and policies"
+	"the company's risk management strategies and policies" -> "poor communication with affected parties" [color=purple penwidth=3]
+	"the company's risk management strategies and policies" -> "regulatory non-compliance" [color=purple penwidth=3]
+	"public outcry and media scrutiny" -> "regulatory pressure from government agencies" [color=purple penwidth=3]
+	"poor communication with affected parties" -> "equifax has come under fire for its handling of the huge cybersecurity breach" [color=red penwidth=5]
+	"equifax's board of directors appointed mark feidler as the company's nonexecutive chairman" -> "the company's risk management strategies and policies" [color=red penwidth=5]
+	"the company's risk management strategies and policies" -> "poor communication with affected parties" [color=red penwidth=5]
+	"equifax has come under fire for its handling of the huge cybersecurity breach" [fillcolor=aqua style=filled]
+	"equifax's board of directors appointed mark feidler as the company's nonexecutive chairman" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,19 @@
+strict digraph G {
+	"water availability" -> "net ecosystem productivity"
+	temperature -> "net ecosystem productivity"
+	photosynthesis -> "net ecosystem productivity"
+	"net ecosystem productivity" -> "water cycle regulation"
+	"net ecosystem productivity" -> "soil moisture levels"
+	"leaf density" -> "diffuse ppfddif"
+	"diffuse ppfddif" -> "transpiration rate"
+	"diffuse ppfddif" -> "leaf temperature"
+	"diffuse ppfddif" -> "photosynthesis rate"
+	"transpiration rate" -> photosynthesis [color=purple penwidth=3]
+	"soil moisture levels" -> "leaf density" [color=purple penwidth=3]
+	"water cycle regulation" -> "leaf density" [color=purple penwidth=3]
+	"photosynthesis rate" -> "net ecosystem productivity" [color=purple penwidth=3]
+	"diffuse ppfddif" -> "photosynthesis rate" [color=red penwidth=5]
+	"photosynthesis rate" -> "net ecosystem productivity" [color=red penwidth=5]
+	"net ecosystem productivity" [fillcolor=aqua style=filled]
+	"diffuse ppfddif" [fillcolor=indianred1 style=filled]
+}

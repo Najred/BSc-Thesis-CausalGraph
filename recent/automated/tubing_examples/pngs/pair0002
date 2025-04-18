@@ -1,0 +1,20 @@
+strict digraph G {
+	"oxygen levels" -> altitude
+	"atmospheric pressure" -> altitude
+	"temperature gradient" -> altitude
+	altitude -> "oxygen levels"
+	altitude -> "air pressure"
+	altitude -> "body acclimatization"
+	"temperature gradient" -> precipitation
+	"wind patterns" -> precipitation
+	topography -> precipitation
+	precipitation -> drought
+	precipitation -> "water table levels"
+	"water table levels" -> "oxygen levels" [color=purple penwidth=3]
+	"water table levels" -> "atmospheric pressure" [color=purple penwidth=3]
+	altitude -> topography [color=purple penwidth=3]
+	topography -> precipitation [color=red penwidth=5]
+	altitude -> topography [color=red penwidth=5]
+	altitude [fillcolor=aqua style=filled]
+	precipitation [fillcolor=indianred1 style=filled]
+}

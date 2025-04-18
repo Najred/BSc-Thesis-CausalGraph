@@ -1,0 +1,6 @@
+strict digraph G {
+	precipitation -> "river runoff" [color=purple penwidth=3]
+	precipitation -> "river runoff" [color=red penwidth=5]
+	precipitation [fillcolor=aqua style=filled]
+	"river runoff" [fillcolor=indianred1 style=filled]
+}

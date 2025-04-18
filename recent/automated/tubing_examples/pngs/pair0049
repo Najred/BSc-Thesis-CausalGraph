@@ -1,0 +1,21 @@
+strict digraph G {
+	"uv radiation" -> "ozone concentration"
+	"volatile organic compounds" -> "ozone concentration"
+	"ozone concentration" -> "plant damage"
+	"ozone concentration" -> "forest fire risk"
+	"ozone concentration" -> "crop yield reduction"
+	"geographic latitude" -> temperature
+	"solar radiation" -> temperature
+	"seasonal patterns" -> temperature
+	temperature -> "weather patterns"
+	temperature -> "cloud formation"
+	temperature -> humidity
+	"weather patterns" -> "uv radiation" [color=purple penwidth=3]
+	temperature -> "volatile organic compounds" [color=purple penwidth=3]
+	"cloud formation" -> "volatile organic compounds" [color=purple penwidth=3]
+	"weather patterns" -> "volatile organic compounds" [color=purple penwidth=3]
+	"volatile organic compounds" -> "ozone concentration" [color=red penwidth=5]
+	temperature -> "volatile organic compounds" [color=red penwidth=5]
+	"ozone concentration" [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

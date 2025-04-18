@@ -1,0 +1,22 @@
+strict digraph G {
+	"svb's high exposure to tech stocks" -> "silicon valley bank (svb) abruptly collapsed"
+	"regulatory changes in banking sector" -> "silicon valley bank (svb) abruptly collapsed"
+	"interest rate hikes by fed" -> "silicon valley bank (svb) abruptly collapsed"
+	"silicon valley bank (svb) abruptly collapsed" -> "banking sector confidence crisis"
+	"silicon valley bank (svb) abruptly collapsed" -> "financial system instability"
+	"regulatory pressure from congress" -> "the u.s. government announced a plan late sunday meant to shore up the banking industry"
+	"financial crisis worsening" -> "the u.s. government announced a plan late sunday meant to shore up the banking industry"
+	"economic downturn imminent" -> "the u.s. government announced a plan late sunday meant to shore up the banking industry"
+	"bank failures increasing" -> "the u.s. government announced a plan late sunday meant to shore up the banking industry"
+	"the u.s. government announced a plan late sunday meant to shore up the banking industry" -> "bank deposit increases"
+	"the u.s. government announced a plan late sunday meant to shore up the banking industry" -> "regulatory changes in banking sector" [color=purple penwidth=3]
+	"banking sector confidence crisis" -> "financial crisis worsening" [color=purple penwidth=3]
+	"financial system instability" -> "economic downturn imminent" [color=purple penwidth=3]
+	"financial system instability" -> "bank failures increasing" [color=purple penwidth=3]
+	"financial system instability" -> "financial crisis worsening" [color=purple penwidth=3]
+	"silicon valley bank (svb) abruptly collapsed" -> "bank failures increasing" [color=purple penwidth=3]
+	"regulatory changes in banking sector" -> "silicon valley bank (svb) abruptly collapsed" [color=red penwidth=5]
+	"the u.s. government announced a plan late sunday meant to shore up the banking industry" -> "regulatory changes in banking sector" [color=red penwidth=5]
+	"silicon valley bank (svb) abruptly collapsed" [fillcolor=aqua style=filled]
+	"the u.s. government announced a plan late sunday meant to shore up the banking industry" [fillcolor=indianred1 style=filled]
+}

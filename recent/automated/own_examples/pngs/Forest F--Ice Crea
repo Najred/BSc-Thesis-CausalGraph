@@ -1,0 +1,26 @@
+strict digraph G {
+	"dry underbrush" -> "forest fires"
+	"drought conditions" -> "forest fires"
+	"lightning strike" -> "forest fires"
+	"forest fires" -> "wildlife mortality"
+	"forest fires" -> "soil degradation"
+	"forest fires" -> "air pollution"
+	temperature -> "ice cream sales"
+	"summer season" -> "ice cream sales"
+	"special events" -> "ice cream sales"
+	"ice cream sales" -> temperature
+	"ice cream sales" -> "weather forecast"
+	"summer season" -> "drought conditions" [color=purple penwidth=3]
+	"drought conditions" -> temperature [color=purple penwidth=3]
+	"lightning strike" -> "special events" [color=purple penwidth=3]
+	"lightning strike" -> "summer season" [color=purple penwidth=3]
+	"lightning strike" -> temperature [color=purple penwidth=3]
+	"summer season" -> "dry underbrush" [color=purple penwidth=3]
+	temperature -> "dry underbrush" [color=purple penwidth=3]
+	"weather forecast" -> "dry underbrush" [color=purple penwidth=3]
+	"dry underbrush" -> "forest fires" [color=red penwidth=5]
+	"ice cream sales" -> "weather forecast" [color=red penwidth=5]
+	"weather forecast" -> "dry underbrush" [color=red penwidth=5]
+	"forest fires" [fillcolor=aqua style=filled]
+	"ice cream sales" [fillcolor=indianred1 style=filled]
+}

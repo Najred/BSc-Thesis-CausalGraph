@@ -1,0 +1,22 @@
+strict digraph G {
+	latitude -> "air temperature"
+	"seasonal patterns" -> "air temperature"
+	elevation -> "air temperature"
+	"solar radiation" -> "air temperature"
+	"air temperature" -> "weather patterns"
+	"air temperature" -> "plant growth"
+	"air temperature" -> "evaporation rate"
+	"air temperature" -> "humidity levels"
+	"air temperature" -> "heat index"
+	"topography of landmasses" -> "sea level pressure"
+	"humidity levels" -> "sea level pressure"
+	"seasonal changes" -> "sea level pressure"
+	"atmospheric temperature" -> "sea level pressure"
+	"wind patterns" -> "sea level pressure"
+	"sea level pressure" -> "storm intensity"
+	"sea level pressure" -> "atmospheric circulation"
+	"sea level pressure" -> "ocean currents"
+	"sea level pressure" -> "weather patterns"
+	"air temperature" [fillcolor=aqua style=filled]
+	"sea level pressure" [fillcolor=indianred1 style=filled]
+}

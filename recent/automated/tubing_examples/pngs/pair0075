@@ -1,0 +1,21 @@
+strict digraph G {
+	poverty -> "under-5 mortality rate"
+	"inadequate healthcare" -> "under-5 mortality rate"
+	"poor sanitation" -> "under-5 mortality rate"
+	"under-5 mortality rate" -> "maternal mortality rate"
+	"under-5 mortality rate" -> "poverty rate"
+	"under-5 mortality rate" -> "child malnutrition rate"
+	"corruption level" -> "gni per capita"
+	"gni per capita" -> "education levels"
+	"gni per capita" -> "life expectancy"
+	"gni per capita" -> "healthcare quality"
+	"gni per capita" -> "poverty rates"
+	"poverty rates" -> "poor sanitation" [color=purple penwidth=3]
+	"gni per capita" -> poverty [color=purple penwidth=3]
+	"education levels" -> poverty [color=purple penwidth=3]
+	"healthcare quality" -> "under-5 mortality rate" [color=purple penwidth=3]
+	poverty -> "under-5 mortality rate" [color=red penwidth=5]
+	"gni per capita" -> poverty [color=red penwidth=5]
+	"under-5 mortality rate" [fillcolor=aqua style=filled]
+	"gni per capita" [fillcolor=indianred1 style=filled]
+}

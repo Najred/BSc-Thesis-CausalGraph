@@ -1,0 +1,75 @@
+strict digraph G {
+	"diet restriction" -> "weight loss goals"
+	overexertion -> "muscle fatigue"
+	exercise -> age
+	"poor sleep quality" -> "muscle fatigue"
+	"weight loss goals" -> exercise
+	"family background" -> "education level"
+	"exercise routine" -> "weight loss goals"
+	"medical condition" -> "weight loss goals"
+	"muscle fatigue" -> exercise
+	dehydration -> "muscle fatigue"
+	"pension fund sustainability" -> "retiree benefits"
+	"social security benefits eligibility" -> "retirement savings"
+	"life expectancy" -> "elderly population growth"
+	"retirement savings" -> "reduced expenses"
+	age -> "life expectancy"
+	"vehicle registration" -> "vehicle taxation"
+	"life expectancy" -> "pension fund sustainability"
+	"vehicle registration" -> "license fees paid"
+	"vehicle registration" -> "vehicle insurance"
+	"life expectancy" -> "healthcare spending"
+	"healthcare spending" -> "life expectancy"
+	"driving privileges" -> "vehicle registration"
+	"healthcare spending" -> "healthcare access"
+	"retirement savings" -> "financial security"
+	age -> "driving privileges"
+	"pension fund sustainability" -> "funding ratio"
+	"elderly population growth" -> "healthcare costs"
+	age -> "social security benefits eligibility"
+	"pension fund sustainability" -> "investment returns"
+	"revenue growth" -> "company profitability"
+	"product quality" -> "revenue growth"
+	"company profitability" -> "dividends from stocks"
+	"product quality" -> "market share"
+	"revenue growth" -> "earnings growth"
+	"ceo leadership" -> "company profitability"
+	"market share" -> "company profitability"
+	"marketing budget" -> "market share"
+	"earnings growth" -> "dividends from stocks"
+	"marketing spend" -> "revenue growth"
+	"dividends from stocks" -> "stock price"
+	"company valuation" -> "mergers and acquisitions"
+	"market capitalization" -> "stock price"
+	"mergers and acquisitions" -> "increased efficiency"
+	"stock price" -> "investor sentiment"
+	"company valuation" -> "investor confidence"
+	"trading volume" -> "market liquidity"
+	"stock prices" -> "economic growth"
+	"investor sentiment" -> "stock prices"
+	"mergers and acquisitions" -> "market share growth"
+	"stock price" -> "trading volume"
+	"earnings per share" -> "stock price"
+	"mergers and acquisitions" -> "job losses"
+	"trading volume" -> "price movement"
+	"stock price" -> "company valuation"
+	"dividends from stocks" -> "investor confidence"
+	"market capitalization" -> "investor confidence"
+	"dividends from stocks" -> "company valuation"
+	"stock prices" -> "investor confidence"
+	"stock price" -> "market capitalization"
+	"company valuation" -> "stock price"
+	"stock price" -> "earnings per share"
+	"investor confidence" -> "stock prices"
+	"funding ratio" -> "company profitability" [color=purple penwidth=3]
+	"funding ratio" -> "earnings growth" [color=purple penwidth=3]
+	"reduced expenses" -> "company profitability" [color=purple penwidth=3]
+	"reduced expenses" -> "earnings growth" [color=purple penwidth=3]
+	age -> "life expectancy" [color=red penwidth=5]
+	"life expectancy" -> "pension fund sustainability" [color=red penwidth=5]
+	"pension fund sustainability" -> "funding ratio" [color=red penwidth=5]
+	"company profitability" -> "dividends from stocks" [color=red penwidth=5]
+	"funding ratio" -> "company profitability" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"dividends from stocks" [fillcolor=indianred1 style=filled]
+}

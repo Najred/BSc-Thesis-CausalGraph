@@ -1,0 +1,67 @@
+strict digraph G {
+	nutrition -> age
+	"genetic expression" -> genetics
+	"socioeconomic status" -> age
+	"food intake" -> nutrition
+	epigenetics -> genetics
+	exercise -> age
+	"genetic mutations" -> genetics
+	"digestive health" -> nutrition
+	diet -> exercise
+	"energy levels" -> nutrition
+	"sleep quality" -> exercise
+	genetics -> age
+	"weight management" -> nutrition
+	"physical health" -> exercise
+	"gene regulation" -> genetics
+	"physical strength" -> "muscle mass"
+	"physical strength" -> "bone density"
+	age -> "physical strength"
+	obesity -> "insulin resistance"
+	"meal frequency" -> "dietary carbohydrates"
+	"insulin resistance" -> "serum insulin"
+	"dietary fiber intake" -> "dietary carbohydrates"
+	"pancreatic inflammation" -> "pancreatic beta cells"
+	"food choices" -> "dietary carbohydrates"
+	"dietary sugar intake" -> "pancreatic beta cells"
+	"dietary carbohydrates" -> "serum insulin"
+	"physical inactivity" -> "insulin resistance"
+	"pancreatic beta cells" -> "serum insulin"
+	"dietary carbohydrates" -> "glucose levels"
+	"glucose levels" -> "serum insulin"
+	"physical activity level" -> "glucose levels"
+	"glycogen synthesis" -> "adipose tissue mass"
+	"blood glucose" -> "fatigue levels"
+	"blood glucose" -> "insulin resistance"
+	"glycogen synthesis" -> "insulin sensitivity"
+	"serum insulin" -> "blood glucose"
+	"glycogen synthesis" -> "blood glucose levels"
+	"blood glucose" -> "hunger pangs"
+	"serum insulin" -> "glycogen synthesis"
+	"fatigue levels" -> "physical health" [color=purple penwidth=3]
+	"insulin sensitivity" -> "physical health" [color=purple penwidth=3]
+	"blood glucose" -> "physical health" [color=purple penwidth=3]
+	"blood glucose levels" -> "physical health" [color=purple penwidth=3]
+	"adipose tissue mass" -> "physical health" [color=purple penwidth=3]
+	"serum insulin" -> "sleep quality" [color=purple penwidth=3]
+	"serum insulin" -> "digestive health" [color=purple penwidth=3]
+	"insulin sensitivity" -> "digestive health" [color=purple penwidth=3]
+	"blood glucose" -> "digestive health" [color=purple penwidth=3]
+	"blood glucose levels" -> "digestive health" [color=purple penwidth=3]
+	"adipose tissue mass" -> "digestive health" [color=purple penwidth=3]
+	"serum insulin" -> "weight management" [color=purple penwidth=3]
+	"insulin sensitivity" -> "weight management" [color=purple penwidth=3]
+	"adipose tissue mass" -> "weight management" [color=purple penwidth=3]
+	"serum insulin" -> "gene regulation" [color=purple penwidth=3]
+	"serum insulin" -> "energy levels" [color=purple penwidth=3]
+	"blood glucose" -> "energy levels" [color=purple penwidth=3]
+	"blood glucose levels" -> "energy levels" [color=purple penwidth=3]
+	"hunger pangs" -> "food intake" [color=purple penwidth=3]
+	"muscle mass" -> "insulin resistance" [color=purple penwidth=3]
+	age -> obesity [color=purple penwidth=3]
+	"sleep quality" -> exercise [color=red penwidth=5]
+	exercise -> age [color=red penwidth=5]
+	"serum insulin" -> "sleep quality" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"serum insulin" [fillcolor=indianred1 style=filled]
+}

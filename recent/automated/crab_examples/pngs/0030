@@ -1,0 +1,59 @@
+strict digraph G {
+	"terry was misinformed" -> "terry's testimony was false"
+	"biased interpretation of results" -> "evidence contradicted terry's claims"
+	"the accused had a strong alibi for the time in question" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"terry had a personal stake in the outcome" -> "terry's testimony was false"
+	"terry had ulterior motives" -> "terry's testimony was false"
+	"accurate witness testimony" -> "the accused had a strong alibi for the time in question"
+	"methodological flaws in research" -> "evidence contradicted terry's claims"
+	"terry's memory was faulty" -> "terry's testimony was false"
+	"investigation found no wrongdoing by the accused" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"investigation's thoroughness" -> "investigation found no wrongdoing by the accused"
+	"evidence contradicted terry's claims" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"terry's testimony was false" -> "accuser terry sanderson was determined to be '100% at fault'"
+	"terry's lack of expertise" -> "evidence contradicted terry's claims"
+	"terry sanderson's reputation damage" -> "increased scrutiny from regulatory bodies"
+	"accuser terry sanderson was determined to be '100% at fault'" -> "terry sanderson's reputation damage"
+	"terry sanderson's reputation damage" -> "loss of business partnerships"
+	"paltrow's evidence presented" -> "the jury sided with paltrow, ruling that sanderson was at fault"
+	"paltrow's goop brand reputation" -> "paltrow's evidence presented"
+	"judge's instructions to jury" -> "the jury sided with paltrow, ruling that sanderson was at fault"
+	"celebrity endorsements of wellness products" -> "paltrow's evidence presented"
+	"judge's expertise" -> "judge's instructions to jury"
+	"legal precedents" -> "judge's instructions to jury"
+	"courtroom environment and ambiance" -> "the jury sided with paltrow, ruling that sanderson was at fault"
+	"gwyneth paltrow's public image" -> "paltrow's evidence presented"
+	"courtroom rules" -> "judge's instructions to jury"
+	"case complexity" -> "judge's instructions to jury"
+	"sanderson's reputation damaged" -> "loss of business contracts"
+	"the jury sided with paltrow, ruling that sanderson was at fault" -> "sanderson's reputation damaged"
+	"the jury sided with paltrow, ruling that sanderson was at fault" -> "paltrow's compensation increased"
+	"sanderson's reputation damaged" -> "reduced investor confidence"
+	"paltrow's compensation increased" -> "paltrow's job satisfaction"
+	"paltrow's compensation increased" -> "paltrow's charitable donations increase"
+	"sanderson's reputation damaged" -> "negative media coverage"
+	"negative media coverage" -> "terry was misinformed" [color=purple penwidth=3]
+	"negative media coverage" -> "terry's lack of expertise" [color=purple penwidth=3]
+	"negative media coverage" -> "biased interpretation of results" [color=purple penwidth=3]
+	"loss of business contracts" -> "biased interpretation of results" [color=purple penwidth=3]
+	"negative media coverage" -> "investigation's thoroughness" [color=purple penwidth=3]
+	"negative media coverage" -> "terry had a personal stake in the outcome" [color=purple penwidth=3]
+	"loss of business contracts" -> "terry had a personal stake in the outcome" [color=purple penwidth=3]
+	"negative media coverage" -> "terry's memory was faulty" [color=purple penwidth=3]
+	"loss of business contracts" -> "terry's memory was faulty" [color=purple penwidth=3]
+	"negative media coverage" -> "accurate witness testimony" [color=purple penwidth=3]
+	"negative media coverage" -> "terry had ulterior motives" [color=purple penwidth=3]
+	"loss of business partnerships" -> "gwyneth paltrow's public image" [color=purple penwidth=3]
+	"loss of business partnerships" -> "paltrow's goop brand reputation" [color=purple penwidth=3]
+	"increased scrutiny from regulatory bodies" -> "gwyneth paltrow's public image" [color=purple penwidth=3]
+	"increased scrutiny from regulatory bodies" -> "paltrow's goop brand reputation" [color=purple penwidth=3]
+	"increased scrutiny from regulatory bodies" -> "paltrow's evidence presented" [color=purple penwidth=3]
+	"terry sanderson's reputation damage" -> "paltrow's goop brand reputation" [color=purple penwidth=3]
+	"accuser terry sanderson was determined to be '100% at fault'" -> "legal precedents" [color=purple penwidth=3]
+	"negative media coverage" -> "investigation found no wrongdoing by the accused" [color=purple penwidth=3]
+	"legal precedents" -> "judge's instructions to jury" [color=red penwidth=5]
+	"judge's instructions to jury" -> "the jury sided with paltrow, ruling that sanderson was at fault" [color=red penwidth=5]
+	"accuser terry sanderson was determined to be '100% at fault'" -> "legal precedents" [color=red penwidth=5]
+	"accuser terry sanderson was determined to be '100% at fault'" [fillcolor=aqua style=filled]
+	"the jury sided with paltrow, ruling that sanderson was at fault" [fillcolor=indianred1 style=filled]
+}

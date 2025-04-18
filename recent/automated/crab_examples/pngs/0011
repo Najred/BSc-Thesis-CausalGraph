@@ -1,0 +1,18 @@
+strict digraph G {
+	"colombian voters' dissatisfaction with traditional politicians" -> "colombia elects gustavo petro, a 62-year-old former guerrilla"
+	"colombia's economic struggles and high unemployment rates" -> "colombia elects gustavo petro, a 62-year-old former guerrilla"
+	"the influence of left-wing parties and social movements in colombia" -> "colombia elects gustavo petro, a 62-year-old former guerrilla"
+	"colombia elects gustavo petro, a 62-year-old former guerrilla" -> "shift in colombian politics"
+	"colombia elects gustavo petro, a 62-year-old former guerrilla" -> "changes in economic policy"
+	"economic inequality" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"historical leftist legacy" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"populist rhetoric" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "nationalization of key industries"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "changes in environmental policies to prioritize indigenous rights"
+	"changes in economic policy" -> "economic inequality" [color=purple penwidth=3]
+	"colombia elects gustavo petro, a 62-year-old former guerrilla" -> "changes in economic policy" [color=red penwidth=5]
+	"economic inequality" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [color=red penwidth=5]
+	"changes in economic policy" -> "economic inequality" [color=red penwidth=5]
+	"colombia elects gustavo petro, a 62-year-old former guerrilla" [fillcolor=aqua style=filled]
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [fillcolor=indianred1 style=filled]
+}

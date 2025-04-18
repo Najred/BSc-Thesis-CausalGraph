@@ -1,0 +1,23 @@
+strict digraph G {
+	"oxygen levels" -> altitude
+	"atmospheric pressure" -> altitude
+	"temperature gradient" -> altitude
+	altitude -> "oxygen levels"
+	altitude -> "air pressure"
+	altitude -> "body acclimatization"
+	"seasonal patterns" -> temperature
+	"solar radiation" -> temperature
+	"atmospheric pressure" -> temperature
+	"geographic latitude" -> temperature
+	temperature -> humidity
+	temperature -> evaporation
+	temperature -> "oxygen levels" [color=purple penwidth=3]
+	evaporation -> "oxygen levels" [color=purple penwidth=3]
+	temperature -> "atmospheric pressure" [color=purple penwidth=3]
+	"air pressure" -> "atmospheric pressure" [color=purple penwidth=3]
+	altitude -> "atmospheric pressure" [color=purple penwidth=3]
+	altitude -> "oxygen levels" [color=red penwidth=5]
+	temperature -> "oxygen levels" [color=red penwidth=5]
+	altitude [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

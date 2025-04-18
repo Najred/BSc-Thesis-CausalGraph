@@ -1,0 +1,21 @@
+strict digraph G {
+	"genetic makeup" -> "abalone age"
+	"nutrient availability" -> "abalone age"
+	"water temperature" -> "abalone age"
+	"habitat quality" -> "abalone age"
+	"abalone age" -> "market value"
+	"abalone age" -> "meat yield"
+	"abalone age" -> "growth rate"
+	"abalone age" -> "shell size"
+	"growth rate" -> length
+	"muscle mass" -> length
+	age -> length
+	"bone density" -> length
+	length -> width
+	length -> weight
+	length -> depth
+	length -> volume
+	length -> height
+	"abalone age" [fillcolor=aqua style=filled]
+	length [fillcolor=indianred1 style=filled]
+}

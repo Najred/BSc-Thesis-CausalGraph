@@ -1,0 +1,24 @@
+strict digraph G {
+	"soil ph" -> "organic carbon in soil (forest)"
+	"microbial activity" -> "organic carbon in soil (forest)"
+	"decomposition rate" -> "organic carbon in soil (forest)"
+	"organic carbon in soil (forest)" -> "microbial activity"
+	"organic carbon in soil (forest)" -> "soil fertility"
+	"organic carbon in soil (forest)" -> "nutrient cycling"
+	"parent material" -> "clay cont. in soil (forest)"
+	"clay cont. in soil (forest)" -> "root depth"
+	"clay cont. in soil (forest)" -> "water holding capacity"
+	"clay cont. in soil (forest)" -> "soil structure"
+	"clay cont. in soil (forest)" -> "nutrient availability"
+	"water holding capacity" -> "decomposition rate" [color=purple penwidth=3]
+	"soil structure" -> "decomposition rate" [color=purple penwidth=3]
+	"nutrient availability" -> "decomposition rate" [color=purple penwidth=3]
+	"nutrient availability" -> "soil ph" [color=purple penwidth=3]
+	"soil structure" -> "microbial activity" [color=purple penwidth=3]
+	"nutrient availability" -> "microbial activity" [color=purple penwidth=3]
+	"nutrient availability" -> "organic carbon in soil (forest)" [color=purple penwidth=3]
+	"clay cont. in soil (forest)" -> "nutrient availability" [color=red penwidth=5]
+	"nutrient availability" -> "organic carbon in soil (forest)" [color=red penwidth=5]
+	"organic carbon in soil (forest)" [fillcolor=aqua style=filled]
+	"clay cont. in soil (forest)" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,55 @@
+{'cause': 'Bruising', 'effect': 'Pain Sensation'}
+{'cause': 'Bruising', 'effect': 'Reduced Mobility'}
+{'cause': 'Bruising', 'effect': 'Infection Risk'}
+{'cause': 'Bruising', 'effect': 'Delayed Healing'}
+{'cause': 'Reduced Mobility', 'effect': 'Medication Adherence'}
+{'cause': 'Reduced Mobility', 'effect': 'Social Isolation'}
+{'cause': 'Infection Risk', 'effect': 'Vaccination Status'}
+{'cause': 'Infection Risk', 'effect': 'Public Crowding'}
+{'cause': 'Infection Risk', 'effect': 'Poor Hygiene'}
+{'cause': 'Infection Risk', 'effect': 'Travel History'}
+{'cause': 'Delayed Healing', 'effect': 'Wound Infection'}
+{'cause': 'Delayed Healing', 'effect': 'Scar Tissue'}
+{'cause': 'Delayed Healing', 'effect': 'Pain Sensitivity'}
+{'cause': 'Delayed Healing', 'effect': 'Adhesions Formation'}
+{'cause': 'Public Crowding', 'effect': 'Rental Prices'}
+{'cause': 'Poor Hygiene', 'effect': 'Parasite Infections'}
+{'cause': 'Travel History', 'effect': 'Cultural Exposure'}
+{'cause': 'Travel History', 'effect': 'Language Skills'}
+{'cause': 'Wound Infection', 'effect': 'Surgical Technique'}
+{'cause': 'Wound Infection', 'effect': 'Antibiotic Resistance'}
+{'cause': 'Scar Tissue', 'effect': 'Pain Sensitivity'}
+{'cause': 'Scar Tissue', 'effect': 'Inflammation Levels'}
+{'cause': 'Pain Sensitivity', 'effect': 'Sleep Quality'}
+{'cause': 'Pain Sensitivity', 'effect': 'Anxiety Levels'}
+{'cause': 'Adhesions Formation', 'effect': 'Surgical Trauma'}
+{'cause': 'Adhesions Formation', 'effect': 'Inflammation Response'}
+{'cause': 'Practice Duration', 'effect': 'Videogame Highscore'}
+{'cause': 'Age Group', 'effect': 'Videogame Highscore'}
+{'cause': 'Cognitive Ability', 'effect': 'Videogame Highscore'}
+{'cause': 'Motivation Level', 'effect': 'Videogame Highscore'}
+{'cause': 'Personal Motivation', 'effect': 'Practice Duration'}
+{'cause': 'Birth Year', 'effect': 'Age Group'}
+{'cause': 'Geographic Location', 'effect': 'Age Group'}
+{'cause': 'Education Level', 'effect': 'Cognitive Ability'}
+{'cause': 'Genetic Makeup', 'effect': 'Cognitive Ability'}
+{'cause': 'Nutritional Diet', 'effect': 'Cognitive Ability'}
+{'cause': 'Physical Exercise', 'effect': 'Cognitive Ability'}
+{'cause': 'Job Satisfaction', 'effect': 'Motivation Level'}
+{'cause': 'Personal Goals', 'effect': 'Motivation Level'}
+{'cause': 'Work-Life Balance', 'effect': 'Motivation Level'}
+{'cause': 'Parental Education', 'effect': 'Education Level'}
+{'cause': 'Environmental Factors', 'effect': 'Genetic Makeup'}
+{'cause': 'Genetic Expression', 'effect': 'Genetic Makeup'}
+{'cause': 'Genetic Predisposition', 'effect': 'Nutritional Diet'}
+{'cause': 'Environmental Factors', 'effect': 'Nutritional Diet'}
+{'cause': 'Lifestyle Changes', 'effect': 'Physical Exercise'}
+{'cause': 'Motivation Level', 'effect': 'Physical Exercise'}
+{'cause': 'Team Autonomy', 'effect': 'Job Satisfaction'}
+{'cause': 'Life Experience', 'effect': 'Personal Goals'}
+{'cause': 'Family Influence', 'effect': 'Personal Goals'}
+{'cause': 'Flexible Work Schedule', 'effect': 'Work-Life Balance'}
+{'cause': 'Emotional Intelligence', 'effect': 'Work-Life Balance'}
+{'cause': 'Environmental Factors', 'effect': 'Poor Hygiene'}
+{'cause': 'Environmental Factors', 'effect': 'Poor Hygiene'}
+{'cause': 'Emotional Intelligence', 'effect': 'Anxiety Levels'}

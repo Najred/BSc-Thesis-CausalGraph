@@ -1,0 +1,23 @@
+strict digraph G {
+	"musk's financial struggles" -> "musk proposed a plan to charge verified users $20 a month for verification"
+	"verified user dissatisfaction with ads" -> "musk proposed a plan to charge verified users $20 a month for verification"
+	"musk's desire for twitter to be profitable" -> "musk proposed a plan to charge verified users $20 a month for verification"
+	"twitter's declining revenue" -> "musk proposed a plan to charge verified users $20 a month for verification"
+	"musk proposed a plan to charge verified users $20 a month for verification" -> "increased competition from alternative verification services"
+	"musk proposed a plan to charge verified users $20 a month for verification" -> "verified user base decline"
+	"musk proposed a plan to charge verified users $20 a month for verification" -> "user dissatisfaction and complaints"
+	"twitter's verification pricing" -> "a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification"
+	"a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" -> "reduced revenue from twitter verification sales"
+	"a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" -> "decreased demand for twitter verification"
+	"a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" -> "twitter user dissatisfaction"
+	"reduced revenue from twitter verification sales" -> "musk's financial struggles" [color=purple penwidth=3]
+	"decreased demand for twitter verification" -> "twitter's declining revenue" [color=purple penwidth=3]
+	"reduced revenue from twitter verification sales" -> "twitter's declining revenue" [color=purple penwidth=3]
+	"user dissatisfaction and complaints" -> "a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" [color=purple penwidth=3]
+	"increased competition from alternative verification services" -> "twitter's verification pricing" [color=purple penwidth=3]
+	"musk proposed a plan to charge verified users $20 a month for verification" -> "twitter's verification pricing" [color=purple penwidth=3]
+	"musk proposed a plan to charge verified users $20 a month for verification" -> "user dissatisfaction and complaints" [color=red penwidth=5]
+	"user dissatisfaction and complaints" -> "a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" [color=red penwidth=5]
+	"musk proposed a plan to charge verified users $20 a month for verification" [fillcolor=aqua style=filled]
+	"a poll tweeted by jason calacanis showed that 82% of twitter users wouldn’t pay for verification" [fillcolor=indianred1 style=filled]
+}

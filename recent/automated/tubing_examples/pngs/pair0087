@@ -1,0 +1,23 @@
+strict digraph G {
+	"solar radiation" -> temperature
+	"seasonal patterns" -> temperature
+	"atmospheric pressure" -> temperature
+	"geographic latitude" -> temperature
+	"humidity levels" -> temperature
+	temperature -> "plant growth"
+	temperature -> evaporation
+	temperature -> "weather patterns"
+	temperature -> "cloud formation"
+	temperature -> humidity
+	elevation -> "total snow"
+	latitude -> "total snow"
+	temperature -> "total snow"
+	"seasonal pattern" -> "total snow"
+	humidity -> "total snow"
+	"total snow" -> "road conditions"
+	"total snow" -> "flight delays"
+	"total snow" -> "power outages"
+	"total snow" -> "school closures"
+	temperature [fillcolor=aqua style=filled]
+	"total snow" [fillcolor=indianred1 style=filled]
+}

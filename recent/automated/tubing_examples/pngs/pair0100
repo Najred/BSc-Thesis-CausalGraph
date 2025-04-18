@@ -1,0 +1,6 @@
+strict digraph G {
+	"cycle time of cpu" -> performance [color=purple penwidth=3]
+	"cycle time of cpu" -> performance [color=red penwidth=5]
+	"cycle time of cpu" [fillcolor=aqua style=filled]
+	performance [fillcolor=indianred1 style=filled]
+}

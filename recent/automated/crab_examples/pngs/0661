@@ -1,0 +1,22 @@
+strict digraph G {
+	"growing online activism community" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"increased awareness of sexual harassment" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"high-profile celebrity endorsements" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"social media campaign" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "increased awareness of sexual harassment"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "shift in societal attitudes towards consent and respect"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "more women feeling empowered to speak out against abuse"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "growing number of reported cases of sexual assault"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "increased scrutiny of powerful individuals accused of misconduct"
+	"growing feminist movements worldwide" -> "#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year"
+	"social media platforms amplifying survivor stories" -> "#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year"
+	"changes in cultural attitudes towards consent and power dynamics" -> "#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year"
+	"increased awareness of sexual harassment" -> "#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year"
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" -> "growing number of men speaking out against sexism and misogyny"
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" -> "increased scrutiny of powerful individuals accused of misconduct"
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" -> "increased awareness of sexual harassment"
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" -> "shift in societal attitudes towards consent and respect"
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" -> "more women reporting abuse to authorities"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" [fillcolor=aqua style=filled]
+	"#metoo has become a worldwide phenomenon, searched for in 196 countries in the past year" [fillcolor=indianred1 style=filled]
+}

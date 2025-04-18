@@ -1,0 +1,20 @@
+strict digraph G {
+	"ukraine's nato membership aspirations" -> "russia’s invasion of ukraine"
+	"historical grievances between russia and ukraine" -> "russia’s invasion of ukraine"
+	"russia’s invasion of ukraine" -> "humanitarian crisis"
+	"russia’s invasion of ukraine" -> "increased military spending by nato"
+	"russia’s invasion of ukraine" -> "escalation of tensions with the west"
+	"russian human rights abuses" -> "europe imposes sanctions on russia"
+	"european economic interests in ukraine" -> "europe imposes sanctions on russia"
+	"nato-russia military tensions" -> "europe imposes sanctions on russia"
+	"europe imposes sanctions on russia" -> "decreased russian oil exports"
+	"europe imposes sanctions on russia" -> "increased us-russia diplomatic tensions"
+	"europe imposes sanctions on russia" -> "russian economy contraction"
+	"escalation of tensions with the west" -> "nato-russia military tensions" [color=purple penwidth=3]
+	"increased military spending by nato" -> "nato-russia military tensions" [color=purple penwidth=3]
+	"russia’s invasion of ukraine" -> "nato-russia military tensions" [color=purple penwidth=3]
+	"nato-russia military tensions" -> "europe imposes sanctions on russia" [color=red penwidth=5]
+	"russia’s invasion of ukraine" -> "nato-russia military tensions" [color=red penwidth=5]
+	"russia’s invasion of ukraine" [fillcolor=aqua style=filled]
+	"europe imposes sanctions on russia" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,55 @@
+strict digraph G {
+	nutrition -> age
+	"genetic expression" -> genetics
+	epigenetics -> genetics
+	"food intake" -> nutrition
+	exercise -> age
+	motivation -> exercise
+	"digestive health" -> nutrition
+	diet -> exercise
+	"sleep quality" -> exercise
+	genetics -> age
+	"energy levels" -> nutrition
+	"physical health" -> exercise
+	age -> "driving privileges"
+	"physical strength" -> "muscle mass"
+	"physical strength" -> "athletic performance"
+	age -> "physical strength"
+	diet -> "physical exercise"
+	"genetic predisposition" -> "heart rate"
+	"physical exercise" -> "heart rate"
+	"family history" -> "genetic predisposition"
+	genetics -> "physical exercise"
+	"blood pressure" -> "cardiac arrest"
+	"blood pressure" -> "stroke risk"
+	"cardiac output" -> "blood pressure"
+	"heart rate" -> "blood pressure"
+	"exercise performance" -> "muscle strength"
+	"cardiac output" -> "heart rate"
+	"blood pressure" -> "cardiovascular disease"
+	"exercise performance" -> "weight loss"
+	"heart rate" -> "exercise performance"
+	"exercise performance" -> "cardiovascular health"
+	"heart rate" -> "cardiac output"
+	"cardiac output" -> "stroke volume"
+	"stroke volume" -> "physical health" [color=purple penwidth=3]
+	"muscle strength" -> "physical health" [color=purple penwidth=3]
+	"exercise performance" -> "physical health" [color=purple penwidth=3]
+	"cardiac output" -> "physical health" [color=purple penwidth=3]
+	"cardiovascular health" -> "physical health" [color=purple penwidth=3]
+	"stroke risk" -> "physical health" [color=purple penwidth=3]
+	"stroke risk" -> "sleep quality" [color=purple penwidth=3]
+	"exercise performance" -> "sleep quality" [color=purple penwidth=3]
+	"weight loss" -> "digestive health" [color=purple penwidth=3]
+	"exercise performance" -> "digestive health" [color=purple penwidth=3]
+	"heart rate" -> "energy levels" [color=purple penwidth=3]
+	"heart rate" -> "energy levels" [color=purple penwidth=3]
+	"cardiac output" -> "energy levels" [color=purple penwidth=3]
+	"stroke volume" -> "energy levels" [color=purple penwidth=3]
+	"exercise performance" -> motivation [color=purple penwidth=3]
+	"energy levels" -> nutrition [color=red penwidth=5]
+	nutrition -> age [color=red penwidth=5]
+	"heart rate" -> "energy levels" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	"heart rate" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,6 @@
+strict digraph G {
+	"parameter of questions" -> "answer in survey" [color=purple penwidth=3]
+	"parameter of questions" -> "answer in survey" [color=red penwidth=5]
+	"parameter of questions" [fillcolor=aqua style=filled]
+	"answer in survey" [fillcolor=indianred1 style=filled]
+}

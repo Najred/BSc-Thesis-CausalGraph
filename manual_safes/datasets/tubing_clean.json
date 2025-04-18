@@ -1,0 +1,553 @@
+{
+    "pair0001": {
+      "var1": "Altitude",
+      "var2": "Temperature",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0002": {
+      "var1": "Altitude",
+      "var2": "Precipitation",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0003": {
+      "var1": "Longitude",
+      "var2": "Temperature",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0004": {
+      "var1": "Altitude",
+      "var2": "Sunshine hours",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0005": {
+      "var1": "Abalone Age",
+      "var2": "Length",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0006": {
+      "var1": "Abalone Age",
+      "var2": "Shell weight",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0007": {
+      "var1": "Abalone Age",
+      "var2": "Diameter",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0008": {
+      "var1": "Abalone Age",
+      "var2": "Height",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0009": {
+      "var1": "Abalone Age",
+      "var2": "Whole weight",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0010": {
+      "var1": "Abalone Age",
+      "var2": "Shucked weight",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0011": {
+      "var1": "Abalone Age",
+      "var2": "Viscera weight",
+      "dataset": "Abalone",
+      "direction": "->"
+    },
+    "pair0012": {
+      "var1": "Age",
+      "var2": "Wage per hour",
+      "dataset": "census income",
+      "direction": "->"
+    },
+    "pair0013": {
+      "var1": "Displacement",
+      "var2": "Fuel consumption",
+      "dataset": "auto-mpg",
+      "direction": "->"
+    },
+    "pair0014": {
+      "var1": "Horse power",
+      "var2": "Fuel consumption",
+      "dataset": "auto-mpg",
+      "direction": "->"
+    },
+    "pair0015": {
+      "var1": "Weight",
+      "var2": "Fuel consumption",
+      "dataset": "auto-mpg",
+      "direction": "->"
+    },
+    "pair0016": {
+      "var1": "Horsepower",
+      "var2": "Acceleration",
+      "dataset": "auto-mpg",
+      "direction": "->"
+    },
+    "pair0017": {
+      "var1": "Age",
+      "var2": "Dividends from stocks",
+      "dataset": "census income",
+      "direction": "->"
+    },
+    "pair0018": {
+      "var1": "Age",
+      "var2": "Concentration GAG",
+      "dataset": "GAGurine (from R package MASS)",
+      "direction": "->"
+    },
+    "pair0019": {
+      "var1": "duration of eruption",
+      "var2": "time to the next eruption",
+      "dataset": "geyser",
+      "direction": "->"
+    },
+    "pair0020": {
+      "var1": "Latitude",
+      "var2": "Temperature",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0021": {
+      "var1": "Longitude",
+      "var2": "Precipitation",
+      "dataset": "DWD",
+      "direction": "->"
+    },
+    "pair0022": {
+      "var1": "Age",
+      "var2": "Height",
+      "dataset": "arrhythmia",
+      "direction": "->"
+    },
+    "pair0023": {
+      "var1": "Age",
+      "var2": "Weight",
+      "dataset": "arrhythmia",
+      "direction": "->"
+    },
+    "pair0024": {
+      "var1": "Age",
+      "var2": "Heart rate",
+      "dataset": "arrhythmia",
+      "direction": "->"
+    },
+    "pair0025": {
+      "var1": "Cement content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0026": {
+      "var1": "Blast furnace slag content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0027": {
+      "var1": "Fly ash content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0028": {
+      "var1": "Water content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0029": {
+      "var1": "Superplasticizer content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0030": {
+      "var1": "Coarse aggregate content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0031": {
+      "var1": "Fine aggregate content in concrete",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0032": {
+      "var1": "Concrete Age",
+      "var2": "Compressive strength",
+      "dataset": "concrete_data",
+      "direction": "->"
+    },
+    "pair0033": {
+      "var1": "Alcohol consumption",
+      "var2": "Mean corpuscular volume of liver",
+      "dataset": "liver disorders",
+      "direction": "->"
+    },
+    "pair0034": {
+      "var1": "Alcohol consumption",
+      "var2": "Alkaline phosphotase in liver",
+      "dataset": "liver disorders",
+      "direction": "->"
+    },
+    "pair0035": {
+      "var1": "Alcohol consumption",
+      "var2": "Alanine aminotransferase in liver",
+      "dataset": "liver disorders",
+      "direction": "->"
+    },
+    "pair0036": {
+      "var1": "Alcohol consumption",
+      "var2": "Aspartate aminotransferase in liver",
+      "dataset": "liver disorders",
+      "direction": "->"
+    },
+    "pair0037": {
+      "var1": "Alcohol consumption",
+      "var2": "Gamma-glutamyl transpeptidase in liver",
+      "dataset": "liver disorders",
+      "direction": "->"
+    },
+    "pair0038": {
+      "var1": "Age",
+      "var2": "Body mass index",
+      "dataset": "pima indian diabetes",
+      "direction": "->"
+    },
+    "pair0039": {
+      "var1": "Age",
+      "var2": "Serum insulin",
+      "dataset": "pima indian diabetes",
+      "direction": "->"
+    },
+    "pair0040": {
+      "var1": "Age",
+      "var2": "Diastolic blood pressure",
+      "dataset": "pima indian diabetes",
+      "direction": "->"
+    },
+    "pair0041": {
+      "var1": "Age",
+      "var2": "Plasma glucose concentration",
+      "dataset": "pima indian diabetes",
+      "direction": "->"
+    },
+    "pair0042": {
+      "var1": "Day of the year",
+      "var2": "Temperature",
+      "dataset": "B.Janzing",
+      "direction": "->"
+    },
+    "pair0043": {
+      "var1": "Temperature at t",
+      "var2": "Temperature at t+1",
+      "dataset": "ncep-ncar",
+      "direction": "->"
+    },
+    "pair0044": {
+      "var1": "Pressure at t",
+      "var2": "Pressure at t+1",
+      "dataset": "ncep-ncar",
+      "direction": "->"
+    },
+    "pair0045": {
+      "var1": "Sea level pressure at t",
+      "var2": "Sea level pressure at t+1",
+      "dataset": "ncep-ncar",
+      "direction": "->"
+    },
+    "pair0046": {
+      "var1": "Relative humidity at t",
+      "var2": "Relative humidity at t+1",
+      "dataset": "ncep-ncar",
+      "direction": "->"
+    },
+    "pair0047": {
+      "var1": "Number of cars",
+      "var2": "Type of day",
+      "dataset": "traffic",
+      "direction": "<-"
+    },
+    "pair0048": {
+      "var1": "Indoor temperature",
+      "var2": "Outdoor temperature",
+      "dataset": "Hipel & Mcleod",
+      "direction": "<-"
+    },
+    "pair0049": {
+      "var1": "Ozone concentration",
+      "var2": "Temperature",
+      "dataset": "Bafu",
+      "direction": "<-"
+    },
+    "pair0055": {
+      "var1": "Ozone concentration (16-dim.)",
+      "var2": "Radiation (16-dim.)",
+      "dataset": "Bafu",
+      "direction": "<-"
+    },
+    "pair0056": {
+      "var1": "Female life expectancy",
+      "var2": "Latitude",
+      "dataset": "UNdata",
+      "direction": "<-"
+    },
+    "pair0060": {
+      "var1": "Male life expectancy",
+      "var2": "Latitude",
+      "dataset": "UNdata",
+      "direction": "<-"
+    },
+    "pair0064": {
+      "var1": "Drinking water access",
+      "var2": "Infant mortality",
+      "dataset": "UNdata",
+      "direction": "->"
+    },
+    "pair0065": {
+      "var1": "Stock return of Hang Seng Bank",
+      "var2": "Stock return of HSBC Hldgs",
+      "dataset": "Yahoo database",
+      "direction": "->"
+    },
+    "pair0066": {
+      "var1": "Stock return of Hutchison",
+      "var2": "Stock return of Cheung Kong",
+      "dataset": "Yahoo database",
+      "direction": "->"
+    },
+    "pair0067": {
+      "var1": "Stock return of Cheung Kong",
+      "var2": "Stock return of Sun Hung Kai Prop.",
+      "dataset": "Yahoo database",
+      "direction": "->"
+    },
+    "pair0068": {
+      "var1": "Bytes sent",
+      "var2": "Open http connections",
+      "dataset": "P. Stark & Janzing",
+      "direction": "<-"
+    },
+    "pair0069": {
+      "var1": "Inside temperature",
+      "var2": "Outside temperature",
+      "dataset": "J.M. Mooij",
+      "direction": "<-"
+    },
+    "pair0070": {
+      "var1": "Parameter of questions",
+      "var2": "Answer in survey",
+      "dataset": "Armann & Buelthoff",
+      "direction": "->"
+    },
+    "pair0071": {
+      "var1": "Symptoms (6-dim.)",
+      "var2": "Classification of disease (2-dim.)",
+      "dataset": "Acute Inflammations",
+      "direction": "->"
+    },
+    "pair0072": {
+      "var1": "Sunspots",
+      "var2": "Global mean temperature",
+      "dataset": "sunspot data",
+      "direction": "->"
+    },
+    "pair0073": {
+      "var1": "CO2 emissions",
+      "var2": "Energy use",
+      "dataset": "UNdata",
+      "direction": "<-"
+    },
+    "pair0074": {
+      "var1": "GNI per capita",
+      "var2": "Life expectancy",
+      "dataset": "UNdata",
+      "direction": "->"
+    },
+    "pair0075": {
+      "var1": "Under-5 mortality rate",
+      "var2": "GNI per capita",
+      "dataset": "UNdata",
+      "direction": "<-"
+    },
+    "pair0076": {
+      "var1": "Population growth",
+      "var2": "Food consumption growth",
+      "dataset": "Food and Agriculture Organization of the United Nations",
+      "direction": "->"
+    },
+    "pair0077": {
+      "var1": "Temperature",
+      "var2": "Solar radiation",
+      "dataset": "B. Janzing",
+      "direction": "<-"
+    },
+    "pair0078": {
+      "var1": "PPFD",
+      "var2": "Net Ecosystem Productivity",
+      "dataset": "Moffat A.M.",
+      "direction": "->"
+    },
+    "pair0079": {
+      "var1": "Net Ecosystem Productivity",
+      "var2": "Diffuse PPFDdif",
+      "dataset": "Moffat A.M.",
+      "direction": "<-"
+    },
+    "pair0080": {
+      "var1": "Net Ecosystem Productivity",
+      "var2": "Direct PPFDdir",
+      "dataset": "Moffat A.M.",
+      "direction": "<-"
+    },
+    "pair0081": {
+      "var1": "Temperature",
+      "var2": "Local CO2 flux",
+      "dataset": "Mahecha, M.",
+      "direction": "->"
+    },
+    "pair0084": {
+      "var1": "Employment",
+      "var2": "Population",
+      "dataset": "http://www.spatial-econometrics.com",
+      "direction": "<-"
+    },
+    "pair0085": {
+      "var1": "Time of measurement",
+      "var2": "Protein content of milk",
+      "dataset": "http://www.maths.lancs.ac.uk/Software/Oswald/",
+      "direction": "->"
+    },
+    "pair0086": {
+      "var1": "Size of apartment",
+      "var2": "Monthly rent",
+      "dataset": "J.M. Mooij",
+      "direction": "->"
+    },
+    "pair0087": {
+      "var1": "Temperature",
+      "var2": "Total snow",
+      "dataset": "http://www.mldata.org/repository/data/viewslug/whistler-daily-snowfall/",
+      "direction": "->"
+    },
+    "pair0088": {
+      "var1": "Age",
+      "var2": "Relative spinal bone mineral density",
+      "dataset": "\"bone\" dataset of R ElemStatLearn package",
+      "direction": "->"
+    },
+    "pair0091": {
+      "var1": "clay cont. in soil (forest)",
+      "var2": "soil moisture",
+      "dataset": "Solly et al (2014). Plant and Soil, 382(1-2), 203-218.",
+      "direction": "->"
+    },
+    "pair0092": {
+      "var1": "organic carbon in soil (forest)",
+      "var2": "clay cont. in soil (forest)",
+      "dataset": "Solly et al (2014). Plant and Soil, 382(1-2), 203-218.",
+      "direction": "<-"
+    },
+    "pair0093": {
+      "var1": "precipitation",
+      "var2": "river runoff",
+      "dataset": "MOPEX (ftp://hydrology.nws.noaa.gov/pub/gcip/mopex/US_Data/Us_438_Daily/)",
+      "direction": "->"
+    },
+    "pair0094": {
+      "var1": "hour of day",
+      "var2": "temperature",
+      "dataset": "S. Armagan Tarim",
+      "direction": "->"
+    },
+    "pair0095": {
+      "var1": "hour of day",
+      "var2": "electricity load",
+      "dataset": "S. Armagan Tarim",
+      "direction": "->"
+    },
+    "pair0096": {
+      "var1": "temperature",
+      "var2": "electricity load",
+      "dataset": "S. Armagan Tarim",
+      "direction": "->"
+    },
+    "pair0097": {
+      "var1": "speed at the beginning",
+      "var2": "speed at the end",
+      "dataset": "D. Janzing",
+      "direction": "->"
+    },
+    "pair0099": {
+      "var1": "language test score",
+      "var2": "social-economic status family",
+      "dataset": "\"nlschools\" dataset of R MASS package",
+      "direction": "<-"
+    },
+    "pair0100": {
+      "var1": "cycle time of CPU",
+      "var2": "performance",
+      "dataset": "\"cpus\" dataset of R MASS package",
+      "direction": "->"
+    },
+    "pair0101": {
+      "var1": "grey value of a pixel",
+      "var2": "brightness of the screen",
+      "dataset": "D. Janzing",
+      "direction": "->"
+    },
+    "pair0102": {
+      "var1": "position of a ball",
+      "var2": "time for passing a track segment",
+      "dataset": "D. Janzing",
+      "direction": "->"
+    },
+    "pair0104": {
+      "var1": "time for passing 1. segment",
+      "var2": "time for passing 2. segment",
+      "dataset": "D. Janzing",
+      "direction": "->"
+    },
+    "pair0105": {
+      "var1": "pixel vector of grey values of a patch",
+      "var2": "total brightness at the screen",
+      "dataset": "D. Janzing",
+      "direction": "->"
+    },
+    "pair0106": {
+      "var1": "time required for one round",
+      "var2": "voltage",
+      "dataset": "D. Janzing",
+      "direction": "<-"
+    },
+    "pair0107": {
+      "var1": "strength of contrast",
+      "var2": "answer correct or not",
+      "dataset": "Schuett, edited by D. Janzing",
+      "direction": "->"
+    },
+    "pair0108": {
+      "var1": "engine rotations",
+      "var2": "water teperature",
+      "dataset": "D. Janzing",
+      "direction": "<-"
+    }
+  }
+  
+
+
+     
+  

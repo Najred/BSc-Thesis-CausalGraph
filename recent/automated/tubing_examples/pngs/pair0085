@@ -1,0 +1,17 @@
+strict digraph G {
+	"time zone" -> "time of measurement"
+	"time of measurement" -> "temperature fluctuations"
+	"time of measurement" -> "seasonal patterns"
+	"time of measurement" -> "sunrise time"
+	"time of measurement" -> "day/night cycle"
+	"diet of cows" -> "protein content of milk"
+	"breed of cows" -> "protein content of milk"
+	"nutrient availability" -> "protein content of milk"
+	"protein content of milk" -> "blood sugar levels"
+	"protein content of milk" -> "muscle growth"
+	"seasonal patterns" -> "protein content of milk" [color=purple penwidth=3]
+	"time of measurement" -> "seasonal patterns" [color=red penwidth=5]
+	"seasonal patterns" -> "protein content of milk" [color=red penwidth=5]
+	"time of measurement" [fillcolor=aqua style=filled]
+	"protein content of milk" [fillcolor=indianred1 style=filled]
+}

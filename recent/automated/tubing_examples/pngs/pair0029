@@ -1,0 +1,44 @@
+strict digraph G {
+	"water content" -> "superplasticizer content in concrete"
+	"cement content" -> "mix design"
+	"migration rate" -> "admixture ratio"
+	"evaporation rate" -> "water content"
+	"mix design" -> "superplasticizer content in concrete"
+	"genetic diversity" -> "admixture ratio"
+	"aggregate quality" -> "cement type"
+	"air entrainment" -> "mix design"
+	"water content" -> "cement type"
+	"mix design" -> "cement type"
+	"aggregate type" -> "mix design"
+	"water-cement ratio" -> "mix design"
+	"cement type" -> "superplasticizer content in concrete"
+	"admixture ratio" -> "superplasticizer content in concrete"
+	"superplasticizer content in concrete" -> "compressive strength"
+	"compressive strength" -> "structural integrity"
+	"cement content" -> "compressive strength"
+	"mix design" -> "cement content"
+	"design requirements" -> "material type"
+	"admixture dosage" -> "cement content"
+	"mix design" -> "water-cement ratio"
+	"aggregate size" -> "compressive strength"
+	"particle distribution" -> "aggregate size"
+	"curing temperature" -> "water-cement ratio"
+	"crushing pressure" -> "aggregate size"
+	"water-cement ratio" -> "compressive strength"
+	"patient age" -> "curing time"
+	"treatment duration" -> "curing time"
+	"water content" -> "cement content"
+	"curing time" -> "compressive strength"
+	"manufacturing process" -> "material type"
+	"material type" -> "compressive strength"
+	"structural integrity" -> "aggregate size" [color=purple penwidth=3]
+	"superplasticizer content in concrete" -> "particle distribution" [color=purple penwidth=3]
+	"superplasticizer content in concrete" -> "mix design" [color=purple penwidth=3]
+	"superplasticizer content in concrete" -> "water content" [color=purple penwidth=3]
+	"superplasticizer content in concrete" -> "manufacturing process" [color=purple penwidth=3]
+	"particle distribution" -> "aggregate size" [color=red penwidth=5]
+	"aggregate size" -> "compressive strength" [color=red penwidth=5]
+	"superplasticizer content in concrete" -> "particle distribution" [color=red penwidth=5]
+	"superplasticizer content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,17 @@
+strict digraph G {
+	"water-to-cement ratio" -> "coarse aggregate content in concrete"
+	"cement content" -> "coarse aggregate content in concrete"
+	"coarse aggregate content in concrete" -> "freeze-thaw resistance"
+	"coarse aggregate content in concrete" -> "compressive strength"
+	"coarse aggregate content in concrete" -> durability
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"coarse aggregate content in concrete" -> "aggregate size" [color=purple penwidth=3]
+	"aggregate size" -> "compressive strength" [color=red penwidth=5]
+	"coarse aggregate content in concrete" -> "aggregate size" [color=red penwidth=5]
+	"coarse aggregate content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

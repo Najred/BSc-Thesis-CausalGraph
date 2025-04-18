@@ -1,0 +1,20 @@
+strict digraph G {
+	"land speculation by large corporations" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"increased demand for soybeans and other commodities" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"climate change and drought conditions" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"deforestation policies" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"government corruption and lack of enforcement" -> "thousands of deliberate fires are ravaging the amazon rainforest"
+	"thousands of deliberate fires are ravaging the amazon rainforest" -> "indigenous community displacement"
+	"philanthropic history with rainforest conservation" -> "leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest"
+	"environmental activism network involvement" -> "leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest"
+	"recent amazon fires media coverage" -> "leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest"
+	"personal environmental concerns" -> "leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest"
+	"leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest" -> "increased firefighting efforts"
+	"leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest" -> "enhanced conservation awareness"
+	"enhanced conservation awareness" -> "deforestation policies" [color=purple penwidth=3]
+	"thousands of deliberate fires are ravaging the amazon rainforest" -> "recent amazon fires media coverage" [color=purple penwidth=3]
+	"recent amazon fires media coverage" -> "leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest" [color=red penwidth=5]
+	"thousands of deliberate fires are ravaging the amazon rainforest" -> "recent amazon fires media coverage" [color=red penwidth=5]
+	"thousands of deliberate fires are ravaging the amazon rainforest" [fillcolor=aqua style=filled]
+	"leonardo dicaprio pledges $5 million to help reduce the number of fires in the amazon rainforest" [fillcolor=indianred1 style=filled]
+}

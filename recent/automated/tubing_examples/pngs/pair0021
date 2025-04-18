@@ -1,0 +1,42 @@
+strict digraph G {
+	latitude -> longitude
+	"geological activity" -> latitude
+	"axial tilt" -> latitude
+	"climate zones" -> latitude
+	"earth's rotation" -> latitude
+	longitude -> "day length"
+	"climate type" -> "precipitation patterns"
+	longitude -> "sunrise time"
+	"day length" -> "plant growth"
+	"sunrise time" -> "daylight duration"
+	longitude -> "climate type"
+	"climate type" -> "vegetation growth"
+	"climate type" -> temperature
+	"tectonic activity" -> topography
+	"temperature gradient" -> precipitation
+	"global circulation" -> "wind patterns"
+	"land use patterns" -> "temperature gradient"
+	"atmospheric pressure" -> "temperature gradient"
+	"pressure systems" -> "wind patterns"
+	"temperature gradient" -> "wind patterns"
+	"geological processes" -> topography
+	topography -> precipitation
+	"wind patterns" -> precipitation
+	precipitation -> "river discharge"
+	"water table levels" -> "groundwater availability"
+	"water table levels" -> "crop yields"
+	precipitation -> "water table levels"
+	"water table levels" -> "land subsidence"
+	"water table levels" -> "water quality"
+	"daylight duration" -> topography [color=purple penwidth=3]
+	"daylight duration" -> "atmospheric pressure" [color=purple penwidth=3]
+	temperature -> "atmospheric pressure" [color=purple penwidth=3]
+	"climate type" -> "land use patterns" [color=purple penwidth=3]
+	"climate type" -> "atmospheric pressure" [color=purple penwidth=3]
+	longitude -> "sunrise time" [color=red penwidth=5]
+	"sunrise time" -> "daylight duration" [color=red penwidth=5]
+	topography -> precipitation [color=red penwidth=5]
+	"daylight duration" -> topography [color=red penwidth=5]
+	longitude [fillcolor=aqua style=filled]
+	precipitation [fillcolor=indianred1 style=filled]
+}

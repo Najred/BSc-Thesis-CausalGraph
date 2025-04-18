@@ -1,0 +1,47 @@
+strict digraph G {
+	"game design" -> "game rules"
+	"team size" -> "number of players"
+	"number of players" -> "time required for one round"
+	"skill level" -> "number of players"
+	"player preferences" -> "game rules"
+	"game rules" -> "time required for one round"
+	"time required for one round" -> "player engagement"
+	"player engagement" -> "game progress"
+	"player engagement" -> "time spent playing"
+	"player engagement" -> "player satisfaction"
+	"time required for one round" -> "game progression"
+	"game progression" -> "in-game purchases"
+	"time required for one round" -> "game speed"
+	"game progression" -> "level mastery"
+	"game speed" -> "game length"
+	"game progression" -> "player satisfaction"
+	"game speed" -> "viewership engagement"
+	"age of battery" -> "battery state"
+	temperature -> "resistance value"
+	resistance -> "current flow"
+	"charge level" -> "battery state"
+	"resistance value" -> voltage
+	temperature -> "current flow"
+	"battery state" -> voltage
+	"usage patterns" -> "battery state"
+	"current flow" -> voltage
+	voltage -> "current flow"
+	voltage -> "electric current"
+	"heat generation" -> "evaporation rate increase"
+	"electric current" -> "heat generation"
+	voltage -> "heat generation"
+	"heat generation" -> "temperature increase"
+	"heat generation" -> "melting of materials"
+	"heat generation" -> "thermal expansion"
+	"time spent playing" -> "usage patterns" [color=purple penwidth=3]
+	"game progression" -> "usage patterns" [color=purple penwidth=3]
+	"player engagement" -> "usage patterns" [color=purple penwidth=3]
+	"game progression" -> resistance [color=purple penwidth=3]
+	"game progression" -> "charge level" [color=purple penwidth=3]
+	"time required for one round" -> "game progression" [color=red penwidth=5]
+	"usage patterns" -> "battery state" [color=red penwidth=5]
+	"battery state" -> voltage [color=red penwidth=5]
+	"game progression" -> "usage patterns" [color=red penwidth=5]
+	"time required for one round" [fillcolor=aqua style=filled]
+	voltage [fillcolor=indianred1 style=filled]
+}

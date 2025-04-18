@@ -1,0 +1,46 @@
+strict digraph G {
+	"nutrition quality" -> "female life expectancy"
+	"access to fresh produce" -> "nutrition quality"
+	"access to healthcare" -> "female life expectancy"
+	"dietary habits" -> "nutrition quality"
+	"geographic location" -> "access to healthcare"
+	"female life expectancy" -> "social security benefits"
+	"female life expectancy" -> "elderly care workforce"
+	"healthcare spending" -> "healthcare access"
+	"healthcare spending" -> "patient outcomes"
+	"social security benefits" -> "food security"
+	"healthcare spending" -> "life expectancy"
+	"social security benefits" -> "housing stability"
+	"elderly care workforce" -> "community health outcomes"
+	"elderly care workforce" -> "healthcare costs"
+	"female life expectancy" -> "healthcare spending"
+	"social security benefits" -> "income level"
+	"ocean currents" -> "climate zones"
+	"axial tilt" -> latitude
+	elevation -> "climate zones"
+	"planetary formation" -> "axial tilt"
+	"climate zones" -> latitude
+	latitude -> "climate zones"
+	latitude -> "climate zone"
+	"weather patterns" -> "crop yield"
+	temperature -> humidity
+	latitude -> temperature
+	temperature -> "plant growth"
+	"weather patterns" -> "air quality"
+	"climate zone" -> temperature
+	latitude -> "weather patterns"
+	"climate zone" -> "vegetation types"
+	"weather patterns" -> "river levels"
+	latitude -> "geographic location" [color=purple penwidth=3]
+	"climate zone" -> "geographic location" [color=purple penwidth=3]
+	"weather patterns" -> "geographic location" [color=purple penwidth=3]
+	temperature -> "geographic location" [color=purple penwidth=3]
+	humidity -> "geographic location" [color=purple penwidth=3]
+	"weather patterns" -> "access to fresh produce" [color=purple penwidth=3]
+	"vegetation types" -> "dietary habits" [color=purple penwidth=3]
+	"geographic location" -> "access to healthcare" [color=red penwidth=5]
+	"access to healthcare" -> "female life expectancy" [color=red penwidth=5]
+	latitude -> "geographic location" [color=red penwidth=5]
+	"female life expectancy" [fillcolor=aqua style=filled]
+	latitude [fillcolor=indianred1 style=filled]
+}

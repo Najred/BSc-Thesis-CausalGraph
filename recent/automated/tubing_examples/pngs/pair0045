@@ -1,0 +1,6 @@
+strict digraph G {
+	"sea level pressure at t" -> "sea level pressure at t+1" [color=purple penwidth=3]
+	"sea level pressure at t" -> "sea level pressure at t+1" [color=red penwidth=5]
+	"sea level pressure at t" [fillcolor=aqua style=filled]
+	"sea level pressure at t+1" [fillcolor=indianred1 style=filled]
+}

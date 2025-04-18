@@ -1,0 +1,17 @@
+strict digraph G {
+	"changes in global demand for energy sources" -> "turmoil happened in natural gas, coal, electricity, and oil markets"
+	"geopolitical tensions in major exporting countries" -> "turmoil happened in natural gas, coal, electricity, and oil markets"
+	"turmoil happened in natural gas, coal, electricity, and oil markets" -> "increased energy prices"
+	"turmoil happened in natural gas, coal, electricity, and oil markets" -> "reduced industrial production"
+	"european gas shortage worsens" -> "euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage"
+	"global oil prices surge" -> "euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage"
+	"uk energy import costs rise" -> "euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage"
+	"euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage" -> "uk inflation rate increases"
+	"euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage" -> "global oil prices surge"
+	"increased energy prices" -> "uk energy import costs rise" [color=purple penwidth=3]
+	"turmoil happened in natural gas, coal, electricity, and oil markets" -> "increased energy prices" [color=red penwidth=5]
+	"uk energy import costs rise" -> "euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage" [color=red penwidth=5]
+	"increased energy prices" -> "uk energy import costs rise" [color=red penwidth=5]
+	"turmoil happened in natural gas, coal, electricity, and oil markets" [fillcolor=aqua style=filled]
+	"euro sinks below $0.99 and pound hits $1.14 due to fears of a drastic energy shortage" [fillcolor=indianred1 style=filled]
+}

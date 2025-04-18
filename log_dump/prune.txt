@@ -1,0 +1,7 @@
+
+---------------------------
+From the given list, identify the 4 variables least related to 'David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father'. You must name at exactly 4 variables, even if all elements are unrelated. Format the output as JSON using the following template: {"unrelated": ["a", "b", ...] }. List: ['Client identities exposed', 'Increased scrutiny from regulatory bodies', 'Employee Error or Negligence', 'Database Security Breach', 'Financial transactions scrutinized', 'Outdated Database Software', 'Sophisticated Hacking Attack', 'Insider Malicious Activity', 'Reputation of the law firm damaged'] = 
+{"unrelated": ["Client identities exposed", "Increased scrutiny from regulatory bodies", "Employee Error or Negligence"]}
+---------------------------
+From the given list, identify the 3 variables least related to '11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm'. You must name at exactly 3 variables, even if all elements are unrelated. Format the output as JSON using the following template: {"unrelated": ["a", "b", ...] }. List: ['UK tax laws and regulations', 'Panama Papers leak', 'Public scrutiny and media attention', 'Resignation as Prime Minister', 'Increased scrutiny of UK tax laws', "David Cameron's family wealth management practices", 'Loss of public trust', 'Investigations by parliamentary committees'] = 
+{"unrelated": ["UK tax laws and regulations"]}

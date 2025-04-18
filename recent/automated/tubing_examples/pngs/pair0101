@@ -1,0 +1,6 @@
+strict digraph G {
+	"brightness of the screen" -> "grey value of a pixel" [color=purple penwidth=3]
+	"brightness of the screen" -> "grey value of a pixel" [color=red penwidth=5]
+	"grey value of a pixel" [fillcolor=aqua style=filled]
+	"brightness of the screen" [fillcolor=indianred1 style=filled]
+}

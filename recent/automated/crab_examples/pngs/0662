@@ -1,0 +1,19 @@
+strict digraph G {
+	"power dynamics in hollywood" -> "producer harvey weinstein was accused of sexual harassment"
+	"weinstein's past behavior" -> "producer harvey weinstein was accused of sexual harassment"
+	"producer harvey weinstein was accused of sexual harassment" -> "weinstein's career damage"
+	"harvey weinstein's public scandal" -> "the organisation behind the oscars votes to expel weinstein"
+	"the academy's zero-tolerance policy on harassment" -> "the organisation behind the oscars votes to expel weinstein"
+	"public outcry and media pressure on the oscars organization" -> "the organisation behind the oscars votes to expel weinstein"
+	"weinstein's expulsion from the producers guild of america" -> "the organisation behind the oscars votes to expel weinstein"
+	"the organisation behind the oscars votes to expel weinstein" -> "increased scrutiny on the oscars voting process"
+	"the organisation behind the oscars votes to expel weinstein" -> "weinstein's public reputation"
+	"the organisation behind the oscars votes to expel weinstein" -> "public perception of the academy awards' integrity"
+	"weinstein's public reputation" -> "power dynamics in hollywood" [color=purple penwidth=3]
+	"the organisation behind the oscars votes to expel weinstein" -> "weinstein's past behavior" [color=purple penwidth=3]
+	"producer harvey weinstein was accused of sexual harassment" -> "harvey weinstein's public scandal" [color=purple penwidth=3]
+	"weinstein's past behavior" -> "producer harvey weinstein was accused of sexual harassment" [color=red penwidth=5]
+	"the organisation behind the oscars votes to expel weinstein" -> "weinstein's past behavior" [color=red penwidth=5]
+	"producer harvey weinstein was accused of sexual harassment" [fillcolor=aqua style=filled]
+	"the organisation behind the oscars votes to expel weinstein" [fillcolor=indianred1 style=filled]
+}

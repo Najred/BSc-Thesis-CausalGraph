@@ -1,0 +1,6 @@
+strict digraph G {
+	"solar radiation" -> temperature [color=purple penwidth=3]
+	"solar radiation" -> temperature [color=red penwidth=5]
+	temperature [fillcolor=aqua style=filled]
+	"solar radiation" [fillcolor=indianred1 style=filled]
+}

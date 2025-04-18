@@ -1,0 +1,61 @@
+strict digraph G {
+	"child abuse" -> trauma
+	"medication interactions" -> "medication side effects"
+	"emotional neglect" -> trauma
+	"severe injury" -> trauma
+	"medication side effects" -> bruising
+	trauma -> bruising
+	"infection risk" -> "economic losses"
+	swelling -> discomfort
+	"bruise color change" -> "inflammation response"
+	bruising -> "infection risk"
+	pain -> anxiety
+	bruising -> pain
+	scarring -> "infection risk"
+	bruising -> "bruise color change"
+	scarring -> pain
+	bruising -> swelling
+	pain -> "medication use"
+	"infection risk" -> "hospitalization rates"
+	swelling -> pain
+	pain -> "work absenteeism"
+	bruising -> scarring
+	swelling -> inflammation
+	"coach feedback" -> "practice time"
+	"player skill level" -> "game difficulty"
+	"game difficulty" -> "videogame highscore"
+	"practice time" -> "videogame highscore"
+	"skill level" -> "videogame highscore"
+	"practice hours" -> "skill level"
+	"player motivation" -> "practice time"
+	"enemy ai complexity" -> "game difficulty"
+	"skill level progression" -> "increased efficiency"
+	"time spent playing" -> "cognitive decline"
+	"time spent playing" -> "sleep deprivation"
+	"videogame highscore" -> "time spent playing"
+	"time spent playing" -> "social isolation"
+	"videogame highscore" -> "skill level progression"
+	"time spent playing" -> "eye strain"
+	"skill level progression" -> "better time management"
+	"emotional neglect" -> "player motivation" [color=purple penwidth=3]
+	"emotional neglect" -> "skill level" [color=purple penwidth=3]
+	"emotional neglect" -> "practice hours" [color=purple penwidth=3]
+	"skill level" -> "medication interactions" [color=purple penwidth=3]
+	"sleep deprivation" -> "medication interactions" [color=purple penwidth=3]
+	"game difficulty" -> "severe injury" [color=purple penwidth=3]
+	"practice time" -> "severe injury" [color=purple penwidth=3]
+	"skill level" -> "severe injury" [color=purple penwidth=3]
+	"practice hours" -> "severe injury" [color=purple penwidth=3]
+	"sleep deprivation" -> "severe injury" [color=purple penwidth=3]
+	"eye strain" -> "severe injury" [color=purple penwidth=3]
+	"medication use" -> "skill level" [color=purple penwidth=3]
+	"medication use" -> "practice hours" [color=purple penwidth=3]
+	"coach feedback" -> bruising [color=purple penwidth=3]
+	"sleep deprivation" -> "medication side effects" [color=purple penwidth=3]
+	bruising -> pain [color=red penwidth=5]
+	pain -> "medication use" [color=red penwidth=5]
+	"skill level" -> "videogame highscore" [color=red penwidth=5]
+	"medication use" -> "skill level" [color=red penwidth=5]
+	bruising [fillcolor=aqua style=filled]
+	"videogame highscore" [fillcolor=indianred1 style=filled]
+}

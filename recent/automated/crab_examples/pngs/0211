@@ -1,0 +1,19 @@
+strict digraph G {
+	"conservative ideology of trump's judicial nominees" -> "trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority"
+	"trump's republican party affiliation" -> "trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority"
+	"trump's campaign promises to appoint conservative judges" -> "trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority"
+	"senate majority leader mitch mcconnell's support for conservative judges" -> "trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority"
+	"trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority" -> "shift in supreme court rulings"
+	"trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority" -> "changes in judicial review process"
+	"justice clarence thomas' influence on other justices" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"supreme court composition" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "abortion becomes illegal in ms"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "roe v wade overturned nationwide"
+	"june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" -> "pro-choice protests erupt across us"
+	"shift in supreme court rulings" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" [color=purple penwidth=3]
+	"trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority" -> "supreme court composition" [color=purple penwidth=3]
+	"trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority" -> "shift in supreme court rulings" [color=red penwidth=5]
+	"shift in supreme court rulings" -> "june 24, 2022":" supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" [color=red penwidth=5]
+	"trump appointed three conservative judges to the court - neil gorsuch, brett kavanaugh and amy coney barrett — solidifying a conservative majority" [fillcolor=aqua style=filled]
+	"june 24, 2022: supreme court rules 6-3 to uphold mississippi's law, with the decision to overturn roe a 5-4 vote" [fillcolor=indianred1 style=filled]
+}

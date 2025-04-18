@@ -1,0 +1,6 @@
+strict digraph G {
+	rain -> season [color=purple penwidth=3]
+	rain -> season [color=red penwidth=5]
+	season [fillcolor=aqua style=filled]
+	rain [fillcolor=indianred1 style=filled]
+}

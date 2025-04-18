@@ -1,0 +1,19 @@
+strict digraph G {
+	"increased institutional investment" -> "bitcoin and ether prices hit all-time highs in early 2021"
+	"bitcoin and ether prices hit all-time highs in early 2021" -> "higher cryptocurrency adoption rates"
+	"bitcoin and ether prices hit all-time highs in early 2021" -> "boost to the overall cryptocurrency market capitalization"
+	"bitcoin and ether prices hit all-time highs in early 2021" -> "increased investor confidence"
+	"bitcoin and ether prices hit all-time highs in early 2021" -> "higher demand for cryptocurrency-related services such as exchanges, wallets, and payment processors"
+	"increased institutional investment" -> "in early 2021 bitcoin and ether price was the center of attention"
+	"regulatory changes in crypto markets" -> "in early 2021 bitcoin and ether price was the center of attention"
+	"in early 2021 bitcoin and ether price was the center of attention" -> "higher market capitalization of bitcoin and ether"
+	"in early 2021 bitcoin and ether price was the center of attention" -> "rise in cryptocurrency trading volume"
+	"in early 2021 bitcoin and ether price was the center of attention" -> "increased investor interest"
+	"in early 2021 bitcoin and ether price was the center of attention" -> "growing adoption by institutional investors"
+	"in early 2021 bitcoin and ether price was the center of attention" -> "increased media coverage and public awareness"
+	"higher demand for cryptocurrency-related services such as exchanges, wallets, and payment processors" -> "in early 2021 bitcoin and ether price was the center of attention" [color=purple penwidth=3]
+	"bitcoin and ether prices hit all-time highs in early 2021" -> "higher demand for cryptocurrency-related services such as exchanges, wallets, and payment processors" [color=red penwidth=5]
+	"higher demand for cryptocurrency-related services such as exchanges, wallets, and payment processors" -> "in early 2021 bitcoin and ether price was the center of attention" [color=red penwidth=5]
+	"bitcoin and ether prices hit all-time highs in early 2021" [fillcolor=aqua style=filled]
+	"in early 2021 bitcoin and ether price was the center of attention" [fillcolor=indianred1 style=filled]
+}

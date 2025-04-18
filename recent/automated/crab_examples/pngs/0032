@@ -1,0 +1,18 @@
+strict digraph G {
+	"lawyer advised to refile for more damages" -> "sanderson refiled his complaint seeking more than $300,000 in damages"
+	"previous court ruling set a higher precedent" -> "sanderson refiled his complaint seeking more than $300,000 in damages"
+	"sanderson refiled his complaint seeking more than $300,000 in damages" -> "higher likelihood of settlement negotiations"
+	"sanderson refiled his complaint seeking more than $300,000 in damages" -> "increased scrutiny from the court and media"
+	"sanderson refiled his complaint seeking more than $300,000 in damages" -> "increased court costs"
+	"gwyneth paltrow's legal team" -> "actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah"
+	"utah state laws and regulations" -> "actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah"
+	"actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" -> "gwyneth paltrow's testimony"
+	"actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" -> "courtroom media attention"
+	"actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" -> "gwyneth paltrow's reputation damage"
+	"gwyneth paltrow's testimony" -> "lawyer advised to refile for more damages" [color=purple penwidth=3]
+	"increased scrutiny from the court and media" -> "actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" [color=purple penwidth=3]
+	"sanderson refiled his complaint seeking more than $300,000 in damages" -> "increased scrutiny from the court and media" [color=red penwidth=5]
+	"increased scrutiny from the court and media" -> "actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" [color=red penwidth=5]
+	"sanderson refiled his complaint seeking more than $300,000 in damages" [fillcolor=aqua style=filled]
+	"actress gwyneth paltrow appeared in a park city courtroom on tuesday for the start of the trial over the 2016 skiing crash in utah" [fillcolor=indianred1 style=filled]
+}

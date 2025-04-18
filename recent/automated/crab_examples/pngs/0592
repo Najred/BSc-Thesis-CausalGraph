@@ -1,0 +1,17 @@
+strict digraph G {
+	"media outlet's editorial stance" -> "jackson's article published innuendo suggesting a 'muslim attack' was responsible"
+	"societal prejudices against muslims" -> "jackson's article published innuendo suggesting a 'muslim attack' was responsible"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "increased islamophobia"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "heightened tensions between muslim communities and law enforcement"
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "negative public perception of muslims"
+	"emotional appeals from politicians or influencers" -> "several false claims spread about the fire, including that it was intentional or terrorism-related"
+	"social media echo chambers" -> "several false claims spread about the fire, including that it was intentional or terrorism-related"
+	"misinformation campaigns" -> "several false claims spread about the fire, including that it was intentional or terrorism-related"
+	"several false claims spread about the fire, including that it was intentional or terrorism-related" -> "investigation delay"
+	"several false claims spread about the fire, including that it was intentional or terrorism-related" -> "public panic"
+	"heightened tensions between muslim communities and law enforcement" -> "several false claims spread about the fire, including that it was intentional or terrorism-related" [color=purple penwidth=3]
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" -> "heightened tensions between muslim communities and law enforcement" [color=red penwidth=5]
+	"heightened tensions between muslim communities and law enforcement" -> "several false claims spread about the fire, including that it was intentional or terrorism-related" [color=red penwidth=5]
+	"jackson's article published innuendo suggesting a 'muslim attack' was responsible" [fillcolor=aqua style=filled]
+	"several false claims spread about the fire, including that it was intentional or terrorism-related" [fillcolor=indianred1 style=filled]
+}

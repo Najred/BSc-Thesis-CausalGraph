@@ -1,0 +1,22 @@
+strict digraph G {
+	"social media activism" -> "protests swept across iran"
+	"government repression" -> "protests swept across iran"
+	"international sanctions" -> "protests swept across iran"
+	"protests swept across iran" -> "human rights abuses"
+	"protests swept across iran" -> "government response"
+	"government's authoritarian ideology" -> "protestors have faced a brutal crackdown from the government"
+	"protestors' demands for regime change" -> "protestors have faced a brutal crackdown from the government"
+	"international diplomatic pressure on the government" -> "protestors have faced a brutal crackdown from the government"
+	"protestors have faced a brutal crackdown from the government" -> "protestor dispersal and arrests"
+	"protestors have faced a brutal crackdown from the government" -> "increased government repression"
+	"protestors have faced a brutal crackdown from the government" -> "escalation of violence"
+	"protestors have faced a brutal crackdown from the government" -> "international condemnation and sanctions"
+	"international condemnation and sanctions" -> "social media activism" [color=purple penwidth=3]
+	"international condemnation and sanctions" -> "international sanctions" [color=purple penwidth=3]
+	"government response" -> "protestors have faced a brutal crackdown from the government" [color=purple penwidth=3]
+	"increased government repression" -> "protests swept across iran" [color=purple penwidth=3]
+	"protests swept across iran" -> "government response" [color=red penwidth=5]
+	"government response" -> "protestors have faced a brutal crackdown from the government" [color=red penwidth=5]
+	"protests swept across iran" [fillcolor=aqua style=filled]
+	"protestors have faced a brutal crackdown from the government" [fillcolor=indianred1 style=filled]
+}

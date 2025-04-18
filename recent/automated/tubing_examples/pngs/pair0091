@@ -1,0 +1,17 @@
+strict digraph G {
+	"parent material" -> "clay cont. in soil (forest)"
+	"soil compaction" -> "clay cont. in soil (forest)"
+	"clay cont. in soil (forest)" -> "root depth"
+	"clay cont. in soil (forest)" -> "water holding capacity"
+	"clay cont. in soil (forest)" -> "soil structure"
+	rainfall -> "soil moisture"
+	"soil moisture" -> "soil erosion"
+	"soil moisture" -> "microbial activity"
+	"soil moisture" -> "plant growth"
+	"soil moisture" -> "water table level"
+	"soil structure" -> "soil moisture" [color=purple penwidth=3]
+	"clay cont. in soil (forest)" -> "soil structure" [color=red penwidth=5]
+	"soil structure" -> "soil moisture" [color=red penwidth=5]
+	"clay cont. in soil (forest)" [fillcolor=aqua style=filled]
+	"soil moisture" [fillcolor=indianred1 style=filled]
+}

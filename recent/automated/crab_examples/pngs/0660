@@ -1,0 +1,21 @@
+strict digraph G {
+	"increased awareness of sexual harassment" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"high-profile celebrity endorsements" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "increased awareness of sexual harassment"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "growing number of reported cases of sexual assault"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "increased scrutiny of powerful individuals accused of misconduct"
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" -> "shift in societal attitudes towards consent and respect"
+	"increased public awareness of sexual harassment" -> "#metoo went viral two weeks ago"
+	"social media platforms" -> "#metoo went viral two weeks ago"
+	"#metoo went viral two weeks ago" -> "more people coming forward with their stories"
+	"#metoo went viral two weeks ago" -> "increased awareness about sexual harassment"
+	"#metoo went viral two weeks ago" -> "increased scrutiny of institutions and power structures"
+	"#metoo went viral two weeks ago" -> "increased awareness of sexual harassment" [color=purple penwidth=3]
+	"increased awareness of sexual harassment" -> "increased public awareness of sexual harassment" [color=purple penwidth=3]
+	"increased scrutiny of powerful individuals accused of misconduct" -> "increased public awareness of sexual harassment" [color=purple penwidth=3]
+	"more people coming forward with their stories" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag" [color=purple penwidth=3]
+	"increased awareness of sexual harassment" -> "twitter reports that more than 1.7 million women and men have used the #metoo hashtag" [color=red penwidth=5]
+	"#metoo went viral two weeks ago" -> "increased awareness of sexual harassment" [color=red penwidth=5]
+	"twitter reports that more than 1.7 million women and men have used the #metoo hashtag" [fillcolor=aqua style=filled]
+	"#metoo went viral two weeks ago" [fillcolor=indianred1 style=filled]
+}

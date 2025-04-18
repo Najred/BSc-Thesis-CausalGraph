@@ -1,0 +1,23 @@
+strict digraph G {
+	"global wealth inequality" -> "twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens"
+	"tax haven industry marketing and lobbying efforts" -> "twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens"
+	"corruption within governments and institutions" -> "twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens"
+	"lack of effective financial regulations" -> "twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens"
+	"twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens" -> "loss of public trust in governments"
+	"twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens" -> "increased pressure for tax reform"
+	"money laundering allegations" -> "prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm"
+	"international cooperation agreements" -> "prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm"
+	"panama papers scandal" -> "prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm"
+	"prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm" -> "increased scrutiny of offshore financial dealings"
+	"prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm" -> "panama-based law firm's assets freeze"
+	"increased scrutiny of offshore financial dealings" -> "corruption within governments and institutions" [color=purple penwidth=3]
+	"increased scrutiny of offshore financial dealings" -> "global wealth inequality" [color=purple penwidth=3]
+	"increased scrutiny of offshore financial dealings" -> "tax haven industry marketing and lobbying efforts" [color=purple penwidth=3]
+	"increased pressure for tax reform" -> "international cooperation agreements" [color=purple penwidth=3]
+	"increased pressure for tax reform" -> "panama papers scandal" [color=purple penwidth=3]
+	"corruption within governments and institutions" -> "twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens" [color=red penwidth=5]
+	"prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm" -> "increased scrutiny of offshore financial dealings" [color=red penwidth=5]
+	"increased scrutiny of offshore financial dealings" -> "corruption within governments and institutions" [color=red penwidth=5]
+	"twelve national leaders are among 143 politicians, their families and close associates from around the world known to have been using offshore tax havens" [fillcolor=aqua style=filled]
+	"prosecutors in germany have issued international arrest warrants for the cofounders of a panama-based law firm" [fillcolor=indianred1 style=filled]
+}

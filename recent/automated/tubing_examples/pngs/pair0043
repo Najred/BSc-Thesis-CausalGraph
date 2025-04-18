@@ -1,0 +1,6 @@
+strict digraph G {
+	"temperature at t" -> "temperature at t+1" [color=purple penwidth=3]
+	"temperature at t" -> "temperature at t+1" [color=red penwidth=5]
+	"temperature at t" [fillcolor=aqua style=filled]
+	"temperature at t+1" [fillcolor=indianred1 style=filled]
+}

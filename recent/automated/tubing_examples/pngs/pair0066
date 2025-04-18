@@ -1,0 +1,6 @@
+strict digraph G {
+	"stock return of cheung kong" -> "stock return of hutchison" [color=purple penwidth=3]
+	"stock return of cheung kong" -> "stock return of hutchison" [color=red penwidth=5]
+	"stock return of hutchison" [fillcolor=aqua style=filled]
+	"stock return of cheung kong" [fillcolor=indianred1 style=filled]
+}

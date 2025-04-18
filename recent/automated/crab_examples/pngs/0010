@@ -1,0 +1,19 @@
+strict digraph G {
+	"economic crisis" -> "anti-incumbent sentiment is the dominant political sentiment in latin america"
+	"historical trauma of authoritarian regimes" -> "anti-incumbent sentiment is the dominant political sentiment in latin america"
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" -> "increased turnover rate"
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" -> "more frequent elections"
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" -> "reduced incumbent reelection rates"
+	"economic inequality" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"historical leftist legacy" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"populist rhetoric" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "redistribution of wealth through taxation"
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" -> "nationalization of key industries"
+	"nationalization of key industries" -> "economic crisis" [color=purple penwidth=3]
+	"more frequent elections" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [color=purple penwidth=3]
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" -> "populist rhetoric" [color=purple penwidth=3]
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" -> "more frequent elections" [color=red penwidth=5]
+	"more frequent elections" -> "leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [color=red penwidth=5]
+	"anti-incumbent sentiment is the dominant political sentiment in latin america" [fillcolor=aqua style=filled]
+	"leftist governments come into power across latin america in 2022, marking the region's second 'pink tide' in two decades" [fillcolor=indianred1 style=filled]
+}

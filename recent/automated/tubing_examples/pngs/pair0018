@@ -1,0 +1,48 @@
+strict digraph G {
+	nutrition -> age
+	"genetic expression" -> genetics
+	epigenetics -> genetics
+	exercise -> age
+	"food intake" -> nutrition
+	motivation -> exercise
+	"genetic mutations" -> genetics
+	"digestive health" -> nutrition
+	"weight management" -> nutrition
+	diet -> exercise
+	"sleep quality" -> exercise
+	genetics -> age
+	"energy levels" -> nutrition
+	"physical health" -> exercise
+	"gene regulation" -> genetics
+	"physical strength" -> "muscle mass"
+	"cognitive ability" -> "problem-solving skills"
+	age -> "physical strength"
+	"cognitive ability" -> "academic performance"
+	age -> "cognitive ability"
+	"physical strength" -> "bone density"
+	"physical strength" -> "athletic performance"
+	"cognitive ability" -> "critical thinking"
+	"cognitive ability" -> "career advancement"
+	"gut microbiome composition" -> "mental health"
+	"gastrointestinal symptoms" -> fatigue
+	"inflammation levels" -> "redness and heat"
+	"intestinal permeability" -> "malabsorption of nutrients"
+	"gut microbiome composition" -> "digestive health"
+	"gastrointestinal symptoms" -> malnutrition
+	"intestinal permeability" -> "autoimmune response"
+	"intestinal permeability" -> inflammation
+	"concentration gag" -> "gut microbiome composition"
+	"gut microbiome composition" -> "nutrient absorption efficiency"
+	"inflammation levels" -> "swollen tissue"
+	"concentration gag" -> "inflammation levels"
+	"inflammation levels" -> "pain intensity"
+	"concentration gag" -> "gastrointestinal symptoms"
+	"gastrointestinal symptoms" -> "weight loss"
+	"gut microbiome composition" -> "immune system function"
+	"concentration gag" -> "intestinal permeability"
+	"inflammation levels" -> "fever temperature"
+	"gastrointestinal symptoms" -> dehydration
+	"gut microbiome composition" -> "inflammatory response"
+	age [fillcolor=aqua style=filled]
+	"concentration gag" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,20 @@
+strict digraph G {
+	"water content" -> "fly ash content in concrete"
+	"cement type" -> "fly ash content in concrete"
+	"curing temperature" -> "fly ash content in concrete"
+	"fly ash proportion" -> "fly ash content in concrete"
+	"fly ash content in concrete" -> "heat of hydration"
+	"fly ash content in concrete" -> "compressive strength"
+	"fly ash content in concrete" -> "setting time"
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"setting time" -> "curing time" [color=purple penwidth=3]
+	"fly ash content in concrete" -> "cement content" [color=purple penwidth=3]
+	"cement content" -> "compressive strength" [color=red penwidth=5]
+	"fly ash content in concrete" -> "cement content" [color=red penwidth=5]
+	"fly ash content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,21 @@
+strict digraph G {
+	"bank's liquidity crisis" -> "silicon valley bank (svb) is shut down by regulators"
+	"federal reserve interest rate hikes" -> "silicon valley bank (svb) is shut down by regulators"
+	"silicon valley bank (svb) is shut down by regulators" -> "disruption to tech startup funding"
+	"silicon valley bank (svb) is shut down by regulators" -> "increased risk of systemic banking crisis"
+	"silicon valley bank (svb) is shut down by regulators" -> "immediate losses for depositors"
+	"silicon valley bank (svb) is shut down by regulators" -> "collapse of svb's parent company"
+	"swiss franc appreciation" -> "credit suisse’s share price plunged"
+	"regulatory fines" -> "credit suisse’s share price plunged"
+	"global economic downturn" -> "credit suisse’s share price plunged"
+	"credit suisse’s share price plunged" -> "swiss economy experiences a downturn"
+	"credit suisse’s share price plunged" -> "investors become more risk-averse globally"
+	"credit suisse’s share price plunged" -> "credit suisse's stockholders lose value"
+	"credit suisse’s share price plunged" -> "credit suisse's employees face job insecurity"
+	"investors become more risk-averse globally" -> "bank's liquidity crisis" [color=purple penwidth=3]
+	"bank's liquidity crisis" -> "silicon valley bank (svb) is shut down by regulators" [color=red penwidth=5]
+	"credit suisse’s share price plunged" -> "investors become more risk-averse globally" [color=red penwidth=5]
+	"investors become more risk-averse globally" -> "bank's liquidity crisis" [color=red penwidth=5]
+	"silicon valley bank (svb) is shut down by regulators" [fillcolor=aqua style=filled]
+	"credit suisse’s share price plunged" [fillcolor=indianred1 style=filled]
+}

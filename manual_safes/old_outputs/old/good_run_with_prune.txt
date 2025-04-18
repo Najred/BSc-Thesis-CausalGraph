@@ -1,0 +1,14 @@
+{'cause': 'Bruising', 'effect': 'Hematoma'}
+{'cause': 'Bruising', 'effect': 'Infection'}
+{'cause': 'Hematoma', 'effect': 'Osteoporosis'}
+{'cause': 'Infection', 'effect': 'Fever'}
+{'cause': 'Infection', 'effect': 'Seizure'}
+{'cause': 'Prior Gaming Experience', 'effect': 'Videogame Highscore'}
+{'cause': 'Age', 'effect': 'Videogame Highscore'}
+{'cause': 'Parental Influence', 'effect': 'Prior Gaming Experience'}
+{'cause': 'Genetics Factor', 'effect': 'Age'}
+{'cause': 'Lifestyle Choice', 'effect': 'Age'}
+{'cause': 'Osteoporosis', 'effect': 'Age'}
+{'cause': 'Genetics Factor', 'effect': 'Hematoma'}
+{'cause': 'Genetics Factor', 'effect': 'Osteoporosis'}
+{'cause': 'Genetics Factor', 'effect': 'Seizure'}

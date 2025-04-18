@@ -1,0 +1,17 @@
+strict digraph G {
+	"cylinder count" -> horsepower
+	"engine size" -> horsepower
+	horsepower -> "fuel efficiency"
+	horsepower -> "acceleration time"
+	horsepower -> "vehicle weight capacity"
+	"torque applied" -> acceleration
+	"frictional forces" -> acceleration
+	"force applied" -> acceleration
+	acceleration -> "speed increase"
+	acceleration -> "energy consumption"
+	"acceleration time" -> acceleration [color=purple penwidth=3]
+	horsepower -> "acceleration time" [color=red penwidth=5]
+	"acceleration time" -> acceleration [color=red penwidth=5]
+	horsepower [fillcolor=aqua style=filled]
+	acceleration [fillcolor=indianred1 style=filled]
+}

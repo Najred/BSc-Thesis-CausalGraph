@@ -1,0 +1,23 @@
+strict digraph G {
+	"high percentage of liberal voters in oregon" -> "abortion remains legal without restrictions in oregon"
+	"state supreme court's pro-choice stance" -> "abortion remains legal without restrictions in oregon"
+	"abortion remains legal without restrictions in oregon" -> "increased demand for abortion services in oregon"
+	"abortion remains legal without restrictions in oregon" -> "increased access to reproductive healthcare"
+	"abortion remains legal without restrictions in oregon" -> "potential increase in out-of-state residents traveling to oregon for abortions"
+	"increased access to abortion clinics" -> "the number of abortions per month in oregon went up by 18% in august"
+	"rise in teenage pregnancy rates among oregon residents" -> "the number of abortions per month in oregon went up by 18% in august"
+	"changes in state reproductive health policies" -> "the number of abortions per month in oregon went up by 18% in august"
+	"increased awareness and education about abortion options" -> "the number of abortions per month in oregon went up by 18% in august"
+	"the number of abortions per month in oregon went up by 18% in august" -> "shift in public opinion towards abortion rights"
+	"the number of abortions per month in oregon went up by 18% in august" -> "changes in oregon's reproductive health services infrastructure"
+	"shift in public opinion towards abortion rights" -> "state supreme court's pro-choice stance" [color=purple penwidth=3]
+	"shift in public opinion towards abortion rights" -> "high percentage of liberal voters in oregon" [color=purple penwidth=3]
+	"increased demand for abortion services in oregon" -> "the number of abortions per month in oregon went up by 18% in august" [color=purple penwidth=3]
+	"increased access to reproductive healthcare" -> "increased access to abortion clinics" [color=purple penwidth=3]
+	"potential increase in out-of-state residents traveling to oregon for abortions" -> "the number of abortions per month in oregon went up by 18% in august" [color=purple penwidth=3]
+	"changes in oregon's reproductive health services infrastructure" -> "abortion remains legal without restrictions in oregon" [color=purple penwidth=3]
+	"abortion remains legal without restrictions in oregon" -> "increased demand for abortion services in oregon" [color=red penwidth=5]
+	"increased demand for abortion services in oregon" -> "the number of abortions per month in oregon went up by 18% in august" [color=red penwidth=5]
+	"abortion remains legal without restrictions in oregon" [fillcolor=aqua style=filled]
+	"the number of abortions per month in oregon went up by 18% in august" [fillcolor=indianred1 style=filled]
+}

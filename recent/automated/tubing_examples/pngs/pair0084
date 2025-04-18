@@ -1,0 +1,6 @@
+strict digraph G {
+	population -> employment [color=purple penwidth=3]
+	population -> employment [color=red penwidth=5]
+	employment [fillcolor=aqua style=filled]
+	population [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,21 @@
+strict digraph G {
+	"noise levels" -> "alarm clock"
+	"sleep schedule" -> "alarm clock"
+	"alarm clock" -> "stress levels"
+	"alarm clock" -> "morning routine"
+	"alarm clock" -> "coffee consumption"
+	"poor performance" -> "getting fired"
+	layoffs -> "getting fired"
+	"getting fired" -> "difficulty finding new employment"
+	"getting fired" -> "decreased self-esteem"
+	"getting fired" -> "increased stress levels"
+	"noise levels" -> "poor performance" [color=purple penwidth=3]
+	"noise levels" -> layoffs [color=purple penwidth=3]
+	"sleep schedule" -> "poor performance" [color=purple penwidth=3]
+	"stress levels" -> "poor performance" [color=purple penwidth=3]
+	"alarm clock" -> "stress levels" [color=red penwidth=5]
+	"poor performance" -> "getting fired" [color=red penwidth=5]
+	"stress levels" -> "poor performance" [color=red penwidth=5]
+	"alarm clock" [fillcolor=aqua style=filled]
+	"getting fired" [fillcolor=indianred1 style=filled]
+}

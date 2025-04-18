@@ -1,0 +1,46 @@
+strict digraph G {
+	"physical activity level" -> "body fat percentage"
+	age -> "physical activity level"
+	"sleep duration" -> "body fat percentage"
+	"diet quality" -> "body fat percentage"
+	"physical activity level" -> weight
+	"body fat percentage" -> weight
+	weight -> "fat percentage"
+	weight -> "muscle strength"
+	"fat percentage" -> "insulin sensitivity"
+	"energy expenditure" -> "weight loss"
+	"fat percentage" -> "body mass"
+	"muscle strength" -> "bone density"
+	weight -> "energy expenditure"
+	weight -> "body mass index"
+	"body mass index" -> "blood pressure"
+	"fat percentage" -> "blood lipid levels"
+	"body mass index" -> "type 2 diabetes"
+	"energy expenditure" -> fatigue
+	"driver experience" -> "driving speed"
+	"payload capacity" -> "vehicle weight"
+	"road type" -> "driving speed"
+	"engine size" -> "fuel consumption"
+	"fuel efficiency standards" -> "engine size"
+	"number of axles" -> "vehicle weight"
+	"driving speed" -> "fuel consumption"
+	"vehicle weight" -> "fuel consumption"
+	"power requirements" -> "engine size"
+	"vehicle type" -> "engine size"
+	"vehicle type (e.g., suv, truck)" -> "vehicle weight"
+	"engine size" -> "vehicle weight"
+	"vehicle operating costs" -> "maintenance expenses"
+	"fuel consumption" -> "greenhouse gas emissions"
+	"fuel consumption" -> "vehicle operating costs"
+	"vehicle operating costs" -> "emissions levels"
+	"vehicle operating costs" -> "fuel consumption"
+	"energy expenditure" -> "power requirements" [color=purple penwidth=3]
+	"muscle strength" -> "power requirements" [color=purple penwidth=3]
+	"muscle strength" -> "payload capacity" [color=purple penwidth=3]
+	weight -> "energy expenditure" [color=red penwidth=5]
+	"power requirements" -> "engine size" [color=red penwidth=5]
+	"engine size" -> "fuel consumption" [color=red penwidth=5]
+	"energy expenditure" -> "power requirements" [color=red penwidth=5]
+	weight [fillcolor=aqua style=filled]
+	"fuel consumption" [fillcolor=indianred1 style=filled]
+}

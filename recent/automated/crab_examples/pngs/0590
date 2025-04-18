@@ -1,0 +1,18 @@
+strict digraph G {
+	"structural weaknesses" -> "the cathedral’s spire burned to a blackened shell and collapsed"
+	"the cathedral’s spire burned to a blackened shell and collapsed" -> "structural damage to adjacent buildings"
+	"the cathedral’s spire burned to a blackened shell and collapsed" -> "disruption of local transportation and services"
+	"the cathedral’s spire burned to a blackened shell and collapsed" -> "injury or death of people nearby"
+	"weather conditions (e.g., strong winds)" -> "firefighters battle for hours, one severely injured, no other casualties"
+	"building design or layout" -> "firefighters battle for hours, one severely injured, no other casualties"
+	"equipment failure" -> "firefighters battle for hours, one severely injured, no other casualties"
+	"poor training" -> "firefighters battle for hours, one severely injured, no other casualties"
+	"firefighters battle for hours, one severely injured, no other casualties" -> "increased risk of fire spreading"
+	"firefighters battle for hours, one severely injured, no other casualties" -> "fire station damage or destruction"
+	"firefighters battle for hours, one severely injured, no other casualties" -> "emergency response time delayed"
+	"injury or death of people nearby" -> "firefighters battle for hours, one severely injured, no other casualties" [color=purple penwidth=3]
+	"the cathedral’s spire burned to a blackened shell and collapsed" -> "injury or death of people nearby" [color=red penwidth=5]
+	"injury or death of people nearby" -> "firefighters battle for hours, one severely injured, no other casualties" [color=red penwidth=5]
+	"the cathedral’s spire burned to a blackened shell and collapsed" [fillcolor=aqua style=filled]
+	"firefighters battle for hours, one severely injured, no other casualties" [fillcolor=indianred1 style=filled]
+}

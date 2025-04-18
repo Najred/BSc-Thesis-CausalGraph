@@ -1,0 +1,6 @@
+strict digraph G {
+	"time for passing 1. segment" -> "time for passing 2. segment" [color=purple penwidth=3]
+	"time for passing 1. segment" -> "time for passing 2. segment" [color=red penwidth=5]
+	"time for passing 1. segment" [fillcolor=aqua style=filled]
+	"time for passing 2. segment" [fillcolor=indianred1 style=filled]
+}

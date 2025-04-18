@@ -1,0 +1,17 @@
+strict digraph G {
+	"russian gas supply reduction" -> "europe’s energy crisis is deepening"
+	"european economic downturn" -> "europe’s energy crisis is deepening"
+	"europe’s energy crisis is deepening" -> "increased energy prices"
+	"europe’s energy crisis is deepening" -> "decreased economic growth"
+	"europe’s energy crisis is deepening" -> "reduced industrial production"
+	"economic crisis" -> "liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills"
+	"public pressure from opposition parties" -> "liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills"
+	"energy price hike" -> "liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills"
+	"previous government's energy policy failures" -> "liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills"
+	"increased energy prices" -> "energy price hike" [color=purple penwidth=3]
+	"europe’s energy crisis is deepening" -> "increased energy prices" [color=red penwidth=5]
+	"energy price hike" -> "liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills" [color=red penwidth=5]
+	"increased energy prices" -> "energy price hike" [color=red penwidth=5]
+	"europe’s energy crisis is deepening" [fillcolor=aqua style=filled]
+	"liz truss, the new prime minister of the united kingdom, is preparing to commit up to £150 billion ($172 billion) to shield households and businesses from rising energy bills" [fillcolor=indianred1 style=filled]
+}

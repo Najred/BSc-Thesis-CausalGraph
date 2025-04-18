@@ -1,0 +1,19 @@
+strict digraph G {
+	"lightning strikes" -> "a new wildfire broke out in the south of spain"
+	"dry vegetation" -> "a new wildfire broke out in the south of spain"
+	"drought conditions" -> "a new wildfire broke out in the south of spain"
+	"a new wildfire broke out in the south of spain" -> "evacuations in nearby towns"
+	"a new wildfire broke out in the south of spain" -> "increased risk of flash flooding in nearby areas"
+	wildfire -> "more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga"
+	landslide -> "more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga"
+	"forest fire prevention measures failure" -> "more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga"
+	"more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" -> "heightened anxiety among evacuees"
+	"more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" -> "increased emergency response"
+	"more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" -> "potential damage to infrastructure"
+	"evacuations in nearby towns" -> "more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" [color=purple penwidth=3]
+	"a new wildfire broke out in the south of spain" -> wildfire [color=purple penwidth=3]
+	"a new wildfire broke out in the south of spain" -> "evacuations in nearby towns" [color=red penwidth=5]
+	"evacuations in nearby towns" -> "more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" [color=red penwidth=5]
+	"a new wildfire broke out in the south of spain" [fillcolor=aqua style=filled]
+	"more than 400 people were evacuated from the hills of mijas, a town popular with northern european tourists in the province of malaga" [fillcolor=indianred1 style=filled]
+}

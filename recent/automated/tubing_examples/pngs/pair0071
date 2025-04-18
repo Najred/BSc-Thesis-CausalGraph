@@ -1,0 +1,22 @@
+strict digraph G {
+	"medication side effects" -> "symptoms (6-dim.)"
+	infection -> "symptoms (6-dim.)"
+	"symptoms (6-dim.)" -> "mood disorders"
+	"symptoms (6-dim.)" -> "social withdrawal"
+	"symptoms (6-dim.)" -> "pain intensity"
+	"symptoms (6-dim.)" -> "sleep disturbances"
+	"symptom presentation" -> "classification of disease (2-dim.)"
+	"medical history" -> "classification of disease (2-dim.)"
+	"diagnostic imaging results" -> "classification of disease (2-dim.)"
+	"classification of disease (2-dim.)" -> "medication prescription"
+	"classification of disease (2-dim.)" -> "treatment outcomes"
+	"medication prescription" -> infection [color=purple penwidth=3]
+	"treatment outcomes" -> "medication side effects" [color=purple penwidth=3]
+	"social withdrawal" -> "symptom presentation" [color=purple penwidth=3]
+	"sleep disturbances" -> "symptom presentation" [color=purple penwidth=3]
+	"symptoms (6-dim.)" -> "symptom presentation" [color=purple penwidth=3]
+	"symptom presentation" -> "classification of disease (2-dim.)" [color=red penwidth=5]
+	"symptoms (6-dim.)" -> "symptom presentation" [color=red penwidth=5]
+	"symptoms (6-dim.)" [fillcolor=aqua style=filled]
+	"classification of disease (2-dim.)" [fillcolor=indianred1 style=filled]
+}

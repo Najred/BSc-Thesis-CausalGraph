@@ -1,0 +1,18 @@
+strict digraph G {
+	"heavy rainfall" -> "the netherlands and belgium were hit by flooding"
+	"storm surge from north sea" -> "the netherlands and belgium were hit by flooding"
+	"poor flood protection infrastructure" -> "the netherlands and belgium were hit by flooding"
+	"high water levels in the rhine and meuse rivers" -> "the netherlands and belgium were hit by flooding"
+	"climate change leading to sea level rise" -> "the netherlands and belgium were hit by flooding"
+	"the netherlands and belgium were hit by flooding" -> "increased emergency response"
+	"the netherlands and belgium were hit by flooding" -> "damage to infrastructure"
+	"heavy rainfall" -> "firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass"
+	"flooding of nearby waterways" -> "firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass"
+	"poor drainage infrastructure" -> "firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass"
+	"firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass" -> "higher risk of firefighter injury or fatality"
+	"increased emergency response" -> "firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass" [color=purple penwidth=3]
+	"the netherlands and belgium were hit by flooding" -> "increased emergency response" [color=red penwidth=5]
+	"increased emergency response" -> "firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass" [color=red penwidth=5]
+	"the netherlands and belgium were hit by flooding" [fillcolor=aqua style=filled]
+	"firefighters had to rescue several drivers whose vehicles had become stuck in a flooded underpass" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,6 @@
+strict digraph G {
+	"alcohol consumption" -> "mean corpuscular volume of liver" [color=purple penwidth=3]
+	"alcohol consumption" -> "mean corpuscular volume of liver" [color=red penwidth=5]
+	"alcohol consumption" [fillcolor=aqua style=filled]
+	"mean corpuscular volume of liver" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,65 @@
+strict digraph G {
+	"alibi witness credibility" -> "sanderson's alibi"
+	"sanderson's phone records" -> "sanderson's alibi"
+	"eyewitness experience" -> "witness testimony"
+	"witness statements" -> "police investigation findings"
+	"perceived threat level" -> "witness testimony"
+	"witness testimony" -> "sanderson's alibi"
+	"police investigation findings" -> "paltrow denies responsibility for the accident and claims it was actually sanderson at fault"
+	"crime scene evidence" -> "police investigation findings"
+	"witness testimony" -> "paltrow denies responsibility for the accident and claims it was actually sanderson at fault"
+	"sanderson's alibi" -> "paltrow denies responsibility for the accident and claims it was actually sanderson at fault"
+	"sanderson faces increased scrutiny and criticism" -> "decreased sales and revenue"
+	"investigation focuses on sanderson's actions" -> "sanderson's reputation is severely damaged"
+	"investigation focuses on sanderson's actions" -> "sanderson's guilt is revealed"
+	"public opinion turns against sanderson" -> "public support for policies decreases"
+	"paltrow's reputation suffers damage" -> "public perception of goop"
+	"paltrow denies responsibility for the accident and claims it was actually sanderson at fault" -> "sanderson faces increased scrutiny and criticism"
+	"public opinion turns against sanderson" -> "sanderson's reputation suffers"
+	"public opinion turns against sanderson" -> "protests and demonstrations increase"
+	"paltrow's reputation suffers damage" -> "paltrow's business partnerships"
+	"paltrow denies responsibility for the accident and claims it was actually sanderson at fault" -> "investigation focuses on sanderson's actions"
+	"paltrow's reputation suffers damage" -> "paltrow's endorsement deals"
+	"paltrow denies responsibility for the accident and claims it was actually sanderson at fault" -> "public opinion turns against sanderson"
+	"paltrow denies responsibility for the accident and claims it was actually sanderson at fault" -> "paltrow's reputation suffers damage"
+	"cultural representation pressure" -> "current hollywood casting trends"
+	"gwyneth paltrow's public image" -> "john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial"
+	"social media influencer impact" -> "current hollywood casting trends"
+	"social media presence" -> "gwyneth paltrow's public image"
+	"celebrity endorsements" -> "gwyneth paltrow's public image"
+	"media coverage" -> "gwyneth paltrow's public image"
+	"current hollywood casting trends" -> "john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial"
+	"increased media attention on gwyneth paltrow" -> "increased public scrutiny"
+	"increased media attention on gwyneth paltrow" -> "increased merchandise sales"
+	"potential backlash against john leguizamo for perceived racism" -> "john leguizamo's career damage"
+	"john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial" -> "increased media attention on gwyneth paltrow"
+	"increased media attention on gwyneth paltrow" -> "heightened celebrity status"
+	"john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial" -> "potential backlash against john leguizamo for perceived racism"
+	"potential backlash against john leguizamo for perceived racism" -> "loss of endorsement deals and sponsorships"
+	"increased public scrutiny" -> "perceived threat level" [color=purple penwidth=3]
+	"increased public scrutiny" -> "eyewitness experience" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "eyewitness experience" [color=purple penwidth=3]
+	"increased public scrutiny" -> "alibi witness credibility" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "alibi witness credibility" [color=purple penwidth=3]
+	"potential backlash against john leguizamo for perceived racism" -> "alibi witness credibility" [color=purple penwidth=3]
+	"increased public scrutiny" -> "sanderson's phone records" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "sanderson's phone records" [color=purple penwidth=3]
+	"increased public scrutiny" -> "witness testimony" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "witness testimony" [color=purple penwidth=3]
+	"potential backlash against john leguizamo for perceived racism" -> "witness testimony" [color=purple penwidth=3]
+	"increased public scrutiny" -> "crime scene evidence" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "crime scene evidence" [color=purple penwidth=3]
+	"potential backlash against john leguizamo for perceived racism" -> "crime scene evidence" [color=purple penwidth=3]
+	"increased public scrutiny" -> "witness statements" [color=purple penwidth=3]
+	"loss of endorsement deals and sponsorships" -> "witness statements" [color=purple penwidth=3]
+	"potential backlash against john leguizamo for perceived racism" -> "witness statements" [color=purple penwidth=3]
+	"sanderson's guilt is revealed" -> "media coverage" [color=purple penwidth=3]
+	"investigation focuses on sanderson's actions" -> "media coverage" [color=purple penwidth=3]
+	"investigation focuses on sanderson's actions" -> "celebrity endorsements" [color=purple penwidth=3]
+	"increased public scrutiny" -> "police investigation findings" [color=purple penwidth=3]
+	"witness testimony" -> "paltrow denies responsibility for the accident and claims it was actually sanderson at fault" [color=red penwidth=5]
+	"john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial" -> "potential backlash against john leguizamo for perceived racism" [color=red penwidth=5]
+	"potential backlash against john leguizamo for perceived racism" -> "witness testimony" [color=red penwidth=5]
+	"paltrow denies responsibility for the accident and claims it was actually sanderson at fault" [fillcolor=aqua style=filled]
+	"john leguizamo joked that he might take a role from a white actor by playing gwyneth paltrow in a movie about her ongoing ski accident trial" [fillcolor=indianred1 style=filled]
+}

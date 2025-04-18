@@ -1,0 +1,19 @@
+strict digraph G {
+	"display calibration" -> "strength of contrast"
+	"strength of contrast" -> "attention focus"
+	"strength of contrast" -> "emotional intensity"
+	"strength of contrast" -> "perceptual clarity"
+	"strength of contrast" -> "cognitive load"
+	"prior experience" -> "answer correct or not"
+	"cognitive biases" -> "answer correct or not"
+	"answer correct or not" -> "knowledge retention"
+	"answer correct or not" -> "confidence boost"
+	"answer correct or not" -> "score increase"
+	"attention focus" -> "answer correct or not" [color=purple penwidth=3]
+	"perceptual clarity" -> "answer correct or not" [color=purple penwidth=3]
+	"cognitive load" -> "answer correct or not" [color=purple penwidth=3]
+	"strength of contrast" -> "attention focus" [color=red penwidth=5]
+	"attention focus" -> "answer correct or not" [color=red penwidth=5]
+	"strength of contrast" [fillcolor=aqua style=filled]
+	"answer correct or not" [fillcolor=indianred1 style=filled]
+}

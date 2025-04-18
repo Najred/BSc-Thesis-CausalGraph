@@ -1,0 +1,19 @@
+strict digraph G {
+	"agricultural expansion" -> "an 80% increase in deforestation has occurred"
+	"government policy change" -> "an 80% increase in deforestation has occurred"
+	"an 80% increase in deforestation has occurred" -> "loss of biodiversity"
+	"an 80% increase in deforestation has occurred" -> "climate change acceleration"
+	"an 80% increase in deforestation has occurred" -> "soil erosion increase"
+	"amazon fund mismanagement" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"brazilian government corruption" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"norwegian and german public opinion shift" -> "norway and germany have halted donations to the brazilian government’s amazon fund"
+	"norway and germany have halted donations to the brazilian government’s amazon fund" -> "brazilian amazon fund reduction"
+	"norway and germany have halted donations to the brazilian government’s amazon fund" -> "decreased conservation efforts"
+	"decreased conservation efforts" -> "agricultural expansion" [color=purple penwidth=3]
+	"brazilian amazon fund reduction" -> "agricultural expansion" [color=purple penwidth=3]
+	"decreased conservation efforts" -> "an 80% increase in deforestation has occurred" [color=purple penwidth=3]
+	"norway and germany have halted donations to the brazilian government’s amazon fund" -> "decreased conservation efforts" [color=red penwidth=5]
+	"decreased conservation efforts" -> "an 80% increase in deforestation has occurred" [color=red penwidth=5]
+	"an 80% increase in deforestation has occurred" [fillcolor=aqua style=filled]
+	"norway and germany have halted donations to the brazilian government’s amazon fund" [fillcolor=indianred1 style=filled]
+}

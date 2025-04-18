@@ -1,0 +1,23 @@
+strict digraph G {
+	"planetary rotation" -> gravity
+	"galactic center position" -> gravity
+	"earth's core temperature" -> gravity
+	gravity -> tides
+	gravity -> "planetary orbits"
+	"axial tilt" -> latitude
+	"geological activity" -> latitude
+	"earth's rotation" -> latitude
+	latitude -> "climate zone"
+	latitude -> temperature
+	"galactic center position" -> latitude [color=purple penwidth=3]
+	"axial tilt" -> "galactic center position" [color=purple penwidth=3]
+	"earth's rotation" -> "planetary rotation" [color=purple penwidth=3]
+	latitude -> "planetary rotation" [color=purple penwidth=3]
+	"axial tilt" -> "planetary rotation" [color=purple penwidth=3]
+	"earth's core temperature" -> "geological activity" [color=purple penwidth=3]
+	gravity -> "earth's rotation" [color=purple penwidth=3]
+	"planetary rotation" -> gravity [color=red penwidth=5]
+	latitude -> "planetary rotation" [color=red penwidth=5]
+	gravity [fillcolor=aqua style=filled]
+	latitude [fillcolor=indianred1 style=filled]
+}

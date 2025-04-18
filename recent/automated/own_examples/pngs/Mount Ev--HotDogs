@@ -1,0 +1,25 @@
+strict digraph G {
+	"altitude acclimatization" -> "mount everest climbs"
+	"physical conditioning" -> "mount everest climbs"
+	"mount everest climbs" -> "acclimatization time"
+	"mount everest climbs" -> "altitude sickness"
+	"mount everest climbs" -> "climber fatigue"
+	"outdoor festivals" -> "hotdogs consumed"
+	"sports games attended" -> "hotdogs consumed"
+	"ballparks visited" -> "hotdogs consumed"
+	"food festivals participated in" -> "hotdogs consumed"
+	"summer events" -> "hotdogs consumed"
+	"hotdogs consumed" -> "calorie intake"
+	"physical conditioning" -> "summer events" [color=purple penwidth=3]
+	"physical conditioning" -> "outdoor festivals" [color=purple penwidth=3]
+	"physical conditioning" -> "sports games attended" [color=purple penwidth=3]
+	"physical conditioning" -> "ballparks visited" [color=purple penwidth=3]
+	"acclimatization time" -> "summer events" [color=purple penwidth=3]
+	"acclimatization time" -> "outdoor festivals" [color=purple penwidth=3]
+	"acclimatization time" -> "ballparks visited" [color=purple penwidth=3]
+	"mount everest climbs" -> "acclimatization time" [color=red penwidth=5]
+	"summer events" -> "hotdogs consumed" [color=red penwidth=5]
+	"acclimatization time" -> "summer events" [color=red penwidth=5]
+	"mount everest climbs" [fillcolor=aqua style=filled]
+	"hotdogs consumed" [fillcolor=indianred1 style=filled]
+}

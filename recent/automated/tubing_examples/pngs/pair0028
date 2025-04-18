@@ -1,0 +1,17 @@
+strict digraph G {
+	"water-cement ratio" -> "water content in concrete"
+	"mix design" -> "water content in concrete"
+	"cement content" -> "water content in concrete"
+	"water content in concrete" -> "concrete strength"
+	"water content in concrete" -> "shrinkage rate"
+	"cement content" -> "compressive strength"
+	"aggregate size" -> "compressive strength"
+	"water-cement ratio" -> "compressive strength"
+	"curing time" -> "compressive strength"
+	"material type" -> "compressive strength"
+	"water content in concrete" -> "water-cement ratio" [color=purple penwidth=3]
+	"water-cement ratio" -> "compressive strength" [color=red penwidth=5]
+	"water content in concrete" -> "water-cement ratio" [color=red penwidth=5]
+	"water content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

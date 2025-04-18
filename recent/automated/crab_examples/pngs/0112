@@ -1,0 +1,56 @@
+strict digraph G {
+	"insufficient renewable energy investment" -> "climate change mitigation failure"
+	"greenhouse gas emissions" -> "global warming trend"
+	"climate change mitigation failure" -> "the u.k. broke its national record for the highest temperature ever registered"
+	"deforestation and land-use changes" -> "global warming trend"
+	"inadequate climate change education and awareness" -> "climate change mitigation failure"
+	"economic interests overriding environmental concerns" -> "climate change mitigation failure"
+	"global warming trend" -> "the u.k. broke its national record for the highest temperature ever registered"
+	"lack of international cooperation" -> "climate change mitigation failure"
+	"increased risk of wildfires in dry areas" -> "increased evacuations"
+	"increased risk of wildfires in dry areas" -> "air quality deterioration"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "higher demand for air conditioning and cooling services"
+	"higher demand for air conditioning and cooling services" -> "increased greenhouse gas emissions"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "reduced crop yields due to extreme weather conditions"
+	"increased risk of wildfires in dry areas" -> "property damage"
+	"higher demand for air conditioning and cooling services" -> "increased energy consumption"
+	"reduced crop yields due to extreme weather conditions" -> "malnutrition rates increase"
+	"increased risk of wildfires in dry areas" -> "loss of vegetation"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "increased risk of heat-related illnesses"
+	"the u.k. broke its national record for the highest temperature ever registered" -> "increased risk of wildfires in dry areas"
+	"increased risk of heat-related illnesses" -> "heat stroke cases"
+	"pandemic outbreak" -> "british authorities have declared a 'national emergency'"
+	"temperature gradient" -> "severe weather conditions"
+	"wind shear intensity" -> "severe weather conditions"
+	"economic crisis or financial downturn" -> "british authorities have declared a 'national emergency'"
+	"public health infrastructure" -> "pandemic outbreak"
+	"moisture content in air" -> "severe weather conditions"
+	"severe weather conditions" -> "british authorities have declared a 'national emergency'"
+	"global travel patterns" -> "pandemic outbreak"
+	"human-to-human transmission" -> "pandemic outbreak"
+	"cybersecurity breach of critical infrastructure" -> "british authorities have declared a 'national emergency'"
+	"insufficient patching" -> "cybersecurity breach of critical infrastructure"
+	"human error by employee" -> "cybersecurity breach of critical infrastructure"
+	"viral mutation" -> "pandemic outbreak"
+	"atmospheric pressure" -> "severe weather conditions"
+	"lack of cybersecurity training" -> "cybersecurity breach of critical infrastructure"
+	"military deployment activation" -> "national security threat level"
+	"british authorities have declared a 'national emergency'" -> "military deployment activation"
+	"malnutrition rates increase" -> "human-to-human transmission" [color=purple penwidth=3]
+	"increased greenhouse gas emissions" -> "severe weather conditions" [color=purple penwidth=3]
+	"increased greenhouse gas emissions" -> "temperature gradient" [color=purple penwidth=3]
+	"increased greenhouse gas emissions" -> "moisture content in air" [color=purple penwidth=3]
+	"increased evacuations" -> "global travel patterns" [color=purple penwidth=3]
+	"increased evacuations" -> "human-to-human transmission" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "atmospheric pressure" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "global travel patterns" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "insufficient patching" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "public health infrastructure" [color=purple penwidth=3]
+	"higher demand for air conditioning and cooling services" -> "moisture content in air" [color=purple penwidth=3]
+	"the u.k. broke its national record for the highest temperature ever registered" -> "higher demand for air conditioning and cooling services" [color=red penwidth=5]
+	"higher demand for air conditioning and cooling services" -> "increased greenhouse gas emissions" [color=red penwidth=5]
+	"severe weather conditions" -> "british authorities have declared a 'national emergency'" [color=red penwidth=5]
+	"increased greenhouse gas emissions" -> "severe weather conditions" [color=red penwidth=5]
+	"the u.k. broke its national record for the highest temperature ever registered" [fillcolor=aqua style=filled]
+	"british authorities have declared a 'national emergency'" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,20 @@
+strict digraph G {
+	genetics -> age
+	nutrition -> age
+	exercise -> age
+	age -> "life expectancy"
+	age -> "physical strength"
+	"muscle mass" -> weight
+	"body fat percentage" -> weight
+	"physical activity level" -> weight
+	weight -> "muscle strength"
+	weight -> "bone density"
+	weight -> "fat percentage"
+	weight -> "body mass index"
+	"physical strength" -> "body fat percentage" [color=purple penwidth=3]
+	age -> "physical strength" [color=red penwidth=5]
+	"body fat percentage" -> weight [color=red penwidth=5]
+	"physical strength" -> "body fat percentage" [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	weight [fillcolor=indianred1 style=filled]
+}

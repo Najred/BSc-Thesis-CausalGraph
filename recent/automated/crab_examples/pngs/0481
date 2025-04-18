@@ -1,0 +1,21 @@
+strict digraph G {
+	"protester demands" -> "riot police face off with protesters, firing tear gas and pepper bullets"
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "protesters flee in panic"
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "tear gas exposure increases"
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "public opinion turns against police"
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "pepper bullet injuries rise"
+	"economic inequality" -> "police vehicles set on fire and shops looted in several cities"
+	"police brutality" -> "police vehicles set on fire and shops looted in several cities"
+	"social media incitement" -> "police vehicles set on fire and shops looted in several cities"
+	"protestor frustration" -> "police vehicles set on fire and shops looted in several cities"
+	"police vehicles set on fire and shops looted in several cities" -> "heightened community tension"
+	"police vehicles set on fire and shops looted in several cities" -> "disruption of public services"
+	"police vehicles set on fire and shops looted in several cities" -> "loss of business inventory and property"
+	"tear gas exposure" -> "protestor frustration" [color=purple penwidth=3]
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "police brutality" [color=purple penwidth=3]
+	"heightened community tension" -> "riot police face off with protesters, firing tear gas and pepper bullets" [color=purple penwidth=3]
+	"police brutality" -> "police vehicles set on fire and shops looted in several cities" [color=red penwidth=5]
+	"riot police face off with protesters, firing tear gas and pepper bullets" -> "police brutality" [color=red penwidth=5]
+	"riot police face off with protesters, firing tear gas and pepper bullets" [fillcolor=aqua style=filled]
+	"police vehicles set on fire and shops looted in several cities" [fillcolor=indianred1 style=filled]
+}

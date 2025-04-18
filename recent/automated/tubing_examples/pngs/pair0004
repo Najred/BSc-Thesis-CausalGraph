@@ -1,0 +1,19 @@
+strict digraph G {
+	"oxygen levels" -> altitude
+	"atmospheric pressure" -> altitude
+	"geological formation" -> altitude
+	"temperature gradient" -> altitude
+	altitude -> "oxygen levels"
+	altitude -> "air pressure"
+	"atmospheric pressure" -> "sunshine hours"
+	elevation -> "sunshine hours"
+	latitude -> "sunshine hours"
+	"cloud cover" -> "sunshine hours"
+	"sunshine hours" -> "temperature regulation"
+	"air pressure" -> "atmospheric pressure" [color=purple penwidth=3]
+	altitude -> "atmospheric pressure" [color=purple penwidth=3]
+	"atmospheric pressure" -> "sunshine hours" [color=red penwidth=5]
+	altitude -> "atmospheric pressure" [color=red penwidth=5]
+	altitude [fillcolor=aqua style=filled]
+	"sunshine hours" [fillcolor=indianred1 style=filled]
+}

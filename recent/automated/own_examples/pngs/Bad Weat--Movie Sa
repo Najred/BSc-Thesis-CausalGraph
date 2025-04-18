@@ -1,0 +1,41 @@
+strict digraph G {
+	"humidity levels" -> "bad weather"
+	"power outages" -> "economic losses"
+	"bad weather" -> "crop damage"
+	"flight delays" -> "lost productivity"
+	"crop damage" -> "food shortage"
+	"bad weather" -> "flight delays"
+	"power outages" -> "food spoilage"
+	"road accidents" -> "property damage"
+	"crop damage" -> "economic losses"
+	"power outages" -> "communication disruption"
+	"flight delays" -> "passenger stress"
+	"bad weather" -> "road accidents"
+	"bad weather" -> "power outages"
+	"road accidents" -> "economic losses"
+	"flight delays" -> "airline reputation damage"
+	"flight delays" -> "flight cancellation"
+	"release date" -> "movie sales"
+	"marketing strategy" -> "release date"
+	"movie theater profits" -> "local economic growth"
+	"movie theater profits" -> "movie industry investment"
+	"merchandise revenue" -> "marketing expenses"
+	"movie sales" -> "movie theater profits"
+	"dvd sales" -> "changes in consumer behavior towards physical media"
+	"movie sales" -> "merchandise revenue"
+	"movie sales" -> "dvd sales"
+	"movie sales" -> "box office revenue"
+	"box office revenue" -> "movie profit"
+	"movie theater profits" -> "consumer spending on entertainment"
+	"dvd sales" -> "movie theater revenue"
+	"dvd sales" -> "consumer spending on electronics"
+	"box office revenue" -> "marketing campaign effectiveness"
+	"dvd sales" -> "home entertainment industry growth"
+	"communication disruption" -> "release date" [color=purple penwidth=3]
+	"bad weather" -> "power outages" [color=red penwidth=5]
+	"power outages" -> "communication disruption" [color=red penwidth=5]
+	"release date" -> "movie sales" [color=red penwidth=5]
+	"communication disruption" -> "release date" [color=red penwidth=5]
+	"bad weather" [fillcolor=aqua style=filled]
+	"movie sales" [fillcolor=indianred1 style=filled]
+}

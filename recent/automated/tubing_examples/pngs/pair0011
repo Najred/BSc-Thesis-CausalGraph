@@ -1,0 +1,135 @@
+strict digraph G {
+	"geothermal activity" -> "water temperature"
+	"fertilizer application" -> "nutrient availability"
+	"nutrient availability" -> "abalone age"
+	"groundwater recharge" -> "water availability"
+	"soil ph levels" -> "fertilizer use"
+	"crop rotation" -> "soil quality"
+	"weather conditions" -> "fertilizer application"
+	"time of year" -> "weather conditions"
+	rainfall -> "water availability"
+	"water availability" -> "nutrient availability"
+	"wind patterns" -> "ocean currents"
+	"thermal expansion" -> "ocean currents"
+	"fertilizer use" -> "soil quality"
+	"rock type" -> "soil ph level"
+	"water storage capacity" -> "water availability"
+	"temperature gradient" -> altitude
+	"soil quality" -> "nutrient availability"
+	"temperature gradient" -> "wind patterns"
+	"water temperature" -> "abalone age"
+	evaporation -> rainfall
+	"soil compaction" -> "soil quality"
+	"soil ph level" -> "fertilizer application"
+	"ocean currents" -> "water temperature"
+	"soil porosity" -> "groundwater recharge"
+	"meat price" -> "restaurant sales"
+	buoyancy -> "water level changes"
+	"farm revenue" -> "food prices"
+	"shell size" -> weight
+	"farm revenue" -> "farm profit"
+	"abalone age" -> "shell size"
+	"abalone age" -> "growth rate"
+	"meat yield" -> "farm efficiency"
+	"livestock profit" -> "farm revenue"
+	"meat yield" -> "livestock profit"
+	"farm efficiency" -> "water consumption"
+	"shell size" -> buoyancy
+	"meat yield" -> "meat price"
+	"farm efficiency" -> "crop yield"
+	"water level changes" -> "river flow rate"
+	weight -> "body mass index"
+	"crop yield" -> "food prices"
+	"meat price" -> "food budget"
+	"abalone age" -> "meat yield"
+	"genetic mutations" -> "epigenetic factors"
+	"iodine deficiency" -> "thyroid disorders"
+	"genetic mutations" -> "genetic predisposition"
+	"iodized salt availability" -> "iodine deficiency"
+	"genetic recombination events" -> "genetic mutations"
+	"environmental toxins" -> "epigenetic factors"
+	"thyroid disorders" -> "hormonal imbalance"
+	"environmental toxins exposure" -> "genetic mutations"
+	"industrial activities" -> "environmental toxins"
+	"genetic predisposition" -> "viscera weight"
+	"epigenetic factors" -> "genetic predisposition"
+	"hormonal imbalance" -> "viscera weight"
+	"genetic predisposition" -> "thyroid disorders"
+	"cardiovascular mortality" -> "heart attack"
+	"heart attack" -> "renal failure"
+	stroke -> "brain damage"
+	"healthcare costs" -> "medical bankruptcy"
+	fatigue -> "impaired cognitive function"
+	"brain damage" -> "loss of motor skills"
+	"shortness of breath" -> hypoxia
+	"blood pressure" -> "cardiac arrest"
+	"risk of chronic diseases" -> "healthcare costs"
+	"viscera weight" -> "blood pressure"
+	"cardiogenic shock" -> hypotension
+	"weight loss" -> "improved blood pressure"
+	"blood pressure" -> "kidney damage"
+	"viscera weight" -> "waist circumference"
+	"heart disease" -> "kidney failure"
+	"heart failure" -> "swollen legs"
+	"waist circumference" -> "body fat percentage"
+	"insulin resistance" -> "high blood pressure"
+	"shortness of breath" -> "anxiety disorder"
+	"blood pressure" -> "cardiovascular disease"
+	"heart failure" -> fatigue
+	"risk of chronic diseases" -> "mortality rates"
+	"heart attack" -> "cardiac arrest"
+	"cardiovascular disease" -> "kidney disease"
+	"blood pressure" -> "heart failure"
+	"heart attack" -> arrhythmia
+	"cardiovascular disease" -> stroke
+	"kidney disease" -> "high blood pressure"
+	"cardiac arrhythmia" -> "syncope episodes"
+	"healthcare costs" -> "reduced savings rate"
+	"mortality rates" -> "healthcare spending"
+	"insulin resistance" -> "type 2 diabetes"
+	"cardiac arrest" -> "cardiogenic shock"
+	"waist circumference" -> "blood pressure"
+	"shortness of breath" -> "panic attack"
+	"cardiogenic shock" -> "renal failure"
+	"healthcare costs" -> "financial stress"
+	"cardiac arrest" -> "brain damage"
+	stroke -> paralysis
+	"cardiovascular mortality" -> stroke
+	"heart disease" -> stroke
+	"cardiac arrhythmia" -> "cardiac arrest"
+	"kidney disease" -> "fluid buildup"
+	"cardiac arrest" -> "respiratory failure"
+	"body fat percentage" -> "risk of chronic diseases"
+	"cardiovascular disease" -> "cardiac arrest"
+	fatigue -> "decreased productivity"
+	"kidney disease" -> anemia
+	"high blood pressure" -> "kidney damage"
+	"high blood pressure" -> "cardiac arrest"
+	"heart disease" -> "cardiac arrest"
+	"heart failure" -> "shortness of breath"
+	"cardiac arrhythmia" -> "heart failure"
+	"cardiovascular mortality" -> "cardiac arrest"
+	"brain damage" -> "speech disorders"
+	"cardiogenic shock" -> "cardiac arrest"
+	"body fat percentage" -> "blood pressure"
+	"cardiovascular disease" -> "heart failure"
+	"mortality rates" -> "life expectancy"
+	"viscera weight" -> "body fat percentage"
+	"river flow rate" -> "environmental toxins" [color=purple penwidth=3]
+	"food budget" -> "iodized salt availability" [color=purple penwidth=3]
+	hypotension -> temperature [color=purple penwidth=3]
+	"financial stress" -> "water availability" [color=purple penwidth=3]
+	"cardiogenic shock" -> temperature [color=purple penwidth=3]
+	hypoxia -> "nutrient availability" [color=purple penwidth=3]
+	hypoxia -> "soil quality" [color=purple penwidth=3]
+	hypoxia -> "water availability" [color=purple penwidth=3]
+	hypoxia -> "water temperature" [color=purple penwidth=3]
+	"nutrient availability" -> "abalone age" [color=red penwidth=5]
+	"viscera weight" -> "blood pressure" [color=red penwidth=5]
+	"blood pressure" -> "heart failure" [color=red penwidth=5]
+	"heart failure" -> "shortness of breath" [color=red penwidth=5]
+	"shortness of breath" -> hypoxia [color=red penwidth=5]
+	hypoxia -> "nutrient availability" [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	"viscera weight" [fillcolor=indianred1 style=filled]
+}

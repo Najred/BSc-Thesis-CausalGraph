@@ -1,0 +1,23 @@
+strict digraph G {
+	"insider malicious activity" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"sophisticated hacking attack" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"outdated database software" -> "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" -> "increased scrutiny from regulatory bodies"
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" -> "financial transactions scrutinized"
+	"congressional investigation into the leak" -> "president barack obama addressed the massive leak of documents during a press conference about business tax reform"
+	"public outcry over government secrecy" -> "president barack obama addressed the massive leak of documents during a press conference about business tax reform"
+	"business tax reform controversy" -> "president barack obama addressed the massive leak of documents during a press conference about business tax reform"
+	"president barack obama addressed the massive leak of documents during a press conference about business tax reform" -> "public perception shifts"
+	"president barack obama addressed the massive leak of documents during a press conference about business tax reform" -> "business tax reform delayed or modified"
+	"president barack obama addressed the massive leak of documents during a press conference about business tax reform" -> "immediate media coverage"
+	"president barack obama addressed the massive leak of documents during a press conference about business tax reform" -> "investigations initiated by congress"
+	"investigations initiated by congress" -> "sophisticated hacking attack" [color=purple penwidth=3]
+	"investigations initiated by congress" -> "insider malicious activity" [color=purple penwidth=3]
+	"financial transactions scrutinized" -> "president barack obama addressed the massive leak of documents during a press conference about business tax reform" [color=purple penwidth=3]
+	"increased scrutiny from regulatory bodies" -> "business tax reform controversy" [color=purple penwidth=3]
+	"increased scrutiny from regulatory bodies" -> "congressional investigation into the leak" [color=purple penwidth=3]
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" -> "financial transactions scrutinized" [color=red penwidth=5]
+	"financial transactions scrutinized" -> "president barack obama addressed the massive leak of documents during a press conference about business tax reform" [color=red penwidth=5]
+	"11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm" [fillcolor=aqua style=filled]
+	"president barack obama addressed the massive leak of documents during a press conference about business tax reform" [fillcolor=indianred1 style=filled]
+}

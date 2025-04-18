@@ -1,0 +1,19 @@
+strict digraph G {
+	"wind patterns" -> "storms and heavy flooding across parts of western and central europe"
+	"climate change" -> "storms and heavy flooding across parts of western and central europe"
+	"storms and heavy flooding across parts of western and central europe" -> "loss of life"
+	"storms and heavy flooding across parts of western and central europe" -> "displacement of people"
+	"storms and heavy flooding across parts of western and central europe" -> "damage to infrastructure"
+	"storms and heavy flooding across parts of western and central europe" -> "economic losses due to property damage"
+	"severe weather conditions" -> "building structures collapsed in germany, belgium, the netherlands, and luxembourg"
+	"building structures collapsed in germany, belgium, the netherlands, and luxembourg" -> "human casualties"
+	"building structures collapsed in germany, belgium, the netherlands, and luxembourg" -> "property damage"
+	"building structures collapsed in germany, belgium, the netherlands, and luxembourg" -> "displacement of residents"
+	"building structures collapsed in germany, belgium, the netherlands, and luxembourg" -> "economic losses to businesses"
+	"damage to infrastructure" -> "building structures collapsed in germany, belgium, the netherlands, and luxembourg" [color=purple penwidth=3]
+	"displacement of people" -> "building structures collapsed in germany, belgium, the netherlands, and luxembourg" [color=purple penwidth=3]
+	"storms and heavy flooding across parts of western and central europe" -> "damage to infrastructure" [color=red penwidth=5]
+	"damage to infrastructure" -> "building structures collapsed in germany, belgium, the netherlands, and luxembourg" [color=red penwidth=5]
+	"storms and heavy flooding across parts of western and central europe" [fillcolor=aqua style=filled]
+	"building structures collapsed in germany, belgium, the netherlands, and luxembourg" [fillcolor=indianred1 style=filled]
+}

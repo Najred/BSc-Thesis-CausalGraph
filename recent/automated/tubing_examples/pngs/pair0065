@@ -1,0 +1,6 @@
+strict digraph G {
+	"stock return of hsbc hldgs" -> "stock return of hang seng bank" [color=purple penwidth=3]
+	"stock return of hsbc hldgs" -> "stock return of hang seng bank" [color=red penwidth=5]
+	"stock return of hang seng bank" [fillcolor=aqua style=filled]
+	"stock return of hsbc hldgs" [fillcolor=indianred1 style=filled]
+}

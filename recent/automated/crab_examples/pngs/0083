@@ -1,0 +1,22 @@
+strict digraph G {
+	"social media buzz and word-of-mouth" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"chatgpt user experience improvements" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai marketing campaign" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"competitor chatbot releases" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week"
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" -> "increased competition from other chatbots"
+	"google's research in natural language processing" -> "google releases its own “experimental conversational ai” tool, called “bard'"
+	"the need for a conversational ai tool to compete with chatgpt" -> "google releases its own “experimental conversational ai” tool, called “bard'"
+	"google's desire to expand its presence in the ai market" -> "google releases its own “experimental conversational ai” tool, called “bard'"
+	"google releases its own “experimental conversational ai” tool, called “bard'" -> "increased adoption of conversational ai"
+	"google releases its own “experimental conversational ai” tool, called “bard'" -> "new job opportunities for ai developers and engineers"
+	"google releases its own “experimental conversational ai” tool, called “bard'" -> "increased investment in ai research and development"
+	"increased adoption of conversational ai" -> "chatgpt user experience improvements" [color=purple penwidth=3]
+	"increased investment in ai research and development" -> "chatgpt user experience improvements" [color=purple penwidth=3]
+	"increased adoption of conversational ai" -> "social media buzz and word-of-mouth" [color=purple penwidth=3]
+	"increased competition from other chatbots" -> "the need for a conversational ai tool to compete with chatgpt" [color=purple penwidth=3]
+	"chatgpt user experience improvements" -> "openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [color=red penwidth=5]
+	"google releases its own “experimental conversational ai” tool, called “bard'" -> "increased adoption of conversational ai" [color=red penwidth=5]
+	"increased adoption of conversational ai" -> "chatgpt user experience improvements" [color=red penwidth=5]
+	"openai's chatgpt chatbot reported one million users at the beginning of december after being out for about a week" [fillcolor=aqua style=filled]
+	"google releases its own “experimental conversational ai” tool, called “bard'" [fillcolor=indianred1 style=filled]
+}

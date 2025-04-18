@@ -1,0 +1,18 @@
+strict digraph G {
+	temperature -> "hour of day"
+	"daylight hours" -> "hour of day"
+	"sun position" -> "hour of day"
+	"hour of day" -> temperature
+	"hour of day" -> "sunlight intensity"
+	"hour of day" -> "circadian rhythm"
+	"geographic location" -> temperature
+	"solar radiation" -> temperature
+	temperature -> "ice formation"
+	temperature -> "evaporation rate"
+	temperature -> "plant growth"
+	temperature -> temperature [color=purple penwidth=3]
+	"hour of day" -> temperature [color=red penwidth=5]
+	temperature -> temperature [color=red penwidth=5]
+	"hour of day" [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

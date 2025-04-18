@@ -1,0 +1,18 @@
+strict digraph G {
+	temperature -> "pressure at t"
+	"external force" -> "pressure at t"
+	"pressure at t" -> "structural integrity loss"
+	"pressure at t" -> "vessel collapse"
+	"pressure at t" -> "fluid flow rate"
+	"pressure at t" -> "material deformation"
+	"system resistance" -> "pressure at t+1"
+	"valve position" -> "pressure at t+1"
+	"pressure at t+1" -> "increased stress"
+	"pressure at t+1" -> "material fatigue"
+	"pressure at t+1" -> "vessel collapse"
+	"fluid flow rate" -> "pressure at t+1" [color=purple penwidth=3]
+	"pressure at t" -> "fluid flow rate" [color=red penwidth=5]
+	"fluid flow rate" -> "pressure at t+1" [color=red penwidth=5]
+	"pressure at t" [fillcolor=aqua style=filled]
+	"pressure at t+1" [fillcolor=indianred1 style=filled]
+}

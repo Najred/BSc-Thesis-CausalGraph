@@ -1,0 +1,6 @@
+strict digraph G {
+	"time to the next eruption" -> "duration of eruption" [color=purple penwidth=3]
+	"time to the next eruption" -> "duration of eruption" [color=red penwidth=5]
+	"duration of eruption" [fillcolor=aqua style=filled]
+	"time to the next eruption" [fillcolor=indianred1 style=filled]
+}

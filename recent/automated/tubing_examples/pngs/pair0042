@@ -1,0 +1,24 @@
+strict digraph G {
+	"seasonal patterns" -> "day of the year"
+	"solar longitude" -> "day of the year"
+	"day of the year" -> "seasonal temperature"
+	"day of the year" -> "daylight hours"
+	"day of the year" -> "tourist season"
+	"day of the year" -> "agricultural cycles (e.g., planting, harvesting)"
+	"geographic latitude" -> temperature
+	"solar radiation" -> temperature
+	"seasonal patterns" -> temperature
+	temperature -> "weather patterns"
+	temperature -> "cloud formation"
+	temperature -> humidity
+	temperature -> "seasonal patterns" [color=purple penwidth=3]
+	"agricultural cycles" -> "geographic latitude" [color=purple penwidth=3]
+	"tourist season" -> "geographic latitude" [color=purple penwidth=3]
+	"tourist season" -> "seasonal patterns" [color=purple penwidth=3]
+	"seasonal temperature" -> temperature [color=purple penwidth=3]
+	"day of the year" -> "seasonal patterns" [color=purple penwidth=3]
+	"seasonal patterns" -> "day of the year" [color=red penwidth=5]
+	temperature -> "seasonal patterns" [color=red penwidth=5]
+	"day of the year" [fillcolor=aqua style=filled]
+	temperature [fillcolor=indianred1 style=filled]
+}

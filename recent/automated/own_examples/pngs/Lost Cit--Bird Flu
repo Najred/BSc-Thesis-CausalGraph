@@ -1,0 +1,49 @@
+strict digraph G {
+	"economic growth" -> "funding increase"
+	"funding increase" -> "lost city found"
+	"lost city found" -> "tourist influx"
+	"tourist influx" -> "cultural exchange"
+	"increased media coverage" -> "social media engagement"
+	"increased media coverage" -> "public awareness of social issues"
+	"lost city found" -> "local economic growth"
+	"tourist influx" -> "local economy growth"
+	"tourist influx" -> "infrastructure development"
+	"government funding allocation" -> "infrastructure development"
+	"local economic growth" -> "employment rates"
+	"tourist influx" -> "environmental degradation"
+	"lost city found" -> "increased media coverage"
+	"government funding allocation" -> "economic growth rate"
+	"lost city found" -> "government funding allocation"
+	"increased media coverage" -> "public opinion shift"
+	"local economic growth" -> "housing prices"
+	"food availability" -> "animal host density"
+	"animal host density" -> "bird flu outbreak"
+	"habitat quality" -> "animal host density"
+	"predator abundance" -> "animal host density"
+	"virus mutation" -> "bird flu outbreak"
+	"human mortality" -> "population growth"
+	"bird flu outbreak" -> "human mortality"
+	"human mortality" -> "economic productivity"
+	"pandemic spread" -> "supply chain disruptions"
+	"bird flu outbreak" -> "animal mortality"
+	"animal mortality" -> "biodiversity loss"
+	"pandemic spread" -> "government lockdowns"
+	"human mortality" -> "genetic diversity loss"
+	"bird flu outbreak" -> "pandemic spread"
+	"animal mortality" -> "food chain collapse"
+	"animal mortality" -> "ecosystem disruption"
+	"government lockdowns" -> "economic growth" [color=purple penwidth=3]
+	"supply chain disruptions" -> "economic growth" [color=purple penwidth=3]
+	"population growth" -> "economic growth" [color=purple penwidth=3]
+	"economic productivity" -> "economic growth" [color=purple penwidth=3]
+	"environmental degradation" -> "habitat quality" [color=purple penwidth=3]
+	"environmental degradation" -> "food availability" [color=purple penwidth=3]
+	"tourist influx" -> "habitat quality" [color=purple penwidth=3]
+	"tourist influx" -> "food availability" [color=purple penwidth=3]
+	"lost city found" -> "tourist influx" [color=red penwidth=5]
+	"habitat quality" -> "animal host density" [color=red penwidth=5]
+	"animal host density" -> "bird flu outbreak" [color=red penwidth=5]
+	"tourist influx" -> "habitat quality" [color=red penwidth=5]
+	"lost city found" [fillcolor=aqua style=filled]
+	"bird flu outbreak" [fillcolor=indianred1 style=filled]
+}

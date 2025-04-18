@@ -1,0 +1,6 @@
+strict digraph G {
+	"outdoor temperature" -> "indoor temperature" [color=purple penwidth=3]
+	"outdoor temperature" -> "indoor temperature" [color=red penwidth=5]
+	"indoor temperature" [fillcolor=aqua style=filled]
+	"outdoor temperature" [fillcolor=indianred1 style=filled]
+}

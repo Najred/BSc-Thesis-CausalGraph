@@ -1,0 +1,51 @@
+strict digraph G {
+	"urbanization rate" -> "number of cars"
+	"urban population density" -> "public transportation availability"
+	"public demand for transportation" -> "public transportation availability"
+	"public transportation availability" -> "number of cars"
+	"government funding" -> "public transportation availability"
+	"number of cars" -> "fuel consumption"
+	"fuel consumption" -> "air pollution"
+	"traffic congestion" -> "reduced productivity"
+	"fuel consumption" -> "carbon footprint"
+	"parking demand" -> "noise pollution"
+	"parking demand" -> "public transportation usage"
+	"number of cars" -> "traffic congestion"
+	"road maintenance costs" -> "road condition"
+	"traffic congestion" -> "increased emissions"
+	"traffic congestion" -> "air pollution"
+	"number of cars" -> "parking demand"
+	"parking demand" -> "air pollution"
+	"traffic congestion" -> "increased fuel consumption"
+	"parking demand" -> "traffic congestion"
+	"road maintenance costs" -> "traffic safety"
+	"number of cars" -> "road maintenance costs"
+	weather -> "type of day"
+	"road construction" -> "type of day"
+	"vehicle breakdowns" -> "traffic conditions"
+	"atmospheric pressure" -> weather
+	"road construction" -> "traffic conditions"
+	"government budget" -> "road construction"
+	"wind patterns" -> weather
+	"traffic conditions" -> "type of day"
+	"population growth" -> "road construction"
+	"humidity levels" -> weather
+	"type of day" -> "energy levels"
+	mood -> appetite
+	"type of day" -> mood
+	"energy levels" -> "physical performance"
+	"energy levels" -> "appetite regulation"
+	mood -> "cognitive performance"
+	"increased emissions" -> "humidity levels" [color=purple penwidth=3]
+	"road condition" -> "vehicle breakdowns" [color=purple penwidth=3]
+	"road condition" -> "traffic conditions" [color=purple penwidth=3]
+	"increased fuel consumption" -> "vehicle breakdowns" [color=purple penwidth=3]
+	"air pollution" -> "humidity levels" [color=purple penwidth=3]
+	"number of cars" -> "vehicle breakdowns" [color=purple penwidth=3]
+	"road maintenance costs" -> "vehicle breakdowns" [color=purple penwidth=3]
+	"vehicle breakdowns" -> "traffic conditions" [color=red penwidth=5]
+	"traffic conditions" -> "type of day" [color=red penwidth=5]
+	"number of cars" -> "vehicle breakdowns" [color=red penwidth=5]
+	"number of cars" [fillcolor=aqua style=filled]
+	"type of day" [fillcolor=indianred1 style=filled]
+}

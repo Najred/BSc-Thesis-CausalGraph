@@ -1,0 +1,51 @@
+strict digraph G {
+	"thyroid disorders" -> "hormonal imbalance"
+	"food allergies" -> "dietary restrictions"
+	"sleep deprivation" -> "age-related cravings"
+	"hormonal imbalance" -> "high chocolate consumption"
+	"hormone replacement therapy" -> "hormonal imbalance"
+	"cultural beliefs" -> "dietary restrictions"
+	"dietary restrictions" -> "high chocolate consumption"
+	"age-related cravings" -> "high chocolate consumption"
+	"polycystic ovary syndrome (pcos)" -> "hormonal imbalance"
+	"nutrient deficiency" -> "age-related cravings"
+	"hormonal imbalance" -> "age-related cravings"
+	"high chocolate consumption" -> "weight gain"
+	"economic growth" -> "scientific funding"
+	"government spending" -> "global economic conditions"
+	"scientific funding" -> "nobel laureate density"
+	"global economic conditions" -> "nobel laureate density"
+	"government budget" -> "scientific funding"
+	"public interest" -> "scientific funding"
+	"economic growth" -> "employment rates"
+	"nobel laureate density" -> "economic growth"
+	"global recognition" -> "cultural exchange"
+	"global recognition" -> "economic growth"
+	"scientific progress" -> "increased life expectancy"
+	"economic growth" -> "consumer spending"
+	"scientific progress" -> "social change"
+	"nobel laureate density" -> "global recognition"
+	"scientific progress" -> "economic growth"
+	"global recognition" -> "international cooperation"
+	"nobel laureate density" -> "scientific progress"
+	"public interest" -> "cultural beliefs" [color=purple penwidth=3]
+	"cultural exchange" -> "cultural beliefs" [color=purple penwidth=3]
+	"social change" -> "cultural beliefs" [color=purple penwidth=3]
+	"international cooperation" -> "cultural beliefs" [color=purple penwidth=3]
+	"economic growth" -> "financial stability" [color=purple penwidth=3]
+	"government budget" -> "financial stability" [color=purple penwidth=3]
+	"global economic conditions" -> "financial stability" [color=purple penwidth=3]
+	"economic growth" -> "financial stability" [color=purple penwidth=3]
+	"consumer spending" -> "financial stability" [color=purple penwidth=3]
+	"employment rates" -> "financial stability" [color=purple penwidth=3]
+	"social support network" -> "public interest" [color=purple penwidth=3]
+	"social support network" -> "economic growth" [color=purple penwidth=3]
+	"international cooperation" -> "social support network" [color=purple penwidth=3]
+	"cultural beliefs" -> "dietary restrictions" [color=red penwidth=5]
+	"dietary restrictions" -> "high chocolate consumption" [color=red penwidth=5]
+	"nobel laureate density" -> "global recognition" [color=red penwidth=5]
+	"global recognition" -> "cultural exchange" [color=red penwidth=5]
+	"cultural exchange" -> "cultural beliefs" [color=red penwidth=5]
+	"high chocolate consumption" [fillcolor=aqua style=filled]
+	"nobel laureate density" [fillcolor=indianred1 style=filled]
+}

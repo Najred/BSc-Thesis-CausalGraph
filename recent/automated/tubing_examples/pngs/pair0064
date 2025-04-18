@@ -1,0 +1,46 @@
+strict digraph G {
+	"groundwater level" -> "water source"
+	"water source" -> "drinking water access"
+	"government policies" -> "population density"
+	"migration patterns" -> "population density"
+	"greenhouse gases" -> climate
+	"population density" -> "drinking water access"
+	climate -> "drinking water access"
+	deforestation -> climate
+	rainfall -> "water source"
+	"kidney function" -> "blood pressure"
+	"kidney function" -> "fluid balance"
+	"hydration levels" -> "blood pressure"
+	"drinking water access" -> "hydration levels"
+	"kidney function" -> "electrolyte levels"
+	"kidney function" -> "toxin removal"
+	"drinking water access" -> "kidney function"
+	"contaminated water source" -> "maternal infection"
+	"poor nutrition" -> "infant mortality"
+	"lack of access to healthcare" -> "poor nutrition"
+	"maternal infection" -> "infant mortality"
+	"sexual activity" -> "maternal infection"
+	"weakened immune system" -> "maternal infection"
+	"socioeconomic status" -> "poor nutrition"
+	"food insecurity" -> "poor nutrition"
+	"poor hygiene" -> "maternal infection"
+	"maternal health" -> "child development"
+	"increased healthcare costs" -> "increased debt"
+	"increased healthcare costs" -> "decreased quality"
+	"infant mortality" -> "increased healthcare costs"
+	"child development delays" -> "increased risk of mental health disorders"
+	"increased healthcare costs" -> "reduced access"
+	"infant mortality" -> "maternal health"
+	"infant mortality" -> "child development delays"
+	"reduced access" -> "migration patterns" [color=purple penwidth=3]
+	"fluid balance" -> "weakened immune system" [color=purple penwidth=3]
+	"drinking water access" -> "socioeconomic status" [color=purple penwidth=3]
+	"drinking water access" -> "food insecurity" [color=purple penwidth=3]
+	"drinking water access" -> "poor hygiene" [color=purple penwidth=3]
+	"drinking water access" -> "weakened immune system" [color=purple penwidth=3]
+	"socioeconomic status" -> "poor nutrition" [color=red penwidth=5]
+	"poor nutrition" -> "infant mortality" [color=red penwidth=5]
+	"drinking water access" -> "socioeconomic status" [color=red penwidth=5]
+	"drinking water access" [fillcolor=aqua style=filled]
+	"infant mortality" [fillcolor=indianred1 style=filled]
+}

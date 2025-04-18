@@ -1,0 +1,26 @@
+strict digraph G {
+	"increased reporting of incidents" -> "a wave of awareness and brave confrontations was created over sexual harassment and assault"
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "reduced victim-blaming culture"
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "increased reporting rates"
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "increased support for survivors"
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "shift in societal attitudes"
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "more perpetrators held accountable"
+	"changes in legal and policy frameworks" -> "many of the reports of sexual assault related to people coming forward regarding past incidents"
+	"growing sense of community support" -> "many of the reports of sexual assault related to people coming forward regarding past incidents"
+	"increased public awareness campaigns" -> "many of the reports of sexual assault related to people coming forward regarding past incidents"
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" -> "growing support for survivors"
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" -> "increased public awareness"
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" -> "shift in societal attitudes"
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" -> "more victims seeking justice"
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" -> "increased scrutiny of institutions"
+	"increased scrutiny of institutions" -> "increased reporting of incidents" [color=purple penwidth=3]
+	"shift in societal attitudes" -> "increased reporting of incidents" [color=purple penwidth=3]
+	"more victims seeking justice" -> "increased reporting of incidents" [color=purple penwidth=3]
+	"increased public awareness" -> "increased reporting of incidents" [color=purple penwidth=3]
+	"increased reporting rates" -> "many of the reports of sexual assault related to people coming forward regarding past incidents" [color=purple penwidth=3]
+	"increased public awareness" -> "a wave of awareness and brave confrontations was created over sexual harassment and assault" [color=purple penwidth=3]
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" -> "increased reporting rates" [color=red penwidth=5]
+	"increased reporting rates" -> "many of the reports of sexual assault related to people coming forward regarding past incidents" [color=red penwidth=5]
+	"a wave of awareness and brave confrontations was created over sexual harassment and assault" [fillcolor=aqua style=filled]
+	"many of the reports of sexual assault related to people coming forward regarding past incidents" [fillcolor=indianred1 style=filled]
+}

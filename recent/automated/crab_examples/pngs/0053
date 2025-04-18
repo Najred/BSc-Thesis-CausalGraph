@@ -1,0 +1,20 @@
+strict digraph G {
+	"regulatory pressure from swiss government" -> "ubs announced its plans to acquire credit suisse in an all-shares transaction"
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" -> "ubs's market capitalization increases significantly"
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" -> "swiss banking sector consolidation accelerates"
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" -> "credit suisse stock price plummets"
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" -> "ubs's management team faces challenges integrating credit suisse"
+	"swiss banking system vulnerability" -> "swiss government put up more than 200 billion francs of support and guarantees"
+	"banking crisis" -> "swiss government put up more than 200 billion francs of support and guarantees"
+	"global financial market instability" -> "swiss government put up more than 200 billion francs of support and guarantees"
+	"economic downturn" -> "swiss government put up more than 200 billion francs of support and guarantees"
+	"swiss government put up more than 200 billion francs of support and guarantees" -> "bank stability in switzerland"
+	"swiss banking sector consolidation accelerates" -> "swiss banking system vulnerability" [color=purple penwidth=3]
+	"swiss banking sector consolidation accelerates" -> "banking crisis" [color=purple penwidth=3]
+	"ubs's management team faces challenges integrating credit suisse" -> "swiss banking system vulnerability" [color=purple penwidth=3]
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" -> "swiss banking sector consolidation accelerates" [color=red penwidth=5]
+	"swiss banking system vulnerability" -> "swiss government put up more than 200 billion francs of support and guarantees" [color=red penwidth=5]
+	"swiss banking sector consolidation accelerates" -> "swiss banking system vulnerability" [color=red penwidth=5]
+	"ubs announced its plans to acquire credit suisse in an all-shares transaction" [fillcolor=aqua style=filled]
+	"swiss government put up more than 200 billion francs of support and guarantees" [fillcolor=indianred1 style=filled]
+}

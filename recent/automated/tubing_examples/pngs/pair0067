@@ -1,0 +1,6 @@
+strict digraph G {
+	"stock return of cheung kong" -> "stock return of sun hung kai prop." [color=purple penwidth=3]
+	"stock return of cheung kong" -> "stock return of sun hung kai prop." [color=red penwidth=5]
+	"stock return of cheung kong" [fillcolor=aqua style=filled]
+	"stock return of sun hung kai prop." [fillcolor=indianred1 style=filled]
+}

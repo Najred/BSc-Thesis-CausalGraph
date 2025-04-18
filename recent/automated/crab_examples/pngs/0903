@@ -1,0 +1,23 @@
+strict digraph G {
+	"outdated software vulnerabilities" -> "equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans"
+	"lack of employee training" -> "equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans"
+	"insufficient network segmentation" -> "equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans"
+	"sophisticated phishing attack" -> "equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans"
+	"insufficient cybersecurity measures" -> "equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans"
+	"equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans" -> "increased cybersecurity measures by equifax"
+	"regulatory pressure from government agencies" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses"
+	"growing concern about cybersecurity among consumers and investors" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses"
+	"recent high-profile data breaches" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses"
+	"increased competition in the credit reporting industry" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses"
+	"equifax has spent $1.6 billion to shore up its cybersecurity defenses" -> "enhanced customer trust and confidence"
+	"equifax has spent $1.6 billion to shore up its cybersecurity defenses" -> "improved cybersecurity posture"
+	"improved cybersecurity posture" -> "outdated software vulnerabilities" [color=purple penwidth=3]
+	"increased cybersecurity measures by equifax" -> "recent high-profile data breaches" [color=purple penwidth=3]
+	"increased cybersecurity measures by equifax" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses" [color=purple penwidth=3]
+	"increased cybersecurity measures by equifax" -> "growing concern about cybersecurity among consumers and investors" [color=purple penwidth=3]
+	"equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans" -> "growing concern about cybersecurity among consumers and investors" [color=purple penwidth=3]
+	"equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans" -> "increased cybersecurity measures by equifax" [color=red penwidth=5]
+	"increased cybersecurity measures by equifax" -> "equifax has spent $1.6 billion to shore up its cybersecurity defenses" [color=red penwidth=5]
+	"equifax reports a massive cybersecurity breach that compromised the personal information of up to 143 million americans" [fillcolor=aqua style=filled]
+	"equifax has spent $1.6 billion to shore up its cybersecurity defenses" [fillcolor=indianred1 style=filled]
+}

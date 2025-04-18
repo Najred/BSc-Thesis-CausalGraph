@@ -1,0 +1,52 @@
+strict digraph G {
+	"lack of rainfall" -> "dry soil moisture levels"
+	"high-pressure system" -> "temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday"
+	"dry soil moisture levels" -> "temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday"
+	"high evapotranspiration rates" -> "dry soil moisture levels"
+	"climate change" -> "dry soil moisture levels"
+	"reduced outdoor activities" -> "weakened immune system"
+	"increased mortality rates among vulnerable populations" -> "healthcare system overload"
+	"increased mortality rates among vulnerable populations" -> "increased poverty rates"
+	"heat-related illnesses" -> "electrolyte imbalance"
+	"heat-related illnesses" -> "heat stroke"
+	"heat-related illnesses" -> "cardiac arrest"
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" -> "heat-related illnesses"
+	"increased mortality rates among vulnerable populations" -> "economic burden on families"
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" -> "increased mortality rates among vulnerable populations"
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" -> "increased risk of wildfires"
+	"increased mortality rates among vulnerable populations" -> "reduced tax revenue for social services"
+	"increased risk of wildfires" -> "increased emergency response costs"
+	"heat-related illnesses" -> dehydration
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" -> "reduced outdoor activities"
+	"increased risk of wildfires" -> "loss of human life"
+	"greenhouse gas emissions" -> "high temperatures"
+	"climate change feedback loops" -> "extreme heat waves"
+	"weather fronts and patterns" -> "high temperatures"
+	"extreme heat waves" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further"
+	"greenhouse gas emissions" -> "extreme heat waves"
+	"urbanization and land use changes" -> "extreme heat waves"
+	"urban heat island effect" -> "high temperatures"
+	"agricultural practices and deforestation" -> "extreme heat waves"
+	"solar radiation intensity" -> "high temperatures"
+	"high temperatures" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further"
+	"hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" -> "heat wave duration extension"
+	"heat wave duration extension" -> "water scarcity"
+	"heat wave duration extension" -> "increased mortality rate"
+	"heat wave duration extension" -> "economic losses in agriculture"
+	"hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" -> "mortality rate increase in affected areas"
+	"heat wave duration extension" -> "heat-related illnesses"
+	"hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" -> "increased emergency response"
+	"mortality rate increase in affected areas" -> "economic contraction"
+	"mortality rate increase in affected areas" -> "healthcare system overload"
+	"heat wave duration extension" -> "high evapotranspiration rates" [color=purple penwidth=3]
+	"healthcare system overload" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [color=purple penwidth=3]
+	"heat stroke" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [color=purple penwidth=3]
+	"loss of human life" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [color=purple penwidth=3]
+	"cardiac arrest" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [color=purple penwidth=3]
+	"water scarcity" -> "dry soil moisture levels" [color=purple penwidth=3]
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" -> "increased mortality rates among vulnerable populations" [color=red penwidth=5]
+	"increased mortality rates among vulnerable populations" -> "healthcare system overload" [color=red penwidth=5]
+	"healthcare system overload" -> "hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [color=red penwidth=5]
+	"temperatures topped 40 degrees celsius (104 degrees fahrenheit) across much of spain and portugal on wednesday" [fillcolor=aqua style=filled]
+	"hundreds are dead from heat-related causes in portugal and spain and the toll is likely to climb further" [fillcolor=indianred1 style=filled]
+}

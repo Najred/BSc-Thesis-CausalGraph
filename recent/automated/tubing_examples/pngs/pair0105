@@ -1,0 +1,6 @@
+strict digraph G {
+	"pixel vector of grey values of a patch" -> "total brightness at the screen" [color=purple penwidth=3]
+	"pixel vector of grey values of a patch" -> "total brightness at the screen" [color=red penwidth=5]
+	"pixel vector of grey values of a patch" [fillcolor=aqua style=filled]
+	"total brightness at the screen" [fillcolor=indianred1 style=filled]
+}

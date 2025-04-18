@@ -1,0 +1,109 @@
+
+---------------------------
+find 3 to 6 vars for 11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm in direction cause = 
+{
+  "answers": [
+    {
+      "variable": "Database Security Breach",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Insider Malicious Activity",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Sophisticated Hacking Attack",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Employee Error or Negligence",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Outdated Database Software",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Lack of Regular Security Audits",
+      "classification": "Weak Influence"
+    }
+  ]
+}
+---------------------------
+find 3 to 6 vars for 11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm in direction effect = 
+{
+  "answers": [
+    {
+      "variable": "Client identities exposed",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Financial transactions scrutinized",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Reputation of the law firm damaged",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Increased scrutiny from regulatory bodies",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Potential for blackmail or extortion",
+      "classification": "Weak Influence"
+    }
+  ]
+}
+---------------------------
+find 3 to 6 vars for David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father in direction cause = 
+{
+  "answers": [
+    {
+      "variable": "Panama Papers leak",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "UK tax laws and regulations",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "David Cameron's family wealth management practices",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Global financial market trends",
+      "classification": "Weak Influence"
+    },
+    {
+      "variable": "Public scrutiny and media attention",
+      "classification": "Moderate Influence"
+    }
+  ]
+}
+---------------------------
+find 3 to 6 vars for David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father in direction effect = 
+{
+  "answers": [
+    {
+      "variable": "Loss of public trust",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Resignation as Prime Minister",
+      "classification": "Strong Dependence"
+    },
+    {
+      "variable": "Investigations by parliamentary committees",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Increased scrutiny of UK tax laws",
+      "classification": "Moderate Influence"
+    },
+    {
+      "variable": "Decreased popularity ratings for the Conservative Party",
+      "classification": "Weak Influence"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+strict digraph G {
+	"school schedules" -> "hour of day"
+	"work shifts" -> "hour of day"
+	temperature -> "hour of day"
+	"sun position" -> "hour of day"
+	"daylight hours" -> "hour of day"
+	"hour of day" -> "circadian rhythm"
+	"hour of day" -> temperature
+	"hour of day" -> "sunlight intensity"
+	"hour of day" -> "traffic congestion"
+	"hour of day" -> "energy consumption"
+	temperature -> "electricity load"
+	"time of day" -> "electricity load"
+	humidity -> "electricity load"
+	"economic activity" -> "electricity load"
+	weather -> "electricity load"
+	"electricity load" -> "grid frequency stability"
+	"electricity load" -> "peak demand hours"
+	"electricity load" -> "power plant emissions"
+	"electricity load" -> "electricity price"
+	"hour of day" [fillcolor=aqua style=filled]
+	"electricity load" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,39 @@
+strict digraph G {
+	"stressful work environment" -> "she collapsed from a heart attack on arrest"
+	"lack of autonomy" -> "stressful work environment"
+	"smoking habits" -> "high blood pressure"
+	"family history of hypertension" -> "high blood pressure"
+	"smoking habits" -> "pre-existing coronary artery disease"
+	"pre-existing coronary artery disease" -> "she collapsed from a heart attack on arrest"
+	"high blood pressure" -> "she collapsed from a heart attack on arrest"
+	"family history of cad" -> "pre-existing coronary artery disease"
+	death -> "estate distribution"
+	death -> "funeral expenses"
+	death -> "family disruption"
+	death -> "emotional trauma for survivors"
+	"she collapsed from a heart attack on arrest" -> death
+	"economic sanctions" -> "iranian government repression"
+	"iranian government repression" -> "international protests have expanded to express anger over the situation in iran"
+	"social media amplification" -> "international protests have expanded to express anger over the situation in iran"
+	"regional security threats" -> "iranian government repression"
+	"authoritarian ideology" -> "iranian government repression"
+	"international protests have expanded to express anger over the situation in iran" -> "escalation of anti-government protests within iran"
+	"escalation of anti-government protests within iran" -> "increased government repression"
+	"increased global attention on iran" -> "international sanctions relaxation"
+	"rise in anti-iranian sentiment among global populations" -> "heightened tensions with us"
+	"escalation of anti-government protests within iran" -> "escalating human rights abuses"
+	"international protests have expanded to express anger over the situation in iran" -> "rise in anti-iranian sentiment among global populations"
+	"escalation of anti-government protests within iran" -> "heightened international isolation"
+	"increased global attention on iran" -> "increased iranian diplomacy"
+	"increased global attention on iran" -> "increased iranian military spending"
+	"international protests have expanded to express anger over the situation in iran" -> "increased global attention on iran"
+	"rise in anti-iranian sentiment among global populations" -> "increased iranophobia"
+	"increased government repression" -> "lack of autonomy" [color=purple penwidth=3]
+	"lack of autonomy" -> "stressful work environment" [color=red penwidth=5]
+	"stressful work environment" -> "she collapsed from a heart attack on arrest" [color=red penwidth=5]
+	"international protests have expanded to express anger over the situation in iran" -> "escalation of anti-government protests within iran" [color=red penwidth=5]
+	"escalation of anti-government protests within iran" -> "increased government repression" [color=red penwidth=5]
+	"increased government repression" -> "lack of autonomy" [color=red penwidth=5]
+	"she collapsed from a heart attack on arrest" [fillcolor=aqua style=filled]
+	"international protests have expanded to express anger over the situation in iran" [fillcolor=indianred1 style=filled]
+}

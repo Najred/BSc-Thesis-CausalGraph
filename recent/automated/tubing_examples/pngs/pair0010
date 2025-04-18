@@ -1,0 +1,41 @@
+strict digraph G {
+	"soil quality" -> "nutrient availability"
+	"water availability" -> "nutrient availability"
+	"nutrient availability" -> "abalone age"
+	"fertilizer application" -> "nutrient availability"
+	"abalone age" -> "market value"
+	"meat yield" -> "livestock profit"
+	"market value" -> "investor confidence"
+	"abalone age" -> "growth rate"
+	"shell size" -> buoyancy
+	"growth rate" -> "economic expansion"
+	"meat yield" -> "farm efficiency"
+	"shell size" -> weight
+	"abalone age" -> "shell size"
+	"meat yield" -> "meat price"
+	"abalone age" -> "meat yield"
+	"growth rate" -> "government revenue"
+	"shell thickness" -> "shucked weight"
+	"soil type" -> "soaking time"
+	"soaking time" -> "shucked weight"
+	"material type" -> "shell thickness"
+	"material type" -> "grain size"
+	"design requirements" -> "shell thickness"
+	"grain size" -> "shucked weight"
+	"food quantity" -> "weight gain"
+	"nutrient balance" -> "skin condition"
+	"shucked weight" -> "nutrient balance"
+	"nutrient balance" -> "physical health"
+	"nutrient balance" -> "mental clarity"
+	"nutrient balance" -> "digestive efficiency"
+	"food quantity" -> "digestive health"
+	"shucked weight" -> "food quantity"
+	"food quantity" -> "blood sugar control"
+	"nutrient balance" -> "soil quality" [color=purple penwidth=3]
+	"soil quality" -> "nutrient availability" [color=red penwidth=5]
+	"nutrient availability" -> "abalone age" [color=red penwidth=5]
+	"shucked weight" -> "nutrient balance" [color=red penwidth=5]
+	"nutrient balance" -> "soil quality" [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	"shucked weight" [fillcolor=indianred1 style=filled]
+}

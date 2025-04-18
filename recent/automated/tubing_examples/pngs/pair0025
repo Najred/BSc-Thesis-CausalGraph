@@ -1,0 +1,6 @@
+strict digraph G {
+	"cement content in concrete" -> "compressive strength" [color=purple penwidth=3]
+	"cement content in concrete" -> "compressive strength" [color=red penwidth=5]
+	"cement content in concrete" [fillcolor=aqua style=filled]
+	"compressive strength" [fillcolor=indianred1 style=filled]
+}

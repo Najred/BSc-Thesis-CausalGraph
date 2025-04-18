@@ -1,0 +1,19 @@
+strict digraph G {
+	"credit suisse’s share price plunged" -> "other banks in switzerland experienced a decline in investor confidence"
+	"credit suisse’s share price plunged" -> "the swiss national bank intervened to stabilize the financial system"
+	"credit suisse’s share price plunged" -> "investors lost significant wealth"
+	"credit suisse’s share price plunged" -> "credit suisse's employees' bonuses were reduced or eliminated"
+	"credit suisse’s share price plunged" -> "credit suisse's market capitalization decreased"
+	"regulatory pressure from swiss government" -> "ubs took over swiss banking giant credit suisse in a rushed takeover"
+	"credit suisse's financial instability" -> "ubs took over swiss banking giant credit suisse in a rushed takeover"
+	"ubs's desire to expand market share" -> "ubs took over swiss banking giant credit suisse in a rushed takeover"
+	"ubs took over swiss banking giant credit suisse in a rushed takeover" -> "credit suisse brand elimination"
+	"ubs took over swiss banking giant credit suisse in a rushed takeover" -> "swiss banking industry consolidation"
+	"ubs took over swiss banking giant credit suisse in a rushed takeover" -> "loss of credit suisse employees"
+	"the swiss national bank intervened to stabilize the financial system" -> "credit suisse's financial instability" [color=purple penwidth=3]
+	"other banks in switzerland experienced a decline in investor confidence" -> "ubs took over swiss banking giant credit suisse in a rushed takeover" [color=purple penwidth=3]
+	"credit suisse’s share price plunged" -> "other banks in switzerland experienced a decline in investor confidence" [color=red penwidth=5]
+	"other banks in switzerland experienced a decline in investor confidence" -> "ubs took over swiss banking giant credit suisse in a rushed takeover" [color=red penwidth=5]
+	"credit suisse’s share price plunged" [fillcolor=aqua style=filled]
+	"ubs took over swiss banking giant credit suisse in a rushed takeover" [fillcolor=indianred1 style=filled]
+}

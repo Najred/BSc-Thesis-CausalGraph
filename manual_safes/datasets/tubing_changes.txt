@@ -1,0 +1,29 @@
+
+pair id			change						reason
+
+pair 005-011 var1: 	"Age" -> "Abalone Age"				too abstract for meaningful results
+pair0019 var1:		"Current duration" -> "duration of erruption"	too abstract for meaningful results
+pair0019 var2:		"Next interval" -> "time to the next erruption"	too abstract for meaningful results
+pair 0025-0031:		added suffix "content in concrete"		too abstract for meaningful results
+pair 0032:		"age" -> "concrete age"				too abstract for meaningful results
+pair 0033-0037:		added suffix "in liver"				too abstract for meaningful results
+pair 0050-0051:		removed						same content as pair 0049
+pair 0052		removed						variables are 4 dimensional array
+pair 0053		removed						multiple varaibles in one
+pair 0054		removed						multiple variables in one
+pair 0056-0059		summarized into one				contains same variable with diffrent age range
+pair 0060-0063		summarized into one				contains same variable with diffrent age range
+pair 0066-0067		"Cheung kong" -> "Cheung Kong"			corrected spelling			
+pair 0070 var1		"Parameter" -> "Parameter of questions"		too abstract for meaningful results
+pair 0070 var2		"Answer" -> "Answer in survey"			too abstract for meaningful results
+pair 0080-0083		summarized into one				contains same variable with diffrent location
+pair 0089-0090		removed						var1 and var2 are idential
+pair 0093		"runoff" -> "river runoff"			too abstract for meaningful results
+pair 0098		removed						duplicate to pair 0097
+pair 0103		removed						duplicate to pair 0102
+pair 0105		"pixel vector of a patch" -> "pixel vector of grey values of a patch"	too abstract for meaningful results
+pair 0108 var1		"time for 1/6 rotation" -> "engine rotations"	too abstract for meaningful results
+pair 0108 var2		"temperature" -> "water teperature"		too abstract for meaningful results
+
+
+

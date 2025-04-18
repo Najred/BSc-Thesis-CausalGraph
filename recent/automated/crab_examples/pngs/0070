@@ -1,0 +1,21 @@
+strict digraph G {
+	"twitter's board of directors' willingness to sell" -> "musk offered to buy twitter for $44 billion in april"
+	"regulatory environment and antitrust concerns" -> "musk offered to buy twitter for $44 billion in april"
+	"elon musk's personal motivations for acquiring twitter" -> "musk offered to buy twitter for $44 billion in april"
+	"musk's financial resources" -> "musk offered to buy twitter for $44 billion in april"
+	"musk offered to buy twitter for $44 billion in april" -> "twitter's stock price surge"
+	"musk offered to buy twitter for $44 billion in april" -> "twitter's user engagement boost"
+	"musk offered to buy twitter for $44 billion in april" -> "potential changes in twitter's content moderation policies"
+	"twitter's board approval" -> "elon musk closes $44 billion deal to buy twitter"
+	"elon musk's financial resources" -> "elon musk closes $44 billion deal to buy twitter"
+	"elon musk closes $44 billion deal to buy twitter" -> "twitter's ownership structure changes"
+	"elon musk closes $44 billion deal to buy twitter" -> "twitter's user base and engagement increase"
+	"elon musk closes $44 billion deal to buy twitter" -> "elon musk's social media presence expands"
+	"elon musk closes $44 billion deal to buy twitter" -> "content moderation policies change on twitter"
+	"elon musk closes $44 billion deal to buy twitter" -> "twitter's board of directors' willingness to sell" [color=purple penwidth=3]
+	"twitter's ownership structure changes" -> "twitter's board of directors willingness to sell" [color=purple penwidth=3]
+	"twitter's board of directors' willingness to sell" -> "musk offered to buy twitter for $44 billion in april" [color=red penwidth=5]
+	"elon musk closes $44 billion deal to buy twitter" -> "twitter's board of directors' willingness to sell" [color=red penwidth=5]
+	"musk offered to buy twitter for $44 billion in april" [fillcolor=aqua style=filled]
+	"elon musk closes $44 billion deal to buy twitter" [fillcolor=indianred1 style=filled]
+}

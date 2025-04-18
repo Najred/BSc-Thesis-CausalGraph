@@ -1,0 +1,22 @@
+strict digraph G {
+	"regulatory pressure from swiss government" -> "ubs agrees to buy credit suisse in emergency rescue deal"
+	"ubs's financial instability due to archegos capital loss" -> "ubs agrees to buy credit suisse in emergency rescue deal"
+	"credit suisse's significant losses in q4 2022" -> "ubs agrees to buy credit suisse in emergency rescue deal"
+	"ubs agrees to buy credit suisse in emergency rescue deal" -> "credit suisse's survival"
+	"ubs agrees to buy credit suisse in emergency rescue deal" -> "ubs's asset base expansion"
+	"ubs agrees to buy credit suisse in emergency rescue deal" -> "swiss banking system stability"
+	"credit suisse's poor performance" -> "ubs acquires credit suisse for over $3 billion"
+	"regulatory pressure" -> "ubs acquires credit suisse for over $3 billion"
+	"financial instability" -> "ubs acquires credit suisse for over $3 billion"
+	"ubs's financial health" -> "ubs acquires credit suisse for over $3 billion"
+	"ubs acquires credit suisse for over $3 billion" -> "credit suisse's assets are rebranded under ubs"
+	"ubs acquires credit suisse for over $3 billion" -> "swiss banking sector consolidation accelerates"
+	"swiss banking sector consolidation accelerates" -> "credit suisse's significant losses in q4 2022" [color=purple penwidth=3]
+	"swiss banking sector consolidation accelerates" -> "ubs's financial instability due to archegos capital loss" [color=purple penwidth=3]
+	"ubs's asset base expansion" -> "ubs's financial health" [color=purple penwidth=3]
+	"credit suisse's significant losses in q4 2022" -> "ubs agrees to buy credit suisse in emergency rescue deal" [color=red penwidth=5]
+	"ubs acquires credit suisse for over $3 billion" -> "swiss banking sector consolidation accelerates" [color=red penwidth=5]
+	"swiss banking sector consolidation accelerates" -> "credit suisse's significant losses in q4 2022" [color=red penwidth=5]
+	"ubs agrees to buy credit suisse in emergency rescue deal" [fillcolor=aqua style=filled]
+	"ubs acquires credit suisse for over $3 billion" [fillcolor=indianred1 style=filled]
+}

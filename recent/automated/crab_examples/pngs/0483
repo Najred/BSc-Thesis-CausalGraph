@@ -1,0 +1,43 @@
+strict digraph G {
+	"local community support for the protest" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"social media campaigns against racism" -> "protesters' opposition to racism"
+	"local media coverage of protests" -> "local community support for the protest"
+	"personal experience with racism" -> "protesters' opposition to racism"
+	"protesters' opposition to racism" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"exposure to racist incidents" -> "protesters' opposition to racism"
+	"education on systemic racism" -> "protesters' opposition to racism"
+	"historical significance of colston's role in slavery" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"community leaders' public statements" -> "local community support for the protest"
+	"protest organizers' reputation" -> "local community support for the protest"
+	"protestor arrests and charges" -> "escalation of conflict with authorities"
+	"protestor arrests and charges" -> "increased police presence"
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" -> "protestor arrests and charges"
+	"protestor arrests and charges" -> "increased public perception of police brutality"
+	"increased awareness about bristol's history" -> "local pride revival"
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" -> "increased awareness about bristol's history"
+	"protestor arrests and charges" -> "decreased protest participation"
+	"human intervention" -> "the statue was then rolled down the street and pushed into bristol harbour"
+	"statue's design and weight distribution" -> "the statue was then rolled down the street and pushed into bristol harbour"
+	"structural integrity requirements" -> "statue's design and weight distribution"
+	"artist's creative vision" -> "statue's design and weight distribution"
+	"gravity acting on statue" -> "the statue was then rolled down the street and pushed into bristol harbour"
+	"economic policies" -> "human intervention"
+	"material selection" -> "statue's design and weight distribution"
+	"the statue was then rolled down the street and pushed into bristol harbour" -> "statue damage"
+	"the statue was then rolled down the street and pushed into bristol harbour" -> "economic loss (tourism)"
+	"statue damage" -> "increased vandalism risk"
+	"statue damage" -> "decreased tourist attraction"
+	"economic loss (tourism)" -> "unemployment rates increase"
+	"economic loss (tourism)" -> "local business closures"
+	"statue damage" -> "loss of historical significance"
+	"statue damage" -> "statue repair costs"
+	"loss of historical significance" -> "community leaders' public statements" [color=purple penwidth=3]
+	"loss of historical significance" -> "protest organizers' reputation" [color=purple penwidth=3]
+	"increased police presence" -> "human intervention" [color=purple penwidth=3]
+	"escalation of conflict with authorities" -> "the statue was then rolled down the street and pushed into bristol harbour" [color=purple penwidth=3]
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" -> "protestor arrests and charges" [color=red penwidth=5]
+	"protestor arrests and charges" -> "escalation of conflict with authorities" [color=red penwidth=5]
+	"escalation of conflict with authorities" -> "the statue was then rolled down the street and pushed into bristol harbour" [color=red penwidth=5]
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" [fillcolor=aqua style=filled]
+	"the statue was then rolled down the street and pushed into bristol harbour" [fillcolor=indianred1 style=filled]
+}

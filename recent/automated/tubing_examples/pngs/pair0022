@@ -1,0 +1,6 @@
+strict digraph G {
+	height -> age [color=purple penwidth=3]
+	height -> age [color=red penwidth=5]
+	age [fillcolor=aqua style=filled]
+	height [fillcolor=indianred1 style=filled]
+}

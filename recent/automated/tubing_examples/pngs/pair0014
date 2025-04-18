@@ -1,0 +1,18 @@
+strict digraph G {
+	"engine size" -> "horse power"
+	"fuel type" -> "horse power"
+	"horse power" -> "fuel consumption"
+	"horse power" -> "acceleration time"
+	"horse power" -> "vehicle speed"
+	"horse power" -> "vehicle weight capacity"
+	"engine size" -> "fuel consumption"
+	"driving speed" -> "fuel consumption"
+	"vehicle weight" -> "fuel consumption"
+	"fuel consumption" -> "greenhouse gas emissions"
+	"fuel consumption" -> "vehicle operating costs"
+	"fuel consumption" -> "fuel consumption" [color=purple penwidth=3]
+	"horse power" -> "fuel consumption" [color=red penwidth=5]
+	"fuel consumption" -> "fuel consumption" [color=red penwidth=5]
+	"horse power" [fillcolor=aqua style=filled]
+	"fuel consumption" [fillcolor=indianred1 style=filled]
+}

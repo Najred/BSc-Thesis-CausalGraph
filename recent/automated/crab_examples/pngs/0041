@@ -1,0 +1,27 @@
+strict digraph G {
+	"rural energy infrastructure needs" -> "biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers"
+	"biden-harris administration's climate policy goals" -> "biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "reduced energy costs for rural residents"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "job creation in rural areas"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "increased rural energy infrastructure"
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "rural utility provider investment growth"
+	"national rural electric cooperative association's interests" -> "jim matheson, ceo of the national rural electric cooperative association, praises the administration"
+	"economic benefits to rural areas" -> "jim matheson, ceo of the national rural electric cooperative association, praises the administration"
+	"jim matheson, ceo of the national rural electric cooperative association, praises the administration" -> "improved public perception of administration's energy policy"
+	"jim matheson, ceo of the national rural electric cooperative association, praises the administration" -> "increased funding for rural electric cooperative projects"
+	"jim matheson, ceo of the national rural electric cooperative association, praises the administration" -> "increased support from nreca members"
+	"jim matheson, ceo of the national rural electric cooperative association, praises the administration" -> "enhanced collaboration between nreca and administration officials"
+	"increased funding for rural electric cooperative projects" -> "biden-harris administration's climate policy goals" [color=purple penwidth=3]
+	"increased support from nreca members" -> "biden-harris administration's climate policy goals" [color=purple penwidth=3]
+	"increased funding for rural electric cooperative projects" -> "rural energy infrastructure needs" [color=purple penwidth=3]
+	"increased support from nreca members" -> "rural energy infrastructure needs" [color=purple penwidth=3]
+	"rural utility provider investment growth" -> "economic benefits to rural areas" [color=purple penwidth=3]
+	"increased rural energy infrastructure" -> "economic benefits to rural areas" [color=purple penwidth=3]
+	"job creation in rural areas" -> "economic benefits to rural areas" [color=purple penwidth=3]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "national rural electric cooperative association's interests" [color=purple penwidth=3]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "economic benefits to rural areas" [color=purple penwidth=3]
+	"national rural electric cooperative association's interests" -> "jim matheson, ceo of the national rural electric cooperative association, praises the administration" [color=red penwidth=5]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" -> "national rural electric cooperative association's interests" [color=red penwidth=5]
+	"biden-harris administration announces the availability of nearly $11 billion in grants for rural energy and utility providers" [fillcolor=aqua style=filled]
+	"jim matheson, ceo of the national rural electric cooperative association, praises the administration" [fillcolor=indianred1 style=filled]
+}

@@ -1,0 +1,19 @@
+strict digraph G {
+	"nutrient availability" -> "abalone age"
+	"water temperature" -> "abalone age"
+	"abalone age" -> "market value"
+	"abalone age" -> "growth rate"
+	"abalone age" -> "shell size"
+	area -> diameter
+	circumference -> diameter
+	radius -> diameter
+	diameter -> "volume (sphere)"
+	diameter -> area
+	diameter -> circumference
+	"shell size" -> circumference [color=purple penwidth=3]
+	"abalone age" -> "shell size" [color=red penwidth=5]
+	diameter -> circumference [color=red penwidth=5]
+	"shell size" -> circumference [color=red penwidth=5]
+	"abalone age" [fillcolor=aqua style=filled]
+	diameter [fillcolor=indianred1 style=filled]
+}

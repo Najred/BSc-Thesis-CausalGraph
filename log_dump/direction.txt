@@ -1,0 +1,73 @@
+
+--------------------------------------------------------------
+var1: Sophisticated Hacking Attack var2: Public scrutiny and media attention = 
+{"cause": "Public scrutiny and media attention", "effect": "Sophisticated Hacking Attack"}
+--------------------------------------------------------------
+var1: Sophisticated Hacking Attack var2: Panama Papers leak = 
+{"cause": "NONE", "effect": "NONE"}
+--------------------------------------------------------------
+var1: Sophisticated Hacking Attack var2: Loss of public trust = 
+{"cause": "Sophisticated Hacking Attack", "effect": "Loss of public trust"}
+--------------------------------------------------------------
+var1: Sophisticated Hacking Attack var2: Investigations by parliamentary committees = 
+{"cause": "Investigations by parliamentary committees", "effect": "Sophisticated Hacking Attack"}
+--------------------------------------------------------------
+var1: Database Security Breach var2: Public scrutiny and media attention = 
+{"cause": "Public scrutiny and media attention", "effect": "Database Security Breach"}
+--------------------------------------------------------------
+var1: Database Security Breach var2: Panama Papers leak = 
+{"cause": "Database Security Breach", "effect": "Panama Papers leak"}
+--------------------------------------------------------------
+var1: Database Security Breach var2: Loss of public trust = 
+{"cause": "Database Security Breach", "effect": "Loss of public trust"}
+--------------------------------------------------------------
+var1: Insider Malicious Activity var2: David Cameron's family wealth management practices = 
+{"cause": "NONE", "effect": "NONE"}
+--------------------------------------------------------------
+var1: Insider Malicious Activity var2: David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father = 
+{"cause": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "effect": "Insider Malicious Activity"}
+--------------------------------------------------------------
+var1: Insider Malicious Activity var2: Panama Papers leak = 
+{"cause": "Insider Malicious Activity", "effect": "Panama Papers leak"}
+--------------------------------------------------------------
+var1: Insider Malicious Activity var2: Loss of public trust = 
+{"cause": "Insider Malicious Activity", "effect": "Loss of public trust"}
+--------------------------------------------------------------
+var1: Insider Malicious Activity var2: Investigations by parliamentary committees = 
+{"cause": "Investigations by parliamentary committees", "effect": "Insider Malicious Activity"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: David Cameron's family wealth management practices = 
+{"cause": "David Cameron's family wealth management practices", "effect": "Financial transactions scrutinized"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father = 
+{"cause": "David Cameron admits to owning shares in a Panama-based offshore trust set up by his late father", "effect": "Financial transactions scrutinized"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: Panama Papers leak = 
+{"cause": "Panama Papers leak", "effect": "Financial transactions scrutinized"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: Increased scrutiny of UK tax laws = 
+{"cause": "Increased scrutiny of UK tax laws", "effect": "Financial transactions scrutinized"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: Loss of public trust = 
+{"cause": "Financial transactions scrutinized", "effect": "Loss of public trust"}
+--------------------------------------------------------------
+var1: Financial transactions scrutinized var2: Investigations by parliamentary committees = 
+{"cause": "Investigations by parliamentary committees", "effect": "Financial transactions scrutinized"}
+--------------------------------------------------------------
+var1: Reputation of the law firm damaged var2: Public scrutiny and media attention = 
+{"cause": "Public scrutiny and media attention", "effect": "Reputation of the law firm damaged"}
+--------------------------------------------------------------
+var1: Reputation of the law firm damaged var2: Panama Papers leak = 
+{"cause": "Panama Papers leak", "effect": "Reputation of the law firm damaged"}
+--------------------------------------------------------------
+var1: Reputation of the law firm damaged var2: Increased scrutiny of UK tax laws = 
+{"cause": "Increased scrutiny of UK tax laws", "effect": "Reputation of the law firm damaged"}
+--------------------------------------------------------------
+var1: Reputation of the law firm damaged var2: Loss of public trust = 
+{"cause": "Loss of public trust", "effect": "Reputation of the law firm damaged"}
+--------------------------------------------------------------
+var1: Reputation of the law firm damaged var2: Investigations by parliamentary committees = 
+{"cause": "Investigations by parliamentary committees", "effect": "Reputation of the law firm damaged"}
+--------------------------------------------------------------
+var1: Panama Papers leak var2: 11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm = 
+{"cause": "Panama Papers leak", "effect": "11.5 million files were leaked from the database of the world’s fourth biggest offshore law firm"}

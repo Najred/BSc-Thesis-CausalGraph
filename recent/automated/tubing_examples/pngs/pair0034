@@ -1,0 +1,22 @@
+strict digraph G {
+	"previous traumatic experience" -> "alcohol consumption"
+	"family history of addiction" -> "alcohol consumption"
+	"genetic predisposition" -> "alcohol consumption"
+	"availability of alcohol in the environment" -> "alcohol consumption"
+	"mental health conditions" -> "alcohol consumption"
+	"alcohol consumption" -> "impaired coordination"
+	"alcohol consumption" -> depression
+	"alcohol consumption" -> "increased risk of cancer"
+	"alcohol consumption" -> "social isolation"
+	"alcohol consumption" -> "liver damage"
+	cholestasis -> "alkaline phosphotase in liver"
+	"vitamin deficiency" -> "alkaline phosphotase in liver"
+	"bile duct obstruction" -> "alkaline phosphotase in liver"
+	"liver damage" -> "alkaline phosphotase in liver"
+	"alkaline phosphotase in liver" -> "bone disease"
+	"alkaline phosphotase in liver" -> "liver damage"
+	"alkaline phosphotase in liver" -> "hepatocellular carcinoma"
+	"alkaline phosphotase in liver" -> osteomalacia
+	"alcohol consumption" [fillcolor=aqua style=filled]
+	"alkaline phosphotase in liver" [fillcolor=indianred1 style=filled]
+}

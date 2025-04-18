@@ -1,0 +1,23 @@
+strict digraph G {
+	"economic inequality" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"social media amplification" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"systemic racism" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"police brutality" -> "protests sparked by the death of george floyd in police custody erupt in cities across the us"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "increased public awareness and empathy for black lives matter movement"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "shift in public opinion on police reform and accountability"
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "national conversation on racial injustice"
+	"local community support for the protest" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"protesters' opposition to racism" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"social media amplification of the protest" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston"
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" -> "community engagement with local authorities"
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" -> "protestor arrests and charges"
+	"protestor arrests and charges" -> "police brutality" [color=purple penwidth=3]
+	"community engagement with local authorities" -> "social media amplification" [color=purple penwidth=3]
+	"national conversation on racial injustice" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" [color=purple penwidth=3]
+	"increased public awareness and empathy for black lives matter movement" -> "local community support for the protest" [color=purple penwidth=3]
+	"increased public awareness and empathy for black lives matter movement" -> "protesters' opposition to racism" [color=purple penwidth=3]
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" -> "national conversation on racial injustice" [color=red penwidth=5]
+	"national conversation on racial injustice" -> "black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" [color=red penwidth=5]
+	"protests sparked by the death of george floyd in police custody erupt in cities across the us" [fillcolor=aqua style=filled]
+	"black lives matters protesters in bristol pulled down a statue of the slave trader edward colston" [fillcolor=indianred1 style=filled]
+}
